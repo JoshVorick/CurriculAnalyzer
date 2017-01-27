@@ -6,7 +6,7 @@ import urllib.request as urllib
 class Course:
     """Represents a Course Object"""
 
-    def __init__(self, subj, number, name, description, gradeBasis, creditHours, lectureHours, labHours, dept, sectionsLink, resctrictions, prerequisites):
+    def __init__(self, subj, number, name, description, gradeBasis, creditHours, lectureHours, labHours, dept, sectionsLink, restrictions, prerequisites):
         self.subj = subj
         self.number = number
         self.name = name
@@ -18,7 +18,7 @@ class Course:
         self.dept = dept
         self.sectionsLink = sectionsLink
         self.prerequisites = prerequisites
-        self.restrictions = resctrictions
+        self.restrictions = restrictions
 
     def __str__(self):
         # return str([self.subj, self.number, self.name, self.description, self.gradeBasis, self.creditHours, self.lectureHours, self.labHours, self.dept, self.sectionsLink, self.restrictions, self.prerequisites])
@@ -92,7 +92,7 @@ for section in Coursetitles:
                 elif courseDescription is "":
                     courseDescription = line
         course = Course(courseSubj, courseNumber, courseName, courseDescription, courseGradeBasis, courseCreditHours, courseLectureHours, courseLabHours, courseDept, courseSectionsLink, courseRestrictions, coursePrerequisites)
-        courses.append(course) # This is slow b/c memory alloc :(
+        courses.append(course)  # This is slow b/c memory alloc :(
         # print(course.subj, course.number)
         if len(courses) > 10:
             break
