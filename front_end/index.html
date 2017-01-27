@@ -1,0 +1,67 @@
+<head>
+    <title>CurriculAnalyzer</title>
+    <h2>Courses Offered: </h2>
+</head>
+
+<body>
+    <!-- List of courses -->
+    <div id="courses"></div>
+
+</body>
+
+
+<!-- Resources -->
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+
+
+<!-- JavaScript for populating course data-->
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        function success(json) {
+            console.log(json);
+
+            // Generate list
+            list_html = "<ul>\n";
+
+            json.forEach(function(course) {
+                list_html += "\t<li>\n";
+                list_html += "<h3>" + course.subj + course.number + ": " + course.name + "</h3>";
+                list_html += "\n\t\t<ul>";
+                list_html += "\n\t\t<li>Description: " + course.description + "</li>";
+                list_html += "\n\t\t<li>Department: " + course.dept + "</li>";
+                list_html += "\n\t\t<li>Sections Link: " + course.sectionsLink + "</li>";
+                list_html += "\n\t\t<li>Credits: " + course.creditHours + "</li>";
+                list_html += "\n\t\t<li>Lecture: " + course.lectureHours + "</li>";
+                list_html += "\n\t\t<li>Lab: " + course.labHours + "</li>";
+                list_html += "\n\t\t<li>Restrictions: " + course.restrictions + "</li>";
+                list_html += "\n\t\t<li>Prerequisites: " + course.prerequisites + "</li>";
+                list_html += "\n\t\t</ul>";
+                list_html += "\t</li>";
+            });
+
+            list_html += "</ul>";
+
+            console.log(list_html);
+
+            // Append our HTML to the courses div
+            $("#courses")
+                .append(list_html);
+            
+
+        }
+
+        $.ajax({
+            dataType: "json",
+            url: 'sample.json',
+            success: success,
+            error: function(a,b,c) { console.log("ERROR: ", a,b,c); }
+        });
+
+    });
+
+
+</script>

@@ -1,11 +1,12 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
+import json
 import urllib.request as urllib
 
 class Course:
     """Represents a Course Object"""
 
-    def __init__(self, subj, number, name, description, gradeBasis, creditHours, lectureHours, labHours, dept, sectionsLink, resctrictions, prerequisites):
+    def __init__(self, subj, number, name, description, gradeBasis, creditHours, lectureHours, labHours, dept, sectionsLink, restrictions, prerequisites):
         self.subj = subj
         self.number = number
         self.name = name
@@ -17,10 +18,11 @@ class Course:
         self.dept = dept
         self.sectionsLink = sectionsLink
         self.prerequisites = prerequisites
-        self.resctrictions = resctrictions
+        self.restrictions = restrictions
 
     def __str__(self):
-        return str([self.subj, self.number, self.name, self.description, self.gradeBasis, self.creditHours, self.lectureHours, self.labHours, self.dept, self.sectionsLink, self.resctrictions, self.prerequisites])
+        # return str([self.subj, self.number, self.name, self.description, self.gradeBasis, self.creditHours, self.lectureHours, self.labHours, self.dept, self.sectionsLink, self.restrictions, self.prerequisites])
+        return json.dumps(self, default=lambda o: o.__dict__)
 
 def multiselect_set_selections(driver, element_id, labels):
     el = driver.find_element_by_id(element_id)
@@ -45,6 +47,7 @@ for handle in driver.window_handles:
     driver.switch_to_window(handle)
 soup = BeautifulSoup(driver.page_source, "html.parser")
 Coursetitles = soup.findAll("td", {"class": "nttitle"})
+courses = []
 for section in Coursetitles:
     courseSoup = BeautifulSoup(urllib.urlopen("https://oscar.gatech.edu" + str(section.find('a')['href'])).read(), "html.parser")
     titles = courseSoup.findAll("td", {"class": "nttitle"})
@@ -89,5 +92,12 @@ for section in Coursetitles:
                 elif courseDescription is "":
                     courseDescription = line
         course = Course(courseSubj, courseNumber, courseName, courseDescription, courseGradeBasis, courseCreditHours, courseLectureHours, courseLabHours, courseDept, courseSectionsLink, courseRestrictions, coursePrerequisites)
-        print(course)
+        courses.append(course)  # This is slow b/c memory alloc :(
+        # print(course.subj, course.number)
+        if len(courses) > 10:
+            break
+    if len(courses) > 10:
+        break
+
+print(json.dumps(courses, default=lambda o: o.__dict__))
 driver.quit()
