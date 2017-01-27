@@ -29,11 +29,16 @@
 
             json.forEach(function(course) {
                 list_html += "\t<li>\n";
-                list_html += "<h3>" + course.subject + course.number + ": " + course.name + "</h3>";
+                list_html += "<h3>" + course.subj + course.number + ": " + course.name + "</h3>";
                 list_html += "\n\t\t<ul>";
                 list_html += "\n\t\t<li>Description: " + course.description + "</li>";
-                list_html += "\n\t\t<li>Credits: " + course.credit_min + " - " + course.credit_max + "</li>";
-                list_html += "\n\t\t<li>Lecture: " + course.lecture_min + " - " + course.lecture_max + "</li>";
+                list_html += "\n\t\t<li>Department: " + course.dept + "</li>";
+                list_html += "\n\t\t<li>Sections Link: " + course.sectionsLink + "</li>";
+                list_html += "\n\t\t<li>Credits: " + course.creditHours + "</li>";
+                list_html += "\n\t\t<li>Lecture: " + course.lectureHours + "</li>";
+                list_html += "\n\t\t<li>Lab: " + course.labHours + "</li>";
+                list_html += "\n\t\t<li>Restrictions: " + course.restrictions + "</li>";
+                list_html += "\n\t\t<li>Prerequisites: " + course.prerequisites + "</li>";
                 list_html += "\n\t\t</ul>";
                 list_html += "\t</li>";
             });
@@ -51,7 +56,7 @@
 
         $.ajax({
             dataType: "json",
-            url: 'test.json',
+            url: 'sample.json',
             success: success,
             error: function(a,b,c) { console.log("ERROR: ", a,b,c); }
         });
