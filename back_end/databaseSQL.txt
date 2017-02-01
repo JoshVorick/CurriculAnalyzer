@@ -1,0 +1,59 @@
+CREATE TABLE Course(
+	subNumber		   TEXT PRIMARY KEY,
+   	name               TEXT,  
+   	description        TEXT,
+   	gradeBasis         TEXT,
+   	maxCreditHours     TEXT,
+   	minCreditHours     TEXT,
+   	maxLectureHours    TEXT,
+   	minLectureHours    TEXT,
+   	maxLabHours        TEXT,
+   	minLabHours        TEXT,
+   	dept               TEXT,
+   	sectionsLink       TEXT,
+   	resctrictions      TEXT,
+   	prerequisites      TEXT
+);
+
+
+
+CREATE TABLE User(
+	userName      TEXT      PRIMARY KEY,
+	password      TEXT,
+);
+
+
+CREATE TABLE Works_On(
+     userName		          TEXT,
+     courseSubNumber          TEXT,
+     FOREIGN KEY (userName) 
+     	REFERENCES User(userName)
+     	ON DELETE CASCADE
+        ON UPDATE CASCADE
+     ,
+     FOREIGN KEY (courseSubNumber) 
+     	REFERENCES Course(subNumber)
+     	ON DELETE CASCADE
+        ON UPDATE CASCADE
+     ,
+     PRIMARY KEY (userName, courseSubNumber)
+);
+
+
+
+
+
+INSERT INTO User (userName, password)
+VALUES
+ ('Josh', '12345');
+
+
+INSERT INTO Works_On (userName, courseSubNumber, additionalInfo)
+VALUES
+ ('Yangling', 'CS2110', 'haha');
+
+INSERT INTO Course (subNumber, name)
+VALUES
+ ('CS3510', 'Computer Architecture');
+
+
