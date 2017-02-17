@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-   return render_template('home.html')
+   return render_template('threadSelect.html')
 
 @app.route('/searchCourse/', methods=['GET', 'POST'])
 def searchCourse():
@@ -12,7 +12,6 @@ def searchCourse():
    subNumber = request.args.get('subNumber')
    con = sql.connect("database.db")
    con.row_factory = sql.Row
-   #subNumber = '2110'
    cur = con.cursor()
    cur.execute("select * from Course WHERE departmentName =? AND subNumber=?", (DepartmentName, subNumber))
    
@@ -20,8 +19,8 @@ def searchCourse():
    return render_template("course.html",rows = rows)
 
 
-@app.route('/ListAllCourse', methods=['GET'])
-def ListAllCourse():
+@app.route('/ListAllCourses', methods=['GET'])
+def ListAllCourses():
    con = sql.connect("database.db")
    con.row_factory = sql.Row
    
@@ -29,7 +28,7 @@ def ListAllCourse():
    cur.execute("select * from Course")
    
    rows = cur.fetchall();
-   return render_template("listCourse.html",rows = rows)
+   return render_template("threadSelect.html",rows = rows)
 
 
 @app.route('/ListAllUsers', methods=['GET'])
