@@ -1,5 +1,5 @@
 CREATE TABLE Course(
-    departmentName     TEXT,
+    dept     TEXT,
 	  subNumber		       TEXT,
    	name               TEXT,  
    	description        TEXT,
@@ -10,23 +10,28 @@ CREATE TABLE Course(
    	minLectureHours    TEXT,
    	maxLabHours        TEXT,
    	minLabHours        TEXT,
-   	dept               TEXT,
+   	departmentName               TEXT,
    	sectionsLink       TEXT,
    	resctrictions      TEXT,
    	prerequisites      TEXT,
-    PRIMARY KEY (departmentName, subNumber)
+    PRIMARY KEY (dept, subNumber)
 );
 
 
 CREATE TABLE User(
 	userName      TEXT      PRIMARY KEY,
-	password      TEXT
+	password      TEXT,
+  threadComboName    TEXT,
+  FOREIGN KEY (threadComboName) 
+    REFERENCES Thread(threadComboName)
+    ON DELETE CASCADE
+      ON UPDATE CASCADE  
 );
 
 
 CREATE TABLE Works_On(
      userName		              TEXT,
-     departmentName           TEXT,
+     dept           TEXT,
      subNumber          TEXT,
 
      FOREIGN KEY (userName) 
@@ -35,8 +40,8 @@ CREATE TABLE Works_On(
         ON UPDATE CASCADE
      ,
 
-     FOREIGN KEY (departmentName) 
-      REFERENCES Course(departmentName)
+     FOREIGN KEY (dept) 
+      REFERENCES Course(dept)
       ON DELETE CASCADE
         ON UPDATE CASCADE
      ,
@@ -46,9 +51,24 @@ CREATE TABLE Works_On(
      	ON DELETE CASCADE
         ON UPDATE CASCADE
      ,
-     PRIMARY KEY (userName, departmentName , subNumber)
+     PRIMARY KEY (userName, dept , subNumber)
 );
 
+
+CREATE TABLE Thread(
+  threadComboName      TEXT      PRIMARY KEY
+);
+
+CREATE TABLE TreeNode(
+  name      TEXT,
+  pre       TEXT,
+  post      TEXT,
+  threadComboName      TEXT,
+  FOREIGN KEY (threadComboName) 
+    REFERENCES Thread(threadComboName)
+    ON DELETE CASCADE
+      ON UPDATE CASCADE
+);
 
 
 
@@ -64,7 +84,7 @@ VALUES
 
 INSERT INTO Course (departmentName, subNumber)
 VALUES
- ('CS', '3510');
+ ('CS', '8810');
 
 
 
