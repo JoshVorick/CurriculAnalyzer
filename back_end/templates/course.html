@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+   <body>
+   
+      <table border = 1>
+         <thead>
+            <td>departmentName</td>
+            <td>subNumber</td>
+            <td>name</td>
+            <td>description</td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td>{{row["departmentName"]}}</td>
+               <td>{{row["subNumber"]}}</td>
+               <td> {{ row["name"]}}</td>
+               <td>{{row['description']}}</td> 
+            </tr>
+         {% endfor %}
+      </table>
+      
+      <a href = "/">Go back to home page</a>
+      
+   </body>
+</html>
