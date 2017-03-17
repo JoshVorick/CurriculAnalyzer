@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <div class="searchArea">
+                    <searchBox class="ui-widget">
+                        <!-- <label for="search">Search: </label> -->
+                        <input id="search" value = "search here">
+                    </searchBox>
+                    <searchButtons>
+                        <button  id="plannedCourseButton" onclick="addToPlanList()" class = "button blueButton" type="button"> Plan to Complete
+                        </button>
+                        <button id="completedCourseButton" onclick="addToCompletedList()" class = "button greenButton" type="button"> Course Completed
+                        </button>
+                    </searchButtons>
+
+                </div>
+                <div class="listsArea">
+
+                    <div class="planList">
+                        <h1 class="title"><center>Plan on Taking</center></h1>
+                        <span id="planList">
+
+                        </span>
+                    </div>
+                    </br>
+                    <div class="completedList">
+                        <h1 class="title"><center>Completed Courses</center></h1>
+                        <span id="completedList">
+
+                        </span>
+                    </div>
+
+                </div>
+                <!-- <div class="ui-widget" style="margin-top:2em; font-family:Arial">
+                    Result:
+                    <div id="log" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
+                </div> -->
+                <div class="settingsArea">
+                    <div style="width:50%;float:left">
+                        <input type="image" src="settings.png" />
+                    </div>
+                    <div style="width:50%;float:right">
+                        <button id="logoutButton" class = "button" type="button"> Logout </button>
+                    </div>
+                </div>
+            </nav>
+            <tree>
+                tree goes here
+            </tree>
+
+        </div>
+    </body>
+</html>
