@@ -4,7 +4,7 @@ onTrack is made of several parts inculding webscraper, a database, a web server,
 
 Currently our database is hosted locally. We will soon move it over to AWS.
 
-In order to view our website navigate to backend > templates > threads select and click on index.html. This is our main tree visualization.
+In order to view our website navigate to CurriculAnalyzer/tree/master/back_end/templates and click on index.html. This is our main tree visualization.
 
 
 
