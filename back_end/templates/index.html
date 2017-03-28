@@ -14,12 +14,42 @@
                     <searchBox class="ui-widget">
                         <!-- <label for="search">Search: </label> -->
                         <input id="search" value = "search here">
+                        <form action = "http://localhost:5000/searchCourse" method = "post">
+                             <p>Enter Name:</p>
+                             <p><input type = "text" name = "dept" /></p>
+                             <p><input type = "text" name = "subNumber" /></p>
+                             <p><input type = "submit" value = "submit" /></p>
+                        </form>
+
+                    <table border = 1>
+
                     </searchBox>
                     <searchButtons>
                         <button  id="plannedCourseButton" onclick="addToPlanList()" class = "button blueButton" type="button"> Plan to Complete
                         </button>
                         <button id="completedCourseButton" onclick="addToCompletedList()" class = "button greenButton" type="button"> Course Completed
                         </button>
+
+
+                        <table border = 1>
+                         <thead>
+                            <td>departmentName</td>
+                            <td>subNumber</td>
+                            <td>name</td>
+                            <td>description</td>
+                         </thead>
+                         
+                         {% for row in rows %}
+                            <tr>
+                               <td>{{row["dept"]}}</td>
+                               <td>{{row["subNumber"]}}</td>
+                               <td> {{ row["name"]}}</td>
+                               <td>{{row['description']}}</td> 
+                            </tr>
+                         {% endfor %}
+                      </table>
+
+
                     </searchButtons>
 
                 </div>

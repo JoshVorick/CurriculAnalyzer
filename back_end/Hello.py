@@ -1,22 +1,34 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 import sqlite3 as sql
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-   return render_template('threadSelect.html')
+   return render_template('index.html')
 
-@app.route('/searchCourse/', methods=['GET', 'POST'])
+
+
+
+
+
+
+@app.route('/searchCourse', methods=['GET', 'POST'])
 def searchCourse():
-   DepartmentName = request.args.get('DepartmentName')
-   subNumber = request.args.get('subNumber')
+   dept = request.form['dept']
+   subNumber = request.form['subNumber']
    con = sql.connect("database.db")
    con.row_factory = sql.Row
    cur = con.cursor()
-   cur.execute("select * from Course WHERE departmentName =? AND subNumber=?", (DepartmentName, subNumber))
-   
-   rows = cur.fetchall();
-   return render_template("course.html",rows = rows)
+
+   cur.execute("select * from Course where dept = '%s' and subNumber = '%s'" % (dept, subNumber))
+
+   rows = cur.fetchall()
+
+   return render_template('index.html', rows = rows)
+
+
+
+
 
 
 @app.route('/ListAllCourses', methods=['GET'])
