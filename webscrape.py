@@ -61,7 +61,7 @@ for section in Coursetitles:
         infoBlock = title.parent.nextSibling.nextSibling
         linkSearch = infoBlock.find('a')
         if linkSearch is not None:
-            courseSectionsLink = linkSearch['href']
+            courseSectionsLink = "https://oscar.gatech.edu/" + linkSearch['href']
         else:
             courseSectionsLink = 'NULL'
         restrictions = False

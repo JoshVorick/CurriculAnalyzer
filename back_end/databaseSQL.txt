@@ -1,0 +1,93 @@
+CREATE TABLE Course(
+    dept     TEXT,
+	  subNumber		       TEXT,
+   	name               TEXT,  
+   	description        TEXT,
+   	gradeBasis         TEXT,
+   	maxCreditHours     TEXT,
+   	minCreditHours     TEXT,
+   	maxLectureHours    TEXT,
+   	minLectureHours    TEXT,
+   	maxLabHours        TEXT,
+   	minLabHours        TEXT,
+   	departmentName               TEXT,
+   	sectionsLink       TEXT,
+   	resctrictions      TEXT,
+   	prerequisites      TEXT,
+    PRIMARY KEY (dept, subNumber)
+);
+
+
+CREATE TABLE User(
+	userName      TEXT      PRIMARY KEY,
+	password      TEXT,
+  threadComboName    TEXT,
+  FOREIGN KEY (threadComboName) 
+    REFERENCES Thread(threadComboName)
+    ON DELETE CASCADE
+      ON UPDATE CASCADE  
+);
+
+
+CREATE TABLE Works_On(
+     userName		              TEXT,
+     dept           TEXT,
+     subNumber          TEXT,
+
+     FOREIGN KEY (userName) 
+     	REFERENCES User(userName)
+     	ON DELETE CASCADE
+        ON UPDATE CASCADE
+     ,
+
+     FOREIGN KEY (dept) 
+      REFERENCES Course(dept)
+      ON DELETE CASCADE
+        ON UPDATE CASCADE
+     ,
+
+     FOREIGN KEY (subNumber) 
+     	REFERENCES Course(subNumber)
+     	ON DELETE CASCADE
+        ON UPDATE CASCADE
+     ,
+     PRIMARY KEY (userName, dept , subNumber)
+);
+
+
+CREATE TABLE Thread(
+  threadComboName      TEXT      PRIMARY KEY
+);
+
+CREATE TABLE TreeNode(
+  name      TEXT,
+  pre       TEXT,
+  post      TEXT,
+  threadComboName      TEXT,
+  FOREIGN KEY (threadComboName) 
+    REFERENCES Thread(threadComboName)
+    ON DELETE CASCADE
+      ON UPDATE CASCADE
+);
+
+
+
+
+INSERT INTO User (userName, password)
+VALUES
+ ('Josh', '12345');
+
+
+INSERT INTO Works_On (userName, departmentName, subNumber)
+VALUES
+ ('Yangling', 'CS', '2110');
+
+INSERT INTO Course (departmentName, subNumber)
+VALUES
+ ('CS', '8810');
+
+
+
+ 
+
+
