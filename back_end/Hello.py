@@ -12,21 +12,35 @@ def home():
 
 
 
-@app.route('/searchCourse', methods=['GET', 'POST'])
-def searchCourse():
+@app.route('/searchOnPlanCourse', methods=['GET', 'POST'])
+def searchOnPlanCourse():
+   print "hahahahahahh"
+   dept = request.form['dept']
+   print "wocao1"
+   subNumber = request.form['subNumber']
+
+   con = sql.connect("database.db")
+   con.row_factory = sql.Row
+   print "wocao2"
+   cur = con.cursor()
+   cur.execute("select * from Course where dept = '%s' and subNumber = '%s'" % (dept, subNumber))
+   rows = cur.fetchall()
+   print "wocao3"
+   return render_template('index.html', onPlanRows = rows)
+
+
+
+
+@app.route('/searchCompletedCourse', methods=['GET', 'POST'])
+def searchCompletedCourse():
    dept = request.form['dept']
    subNumber = request.form['subNumber']
    con = sql.connect("database.db")
    con.row_factory = sql.Row
    cur = con.cursor()
-
    cur.execute("select * from Course where dept = '%s' and subNumber = '%s'" % (dept, subNumber))
-
    rows = cur.fetchall()
-
-   return render_template('index.html', rows = rows)
-
-
+   return render_template('index.html', completedRows = rows)
 
 
 
