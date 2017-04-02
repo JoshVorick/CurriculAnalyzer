@@ -6,7 +6,8 @@
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/scripts.js') }}"></script>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}">
@@ -15,66 +16,60 @@
         <div class="container">
             <nav>
                 <div class="searchArea">
-                    <searchBox class="ui-widget">
-                        <!-- <label for="search">Search: </label> -->
-                        <form id="form_id" method="post" name="myform">
-                        <label>Department Name:</label>
-                        <input type="text" name="dept" id="dept"/>
-                        <label>Course Number:</label>
-                        <input type="text" name="subNumber" id="subNumber"/>
-                        <label>Status :</label>
+                  
+          <script src="http://d3js.org/d3.v3.min.js"></script>
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+          <script>window.jQuery || document.write('<script src="{{url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
+          <script type=text/javascript>
+            $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+          </script>
+          <script type=text/javascript>
+            $(function() {
+              $('a#Plan').bind('click', function() {
+                $.getJSON($SCRIPT_ROOT + '/searchCourse', {
+                  a: $('input[name="a"]').val(),
+                  b: $('input[name="b"]').val()
+                }, function(data) {
+                  if(data.result != false) {
+                    $("#planList").prepend(data.result + '<br>');
+                  }
+                });
+                return false;
+              });
+              $('a#Completed').bind('click', function() {
+                $.getJSON($SCRIPT_ROOT + '/searchCourse', {
+                  a: $('input[name="a"]').val(),
+                  b: $('input[name="b"]').val()
+                }, function(data) {
+                  if(data.result != false) {
+                    $("#completedList").prepend(data.result + '<br>');
+                  }
+                });
+                return false;
+              });
+            });
+          </script>
 
-                        <select id="form_action">
-                        <option value="">--- Choose your status ---</option>
-                        <option value="http://localhost:5000/searchOnPlanCourse">On Plan</option>
-                        <option value="http://localhost:5000/searchCompletedCourse">Completed</option>
-                        </select>
-
-                        <input type="button" value="Submit" onclick="myfunction()"/>
-                        </form>
+<p><input type=text size=5 name=a> 
+   <input type=text size=5 name=b> 
+   
+<p><a href=# id=Plan>Plan</a>
+<p><a href=# id=Completed>Completed</a>              
 
 
 
-                      </searchBox>
 
 
-                        <table border = 1>
-                          <thead>
-                            <td>departmentName</td>
-                            <td>subNumber</td>
-                            <td>name</td>
-                            <td>description</td>
-                          </thead>
-                         
-                          {% for row in onPlanRows %}
-                            <tr>
-                               <td>{{row["dept"]}}</td>
-                               <td>{{row["subNumber"]}}</td>
-                               <td> {{ row["name"]}}</td>
-                               <td>{{row['description']}}</td> 
-                            </tr>
-                          {% endfor %}
-                        </table>
-                        <p>hahahahhaahah</p>p>
-                        <table border = 1>
-                          <thead>
-                            <td>departmentName</td>
-                            <td>subNumber</td>
-                            <td>name</td>
-                            <td>description</td>
-                          </thead>
-                         
-                          {% for row in completedRows %}
-                            <tr>
-                               <td>{{row["dept"]}}</td>
-                               <td>{{row["subNumber"]}}</td>
-                               <td> {{ row["name"]}}</td>
-                               <td>{{row['description']}}</td> 
-                            </tr>
-                          {% endfor %}
-                        </table>
+
+
+
+                        
+
                 </div>
                 <div class="listsArea">
+
+
+
 
                     <div class="planList">
                         <h1 class="title"><center>Plan on Taking</center></h1>
@@ -101,7 +96,6 @@
             
             </div>
         </div>
-        <script src="http://d3js.org/d3.v3.min.js"></script>
 
 <script>
 

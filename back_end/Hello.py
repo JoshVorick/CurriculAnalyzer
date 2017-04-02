@@ -1,46 +1,15 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, json, jsonify
 import sqlite3 as sql
 app = Flask(__name__)
 
 @app.route('/')
 def home():
    return render_template('index.html')
+   
 
 
 
 
-
-
-
-@app.route('/searchOnPlanCourse', methods=['GET', 'POST'])
-def searchOnPlanCourse():
-   print "hahahahahahh"
-   dept = request.form['dept']
-   print "wocao1"
-   subNumber = request.form['subNumber']
-
-   con = sql.connect("database.db")
-   con.row_factory = sql.Row
-   print "wocao2"
-   cur = con.cursor()
-   cur.execute("select * from Course where dept = '%s' and subNumber = '%s'" % (dept, subNumber))
-   rows = cur.fetchall()
-   print "wocao3"
-   return render_template('index.html', onPlanRows = rows)
-
-
-
-
-@app.route('/searchCompletedCourse', methods=['GET', 'POST'])
-def searchCompletedCourse():
-   dept = request.form['dept']
-   subNumber = request.form['subNumber']
-   con = sql.connect("database.db")
-   con.row_factory = sql.Row
-   cur = con.cursor()
-   cur.execute("select * from Course where dept = '%s' and subNumber = '%s'" % (dept, subNumber))
-   rows = cur.fetchall()
-   return render_template('index.html', completedRows = rows)
 
 
 
@@ -69,7 +38,20 @@ def ListAllCourse():
    rows = cur.fetchall();
    return render_template("users.html",rows = rows)
 
+@app.route('/searchCourse')
+def searchCourse():
+   a = request.args.get('a')
+   b = request.args.get('b')
+   con = sql.connect("database.db")
+   con.row_factory = sql.Row
+   cur = con.cursor()
+   cur.execute("select * from Course where dept = '%s' and subNumber = '%s'" % (a, b))
+   rows = cur.fetchall()    
 
+   if len(rows) != 0:
+      return jsonify(result=a + b)
+   
+   return jsonify(result=False)
 
 if __name__ == '__main__':
    app.run(debug = True)
