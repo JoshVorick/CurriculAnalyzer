@@ -27,3 +27,20 @@ var para = document.createElement("P");
     document.getElementById("myDIV").appendChild(para);
 
 }
+function changeColour(value)
+{
+    var color = document.body.style.backgroundColor;
+    switch(value)
+    {
+        case 'd':
+            color = "#3D3D3D";
+            tree = "#000000";
+        break;
+        case 'l':
+            color = "#AAAAAA";
+            tree = "#AAAAAA";
+        break;
+    }
+    document.body.style.backgroundColor = color;
+    document.getElementsByClassName("tree")[0].style.backgroundColor= tree;
+}
