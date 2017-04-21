@@ -1,7 +1,7 @@
 import json
 import os.path
 from itertools import combinations
-import sys
+import codecs
 
 class Class(object):
     def __init__(self, classID, name, parent):
@@ -13,7 +13,7 @@ class Class(object):
         self.fill = "gray"
 
     def toJSON(self):
-        return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True, indent=4)
+        return json.dumps(self, ensure_ascii=False, default=lambda o: o.__dict__, sort_keys=True, indent=4).replace("\\n", "\n").replace("\\\"", "\"")
 
 class Group(object):
     def __init__(self, name, parent, children, numChildrenNeeded=-1):
@@ -26,12 +26,11 @@ class Group(object):
         self.numChildrenNeeded = numChildrenNeeded
 
     def toJSON(self):
-        return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True, indent=4)
-
+        return json.dumps(self, ensure_ascii=False, default=lambda o: o.__dict__, sort_keys=True, indent=4).replace("\\n", "\n").replace("\\\"", "\"")
 def generateJson(lines, parent):
 
-    groupName = lines[0].replace(">", "").rsplit(",", 1)[0]
     groupLevel = lines[0].count(">")
+    groupName = lines[0].replace(">", "").rsplit(",", 1)[0].strip()
     # numChildrenNeeded = lines[0].rsplit(",", 1)[1].strip()
     children = []
     activeGroup = False
@@ -39,7 +38,7 @@ def generateJson(lines, parent):
     lines = lines[1:]
     lines = list(filter(None, lines))
     for i in range(len(lines)):
-        # print(i)
+
         if activeGroup:
             if i < len(lines) - 1:
                 if lines[i + 1].count(">") > 0 and lines[i + 1].count(">") < groupLevel:
@@ -47,10 +46,12 @@ def generateJson(lines, parent):
                     print("Group Search Second Line: %s" % lines[i + 1])
                     children += [Group(lines[i].replace(">", "").rsplit(",", 1)[0], groupName, generateJson(lines[activeGroupStart:i], lines[i].rsplit(",", 1)[1].strip()))]
                     activeGroup = False
+                    return children
             else:
                 print("second to last line: %s:" % lines[i])
                 children += [Group(lines[i].replace(">", "").rsplit(",", 1)[0], groupName, generateJson(lines[activeGroupStart:i + 1], lines[i].rsplit(",", 1)[1].strip()))]
                 activeGroup = False
+                return children
 
         # if not activeGroup:
         else:
@@ -58,15 +59,16 @@ def generateJson(lines, parent):
                 # print("Len: %d For: %s" % (len(lines[i]), lines[i]))
                 if lines[i].count(">") > groupLevel:
                     print("Group Activated: %s:" % lines[i])
-                    i = i - 1
+                    print(i)
+                    # i = i - 1
                     activeGroup = True
                     activeGroupStart = i
                     groupLevel = lines[i].count(">")
-                if lines[i][0] == "-":
+                elif lines[i][0] == "-":
                     print("Class Added: %s:" % lines[i])
                     line = lines[i][2:].split(",")
                     classID = line[0].strip()
-                    name = line[1].strip()
+                    name = line[1][1:].strip()
                     children += [Class(classID, name, parent)]
 
 
@@ -78,9 +80,9 @@ def jdefault(o):
 
 # To add a thread, simply add an element to the list.
 # Note that these strings are used to find the related txt files in the system.
-# threads = ["Devices", "Info Internetworks", "Intelligence", "Media",
-#            "Modeling and Simulation", "People", "Systems and Architecture", "Theory"]
-threads = ["Info Internetworks", "Intelligence"]
+threads = ["Devices", "Info Internetworks", "Intelligence", "Media",
+           "Modeling and Simulation", "People", "Systems and Architecture", "Theory"]
+# threads = ["Info Internetworks", "Intelligence"]
 
 allFilesGood = True
 for thread in threads:
@@ -123,7 +125,11 @@ if allFilesGood:
                 linesOne = [x.strip() for x in f1.readlines()]
                 linesTwo = [x.strip() for x in f2.readlines()]
                 threadGroupOne = Group(threadPair[0], "Graduation", generateJson(linesOne, threadPair[0]), -1).toJSON()
-                threadGroupTwo = Group(threadPair[1], "Graduation", generateJson(linesOne, threadPair[1]), -1).toJSON()
+                threadGroupTwo = Group(threadPair[1], "Graduation", generateJson(linesTwo, threadPair[1]), -1).toJSON()
                 graduation = Group("Graduation", "null", [threadGroupOne, threadGroupTwo]).toJSON()
-                parsed = json.loads(graduation)
-                print(json.dumps(parsed, default=jdefault, indent=4, sort_keys=True))
+                print(graduation)
+                # parsed = json.loads(graduation)
+                # print(json.dumps(parsed, default=jdefault, indent=4, sort_keys=True))
+                with codecs.open(filename, 'w', "utf-8") as outFile:
+                    outFile.write(graduation)
+                    # json.dump(graduation, outFile, ensure_ascii=False)

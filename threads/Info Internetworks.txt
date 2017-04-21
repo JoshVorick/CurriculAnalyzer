@@ -1,4 +1,3 @@
-> Required Courses, -1
 - CS 1301, Introduction to Computing and Programming
 - CS 1331, Introduction to Object-Oriented Programming
 - CS 1332, Data Structures and Algorithms
@@ -7,7 +6,6 @@
 - CS 2200, Computer Systems and Networks
 - CS 2340, Objects and Design
 - CS 3510, or CS 3511 Design and Analysis of Algorithms
-
 > > Introduction to Information Management, 2
 - CS 3251, Computer Networking 1
 - CS 4235, Introduction to Information Security
@@ -22,8 +20,6 @@
 - CS 4420, Database System Implementation
 - CS 4440, Emerging Database Technologies and Applications
 - CS 4675, Internet Computing Systems, Services, and Applications
-
-
 > Elective Courses, 0
 > > Free Electives, 0
 - FREE-INF1, Free Elective-Information Internetworking
