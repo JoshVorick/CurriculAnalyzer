@@ -6,7 +6,7 @@
             "classID": "CS 1301",
             "fill": "gray",
             "name": "Introduction to Computing and Programming",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Devices",
             "radius": 5
         },
@@ -14,7 +14,7 @@
             "classID": "CS 1331",
             "fill": "gray",
             "name": "Introduction to Object-Oriented Programming",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Devices",
             "radius": 5
         },
@@ -22,7 +22,7 @@
             "classID": "CS 1332",
             "fill": "gray",
             "name": "Data Structures and Algorithms",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Devices",
             "radius": 5
         },
@@ -30,7 +30,7 @@
             "classID": "CS 2110",
             "fill": "gray",
             "name": "Computing Organization and Programming",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Devices",
             "radius": 5
         },
@@ -38,7 +38,7 @@
             "classID": "CS 2200",
             "fill": "gray",
             "name": "Computer Systems and Networks",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Devices",
             "radius": 5
         },
@@ -46,7 +46,7 @@
             "classID": "CS 2340",
             "fill": "gray",
             "name": "Objects and Design",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Devices",
             "radius": 5
         },
@@ -54,7 +54,7 @@
             "classID": "CS 3251",
             "fill": "gray",
             "name": "Computer Networking 1",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Devices",
             "radius": 5
         },
@@ -62,7 +62,7 @@
             "classID": "ECE 2031",
             "fill": "gray",
             "name": "Digital Design Laboratory",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Devices",
             "radius": 5
         },
@@ -72,7 +72,7 @@
                     "classID": "CS 2050",
                     "fill": "gray",
                     "name": "Introduction to Discrete Math for CS",
-                    "outline": "grey",
+                    "outline": "gray",
                     "parent": "Mobile and Ubiquitous Computing",
                     "radius": 5
                 },
@@ -80,7 +80,7 @@
                     "classID": "CS 2051",
                     "fill": "gray",
                     "name": "Honors Introduction to Discrete Math for CS",
-                    "outline": "grey",
+                    "outline": "gray",
                     "parent": "Mobile and Ubiquitous Computing",
                     "radius": 5
                 },
@@ -88,7 +88,7 @@
                     "classID": "CS 3240",
                     "fill": "gray",
                     "name": "Languages and Computation",
-                    "outline": "grey",
+                    "outline": "gray",
                     "parent": "Mobile and Ubiquitous Computing",
                     "radius": 5
                 },
@@ -123,7 +123,7 @@
             "classID": "CS 1301",
             "fill": "gray",
             "name": "Introduction to Computing and Programming",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Info Internetworks",
             "radius": 5
         },
@@ -131,7 +131,7 @@
             "classID": "CS 1331",
             "fill": "gray",
             "name": "Introduction to Object-Oriented Programming",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Info Internetworks",
             "radius": 5
         },
@@ -139,7 +139,7 @@
             "classID": "CS 1332",
             "fill": "gray",
             "name": "Data Structures and Algorithms",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Info Internetworks",
             "radius": 5
         },
@@ -147,7 +147,7 @@
             "classID": "CS 2110",
             "fill": "gray",
             "name": "Computing Organization and Programming",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Info Internetworks",
             "radius": 5
         },
@@ -155,7 +155,7 @@
             "classID": "CS 2200",
             "fill": "gray",
             "name": "Computer Systems and Networks",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Info Internetworks",
             "radius": 5
         },
@@ -163,7 +163,7 @@
             "classID": "CS 2340",
             "fill": "gray",
             "name": "Objects and Design",
-            "outline": "grey",
+            "outline": "gray",
             "parent": "Info Internetworks",
             "radius": 5
         },

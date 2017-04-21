@@ -9,7 +9,7 @@ class Class(object):
         self.name = name
         self.parent = parent
         self.radius = 5
-        self.outline = "grey"
+        self.outline = "gray"
         self.fill = "gray"
 
     def toJSON(self):
