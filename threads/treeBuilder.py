@@ -80,9 +80,9 @@ def jdefault(o):
 
 # To add a thread, simply add an element to the list.
 # Note that these strings are used to find the related txt files in the system.
-threads = ["Devices", "Info Internetworks", "Intelligence", "Media",
-           "Modeling and Simulation", "People", "Systems and Architecture", "Theory"]
-# threads = ["Info Internetworks", "Intelligence"]
+# threads = ["Devices", "Info Internetworks", "Intelligence", "Media",
+#            "Modeling and Simulation", "People", "Systems and Architecture", "Theory"]
+threads = ["Devices","Info Internetworks", "Intelligence"]
 
 allFilesGood = True
 for thread in threads:
@@ -127,7 +127,7 @@ if allFilesGood:
                 threadGroupOne = Group(threadPair[0], "Graduation", generateJson(linesOne, threadPair[0]), -1).toJSON()
                 threadGroupTwo = Group(threadPair[1], "Graduation", generateJson(linesTwo, threadPair[1]), -1).toJSON()
                 graduation = Group("Graduation", "null", [threadGroupOne, threadGroupTwo]).toJSON()
-                print(graduation)
+                # print(graduation).replace("}\"", "}").replace("\"{", "{")
                 # parsed = json.loads(graduation)
                 # print(json.dumps(parsed, default=jdefault, indent=4, sort_keys=True))
                 with codecs.open(filename, 'w', "utf-8") as outFile:

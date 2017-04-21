@@ -1,43 +1,49 @@
 > Required Courses, -1
-- CS 1301, Introduction to Computing and Programming
-- CS 1331, Introduction to Object-Oriented Programming
-- CS 1332, Data Structures and Algorithms
-- CS 2050, or CS 2051 Introduction to Discrete Math for CS
-- CS 2110, Computing Organization and Programming
-- CS 2200, Computer Systems and Networks
-- CS 2340, Objects and Design
-- CS 3510, or CS 3511 Design and Analysis of Algorithms
-
-> > Introduction to Information Management, 2
-- CS 3251, Computer Networking 1
-- CS 4235, Introduction to Information Security
-- CS 4400, Introduction to Database Systems
-> > Advanced Information Management, 1
-- CS 4237, Computer and Network Security
-- CS 4251, Computer Networking 2
-- CS 4255, Introduction to Network Management
-- CS 4261, Mobile Applications and Services for Converged Networks
-- CS 4270, Data Communications Laboratory
-- CS 4365, Introduction to Enterprise Computing
-- CS 4420, Database System Implementation
-- CS 4440, Emerging Database Technologies and Applications
-- CS 4675, Internet Computing Systems, Services, and Applications
+    - CS 1301, Introduction to Computing and Programming
+    - CS 1331, Introduction to Object-Oriented Programming
+    - CS 1332, Data Structures and Algorithms
+    - PSYC 1101, Introduction to Psychology
+    - CS 2110, Computing Organization and Programming
+    - CS 2340, Objects and Design
+    - CS 3600, Introduction to Artificial Intelligence
+    > > Algorithms, 1
+        - CS 3510, Design and Analysis of Algorithms
+        - CS 3511, Honors Design and Analysis of Algorithms
+    > > Discrete Math, 1
+        - CS 2050, Introduction to Discrete Math for CS
+        - CS 2051, Honors Introduction to Discrete Math for CS
+    > > Computational Complexity, 1
+        - CS 3240, Languages and Computation
+        - CS 4510, Automata and Complexity Theory
+    > > Embodied Intelligence, 1
+        - CS 3630, Robotics and Perception
+        - CS 3790, Introduction to Cognitive Science
+        - PSYC 3040, Sensation and Perception
+    > > Approaches to Intelligence, 2
+        - CS 4476, Intro Computer Vision
+        - CS 4635, Knowledge-based AI
+        - CS 4641, Machine Learning
+        - CS 4649, Robot Intelligence
+        - CS 4650, Natural Language and Processing
+        - CS 4731, Game AI
 
 
 > Elective Courses, 0
-> > Free Electives, 0
-- FREE-INF1, Free Elective-Information Internetworking
-- FREE-INF2, Free Elective-Information Internetworking
-> > Introduction to Information Management, 0
-- CS 3251, Computer Networking 1
-- CS 4235, Introduction to Information Security
-- CS 4400, Introduction to Database Systems
-> > Advanced Information Management, 0
-- CS 4237, Computer and Network Security
-- CS 4251, Computer Networking 2
-- CS 4255, Introduction to Network Management
-- CS 4261, Mobile Applications and Services for Converged Networks
-- CS 4270, Data Communications Laboratory
-- CS 4365, Introduction to Enterprise Computing
-- CS 4420, Database System Implementation
-- CS 4440, Emerging Database Technologies and Applications
+    > > Free Electives, 2
+        - FREE-INT1, Free Elective-Intelligence
+        - FREE-INT2, Free Elective-Intelligence
+    > > Knowledge-Based Intelligence, 1
+        - CS 3790, Introduction to Cognitive Science
+        - CS 4615, Modeling and Design
+        - CS 4635, Knowledge-based AI
+        - CS 4649, Robot Intelligence: Planning
+        - CS 4650, Natural Language Understanding
+    > > Data-Driven Intelligence, 1
+        - CS 4464, Computatio- nal Journalism
+        - CS 4616, Pattern Recognition
+        - CS 4641, Machine Learning
+        - MATH 4280, Introduction to Information Theory
+    > > Embodied Intelligent Systems, 1
+        - CS 3651, The Art of Building Intelligent Appliances
+        - CS 4476, Intro Computer Vision
+        - CS 4731, Game AI
