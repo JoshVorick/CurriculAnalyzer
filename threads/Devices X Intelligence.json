@@ -1,13 +1,13 @@
 {
     "children": [
-        "{
+        {
     "children": [
         {
             "classID": "CS 1301",
             "fill": "gray",
             "name": "Introduction to Computing and Programming",
             "outline": "grey",
-            "parent": "Info Internetworks",
+            "parent": "Devices",
             "radius": 5
         },
         {
@@ -15,7 +15,7 @@
             "fill": "gray",
             "name": "Introduction to Object-Oriented Programming",
             "outline": "grey",
-            "parent": "Info Internetworks",
+            "parent": "Devices",
             "radius": 5
         },
         {
@@ -23,7 +23,7 @@
             "fill": "gray",
             "name": "Data Structures and Algorithms",
             "outline": "grey",
-            "parent": "Info Internetworks",
+            "parent": "Devices",
             "radius": 5
         },
         {
@@ -31,7 +31,7 @@
             "fill": "gray",
             "name": "Computing Organization and Programming",
             "outline": "grey",
-            "parent": "Info Internetworks",
+            "parent": "Devices",
             "radius": 5
         },
         {
@@ -39,7 +39,7 @@
             "fill": "gray",
             "name": "Computer Systems and Networks",
             "outline": "grey",
-            "parent": "Info Internetworks",
+            "parent": "Devices",
             "radius": 5
         },
         {
@@ -47,13 +47,63 @@
             "fill": "gray",
             "name": "Objects and Design",
             "outline": "grey",
-            "parent": "Info Internetworks",
+            "parent": "Devices",
             "radius": 5
         },
         {
-            "children": null,
+            "classID": "CS 3251",
             "fill": "gray",
-            "name": "- CS 4675, Internet Computing Systems, Services",
+            "name": "Computer Networking 1",
+            "outline": "grey",
+            "parent": "Devices",
+            "radius": 5
+        },
+        {
+            "classID": "ECE 2031",
+            "fill": "gray",
+            "name": "Digital Design Laboratory",
+            "outline": "grey",
+            "parent": "Devices",
+            "radius": 5
+        },
+        {
+            "children": [
+                {
+                    "classID": "CS 2050",
+                    "fill": "gray",
+                    "name": "Introduction to Discrete Math for CS",
+                    "outline": "grey",
+                    "parent": "Mobile and Ubiquitous Computing",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 2051",
+                    "fill": "gray",
+                    "name": "Honors Introduction to Discrete Math for CS",
+                    "outline": "grey",
+                    "parent": "Mobile and Ubiquitous Computing",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3240",
+                    "fill": "gray",
+                    "name": "Languages and Computation",
+                    "outline": "grey",
+                    "parent": "Mobile and Ubiquitous Computing",
+                    "radius": 5
+                },
+                {
+                    "children": null,
+                    "fill": "gray",
+                    "name": "- CS 3511",
+                    "numChildrenNeeded": -1,
+                    "outline": "grey",
+                    "parent": "Discrete Math",
+                    "radius": 6
+                }
+            ],
+            "fill": "gray",
+            "name": "- CS 4605",
             "numChildrenNeeded": -1,
             "outline": "grey",
             "parent": "Required Courses",
@@ -61,13 +111,13 @@
         }
     ],
     "fill": "gray",
-    "name": "Info Internetworks",
+    "name": "Devices",
     "numChildrenNeeded": -1,
     "outline": "grey",
     "parent": "Graduation",
     "radius": 6
-}",
-        "{
+},
+        {
     "children": [
         {
             "classID": "CS 1301",
@@ -141,7 +191,7 @@
     "outline": "grey",
     "parent": "Graduation",
     "radius": 6
-}"
+}
     ],
     "fill": "gray",
     "name": "Graduation",

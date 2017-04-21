@@ -82,7 +82,7 @@ def jdefault(o):
 # Note that these strings are used to find the related txt files in the system.
 # threads = ["Devices", "Info Internetworks", "Intelligence", "Media",
 #            "Modeling and Simulation", "People", "Systems and Architecture", "Theory"]
-threads = ["Devices","Info Internetworks", "Intelligence"]
+threads = ["Devices", "Info Internetworks", "Intelligence"]
 
 allFilesGood = True
 for thread in threads:
@@ -118,7 +118,7 @@ for thread in threads:
 
 if allFilesGood:
     for threadPair in combinations(threads, 2):
-        filename = threadPair[0] + " >< " + threadPair[1] + ".json"
+        filename = threadPair[0] + " X " + threadPair[1] + ".json"
 
         with open(threadPair[0] + ".txt", "r") as f1:
             with open(threadPair[1] + ".txt", "r") as f2:
@@ -127,9 +127,9 @@ if allFilesGood:
                 threadGroupOne = Group(threadPair[0], "Graduation", generateJson(linesOne, threadPair[0]), -1).toJSON()
                 threadGroupTwo = Group(threadPair[1], "Graduation", generateJson(linesTwo, threadPair[1]), -1).toJSON()
                 graduation = Group("Graduation", "null", [threadGroupOne, threadGroupTwo]).toJSON()
-                # print(graduation).replace("}\"", "}").replace("\"{", "{")
+                # print(graduation)
                 # parsed = json.loads(graduation)
                 # print(json.dumps(parsed, default=jdefault, indent=4, sort_keys=True))
                 with codecs.open(filename, 'w', "utf-8") as outFile:
-                    outFile.write(graduation)
+                    outFile.write(graduation.replace("}\"", "}").replace("\"{", "{"))
                     # json.dump(graduation, outFile, ensure_ascii=False)

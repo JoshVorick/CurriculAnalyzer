@@ -1,6 +1,6 @@
 {
     "children": [
-        "{
+        {
     "children": [
         {
             "classID": "CS 1301",
@@ -116,8 +116,8 @@
     "outline": "grey",
     "parent": "Graduation",
     "radius": 6
-}",
-        "{
+},
+        {
     "children": [
         {
             "classID": "CS 1301",
@@ -183,7 +183,7 @@
     "outline": "grey",
     "parent": "Graduation",
     "radius": 6
-}"
+}
     ],
     "fill": "gray",
     "name": "Graduation",
