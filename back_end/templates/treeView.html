@@ -82,65 +82,36 @@
 
 <script>
 
-var threadCombo = localStorage.getItem("storageName");
+var threadOne = localStorage.getItem("threadOne");
+var threadTwo = localStorage.getItem("threadTwo");
+var threadCombo = localStorage.getItem("threadCombo");
+console.log("Threads:", threadOne, threadTwo, threadCombo);
 var string = "";
-if (threadCombo == "media/ai" || threadCombo == "ai/media") {
-
-} else if (threadCombo == "media/people" || threadCombo == "people/media") {
-
-} else if (threadCombo == "media/theory" || threadCombo == "theory/media") {
-
-} else if (threadCombo == "media/sysArch" || threadCombo == "sysArch/media") {
-
-} else if (threadCombo == "media/modSim" || threadCombo == "modSim/media") {
-
-} else if (threadCombo == "media/devices" || threadCombo == "devices/media") {
-
-} else if (threadCombo == "media/info" || threadCombo == "info/media") {
-
-} else if (threadCombo == "ai/people" || threadCombo == "people/ai") {
-
-} else if (threadCombo == "ai/theory" || threadCombo == "theory/ai") {
-  
-} else if (threadCombo == "ai/sysArch" || threadCombo == "sysArch/ai") {
-  
-} else if (threadCombo == "ai/modSim" || threadCombo == "modSim/ai") {
-  
-} else if (threadCombo == "ai/devices" || threadCombo == "devices/ai") {
-  
-} else if (threadCombo == "ai/info" || threadCombo == "info/ai") {
-  string = "threads/info&ai.json";
-} else if (threadCombo == "people/theory" || threadCombo == "theory/people") {
-  
-} else if (threadCombo == "people/sysArch" || threadCombo == "sysArch/people") {
-  
-} else if (threadCombo == "people/modSim" || threadCombo == "modSim/people") {
-  
-} else if (threadCombo == "people/devices" || threadCombo == "devices/people") {
-  
-} else if (threadCombo == "people/info" || threadCombo == "info/people") {
-  
-} else if (threadCombo == "theory/sysArch" || threadCombo == "sysArch/theory") {
-  
-} else if (threadCombo == "theory/modSim" || threadCombo == "modSim/theory") {
-  
-} else if (threadCombo == "theory/devices" || threadCombo == "devices/theory") {
-  
-} else if (threadCombo == "theory/info" || threadCombo == "info/theory") {
-  
-} else if (threadCombo == "sysArch/modSim" || threadCombo == "modSim/sysArch") {
-  
-} else if (threadCombo == "sysArch/devices" || threadCombo == "devices/sysArch") {
-  
-} else if (threadCombo == "sysArch/info" || threadCombo == "info/sysArch") {
-  
-} else if (threadCombo == "modSim/devices" || threadCombo == "devices/modSim") {
-  
-} else if (threadCombo == "modSim/info" || threadCombo == "info/modSim") {
-  
-} else if (threadCombo == "info/devices" || threadCombo == "devices/info") {
-  
+if (threadOne == "ai" || threadTwo == "ai") {
+    // Do stuff
 }
+if (threadOne == "info" || threadTwo == "info") {
+    // Do stuff
+}
+if (threadOne == "media" || threadTwo == "media") {
+    // Do stuff
+}
+if (threadOne == "people" || threadTwo == "people") {
+    // Do stuff
+}
+if (threadOne == "theory" || threadTwo == "theory") {
+    // Do stuff
+}
+if (threadOne == "sysArch" || threadTwo == "sysArch") {
+    // Do stuff
+}
+if (threadOne == "modSim" || threadTwo == "modSim") {
+    // Do stuff
+}
+if (threadOne == "devices" || threadTwo == "devices") {
+    // Do stuff
+}
+
 
 
 var margin = {top: 20, right: 120, bottom: 20, left: 120},

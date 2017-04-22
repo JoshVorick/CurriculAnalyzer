@@ -125,9 +125,10 @@
                 function goToTreeView() {
                     var url = "treeView?threads=" + threadCombination;
 
-                    console.log("Going to", url);
-                    window.location.href = url;
-                    console.log("done");
+                    localStorage.setItem("threadOne", thread1);
+                    localStorage.setItem("threadTwo", thread2);
+                    localStorage.setItem("threadCombo", threadCombination);
+                    window.location.href = "treeView";
                 }
             </script>
 
