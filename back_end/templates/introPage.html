@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}">
 
         <style>
             .button {
@@ -142,7 +142,7 @@
             </div>
                     
             <div style="width:50%;float:right;text-align: center;color:white">
-                    <input class = "button1" type="button" id="continue" onclick="location.href='index?thread=.html'" value="Continue without Login" />
+                    <input class = "button1" type="button" id="continue" onclick="location.href='treeView?thread=.html'" value="Continue without Login" />
 
             </div>
         </div>
