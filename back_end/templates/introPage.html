@@ -120,6 +120,15 @@
                     
                 
                 }
+
+                console.log("Lloyd's a bitch");
+                function goToTreeView() {
+                    var url = "treeView?threads=" + threadCombination;
+
+                    console.log("Going to", url);
+                    window.location.href = url;
+                    console.log("done");
+                }
             </script>
 
            
@@ -142,7 +151,8 @@
             </div>
                     
             <div style="width:50%;float:right;text-align: center;color:white">
-                    <input class = "button1" type="button" id="continue" onclick="location.href='treeView?thread=.html'" value="Continue without Login" />
+                <!--<input class = "button1" type="button" id="continue" onclick="location.href='treeView?thread=media/ai'" value="Continue without Login" />-->
+                    <input class = "button1" type="button" id="continue" onclick="goToTreeView();" value="Continue without Login" />
 
             </div>
         </div>
