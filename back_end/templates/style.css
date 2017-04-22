@@ -1,25 +1,10 @@
 body {
     background-color: #3D3D3D;
 }
-nav {
-    float: left;
-    width: 25%;
-    margin: 0;
-}
-
 /*.title {
     border-bottom: 3px solid #000000;
     margin-bottom: 20px;
 }*/
-
-.div_RootBody {
-    background-color: #000000;
-    /*float: right;*/
-    /*width: 75%;*/
-    /*height: 900px;*/
-    /*margin: 0;*/
-}
-
 
 .ui-autocomplete-loading {
     background: white url("images/ui-anim_basic_16x16.gif") right center no-repeat;

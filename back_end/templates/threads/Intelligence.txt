@@ -1,0 +1,43 @@
+> Required Courses, -1
+- CS 1301, Introduction to Computing and Programming
+- CS 1331, Introduction to Object-Oriented Programming
+- CS 1332, Data Structures and Algorithms
+- CS 2050, or CS 2051 Introduction to Discrete Math for CS
+- CS 2110, Computing Organization and Programming
+- CS 2200, Computer Systems and Networks
+- CS 2340, Objects and Design
+- CS 3510, or CS 3511 Design and Analysis of Algorithms
+
+> > Introduction to Information Management, 2
+- CS 3251, Computer Networking 1
+- CS 4235, Introduction to Information Security
+- CS 4400, Introduction to Database Systems
+> > Advanced Information Management, 1
+- CS 4237, Computer and Network Security
+- CS 4251, Computer Networking 2
+- CS 4255, Introduction to Network Management
+- CS 4261, Mobile Applications and Services for Converged Networks
+- CS 4270, Data Communications Laboratory
+- CS 4365, Introduction to Enterprise Computing
+- CS 4420, Database System Implementation
+- CS 4440, Emerging Database Technologies and Applications
+- CS 4675, Internet Computing Systems, Services, and Applications
+
+
+> Elective Courses, 0
+> > Free Electives, 0
+- FREE-INF1, Free Elective-Information Internetworking
+- FREE-INF2, Free Elective-Information Internetworking
+> > Introduction to Information Management, 0
+- CS 3251, Computer Networking 1
+- CS 4235, Introduction to Information Security
+- CS 4400, Introduction to Database Systems
+> > Advanced Information Management, 0
+- CS 4237, Computer and Network Security
+- CS 4251, Computer Networking 2
+- CS 4255, Introduction to Network Management
+- CS 4261, Mobile Applications and Services for Converged Networks
+- CS 4270, Data Communications Laboratory
+- CS 4365, Introduction to Enterprise Computing
+- CS 4420, Database System Implementation
+- CS 4440, Emerging Database Technologies and Applications

@@ -1,0 +1,154 @@
+[
+    {
+    "children": [
+        {
+    "children": [
+        {
+            "classID": "CS 1301",
+            "fill": "gray",
+            "name": "Introduction to Computing and Programming",
+            "outline": "gray",
+            "parent": "Info Internetworks",
+            "radius": 5
+        },
+        {
+            "classID": "CS 1331",
+            "fill": "gray",
+            "name": "Introduction to Object-Oriented Programming",
+            "outline": "gray",
+            "parent": "Info Internetworks",
+            "radius": 5
+        },
+        {
+            "classID": "CS 1332",
+            "fill": "gray",
+            "name": "Data Structures and Algorithms",
+            "outline": "gray",
+            "parent": "Info Internetworks",
+            "radius": 5
+        },
+        {
+            "classID": "CS 2110",
+            "fill": "gray",
+            "name": "Computing Organization and Programming",
+            "outline": "gray",
+            "parent": "Info Internetworks",
+            "radius": 5
+        },
+        {
+            "classID": "CS 2200",
+            "fill": "gray",
+            "name": "Computer Systems and Networks",
+            "outline": "gray",
+            "parent": "Info Internetworks",
+            "radius": 5
+        },
+        {
+            "classID": "CS 2340",
+            "fill": "gray",
+            "name": "Objects and Design",
+            "outline": "gray",
+            "parent": "Info Internetworks",
+            "radius": 5
+        },
+        {
+            "children": null,
+            "fill": "gray",
+            "name": "- CS 4675, Internet Computing Systems, Services",
+            "numChildrenNeeded": -1,
+            "outline": "grey",
+            "parent": "Required Courses",
+            "radius": 6
+        }
+    ],
+    "fill": "gray",
+    "name": "Info Internetworks",
+    "numChildrenNeeded": -1,
+    "outline": "grey",
+    "parent": "Graduation",
+    "radius": 6
+},
+        {
+    "children": [
+        {
+            "classID": "CS 1301",
+            "fill": "gray",
+            "name": "Introduction to Computing and Programming",
+            "outline": "gray",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "CS 1331",
+            "fill": "gray",
+            "name": "Introduction to Object-Oriented Programming",
+            "outline": "gray",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "CS 1332",
+            "fill": "gray",
+            "name": "Data Structures and Algorithms",
+            "outline": "gray",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "PSYC 1101",
+            "fill": "gray",
+            "name": "Introduction to Psychology",
+            "outline": "gray",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "CS 2110",
+            "fill": "gray",
+            "name": "Computing Organization and Programming",
+            "outline": "gray",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "CS 2340",
+            "fill": "gray",
+            "name": "Objects and Design",
+            "outline": "gray",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "CS 3600",
+            "fill": "gray",
+            "name": "Introduction to Artificial Intelligence",
+            "outline": "gray",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "children": null,
+            "fill": "gray",
+            "name": "- CS 4731",
+            "numChildrenNeeded": -1,
+            "outline": "grey",
+            "parent": "Required Courses",
+            "radius": 6
+        }
+    ],
+    "fill": "gray",
+    "name": "Intelligence",
+    "numChildrenNeeded": -1,
+    "outline": "grey",
+    "parent": "Graduation",
+    "radius": 6
+}
+    ],
+    "fill": "gray",
+    "name": "Graduation",
+    "numChildrenNeeded": -1,
+    "outline": "grey",
+    "parent": "null",
+    "radius": 6
+}
+]

@@ -68,7 +68,7 @@ def generateJson(lines, parent):
                     print("Class Added: %s:" % lines[i])
                     line = lines[i][2:].split(",")
                     classID = line[0].strip()
-                    name = line[1][1:].strip()
+                    name = line[1].strip()
                     children += [Class(classID, name, parent)]
 
 
@@ -80,9 +80,9 @@ def jdefault(o):
 
 # To add a thread, simply add an element to the list.
 # Note that these strings are used to find the related txt files in the system.
-# threads = ["Devices", "Info Internetworks", "Intelligence", "Media",
-#            "Modeling and Simulation", "People", "Systems and Architecture", "Theory"]
-threads = ["Devices", "Info Internetworks", "Intelligence"]
+threads = ["Devices", "Info Internetworks", "Intelligence", "Media",
+           "Modeling and Simulation", "People", "Systems and Architecture", "Theory"]
+# threads = ["Devices", "Info Internetworks", "Intelligence", "Media", "Modeling and Simulation"]
 
 allFilesGood = True
 for thread in threads:

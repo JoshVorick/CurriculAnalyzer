@@ -1,0 +1,41 @@
+> Required Courses, -1
+    - CS 1301, Introduction to Computing and Programming
+    - CS 1331, Introduction to Object-Oriented Programming
+    - CS 2340, Objects and Design
+    - CS 3750, Human-Computer Interface Design and Evaluation
+    - PSYC 1101, Introduction to Psychology
+    - PSYC 2015, Research Methods and Practices
+    > > Social/Behavioral Science for Computing, 1
+        - PSYC 2210, Social Psychology
+        - PSYC 2760, Psychology of Human Language
+        - PSYC 3040, Sensation and Perception
+    > > Human-Centered Technology, 2
+        - CS 3790, Introduction to Cognitive Science
+        - CS 4460, Information Visualization
+        - CS 4470, Introduction to User Interface Software
+        - CS 4472, Design of Online Communities
+        - CS 4605, Mobile and Ubiquitous Computing
+        - CS 4660, Introduction to Educational Technology
+
+> Elective Courses, 1
+    > > Free Electives, 2
+        - FREE-PEP1, Free Elective-People
+        - FREE-PEP2, Free Elective-People
+    > > Educational Technology, 1
+        - CS 4660, Introduction to Educational Technology
+        - CS 4665, Educational Technology: Design and Evaluation
+        - CS 4670, Computer-Supported Collaborative Learning
+    > > Design and Evaluation, 1
+        - CS 4472, Design of Online Communities
+        - CS 4690, Qualitative Methods
+        - CS 4770, Mixed Reality Experience Design
+        - PSYC 2020, Psychological Statistics
+    > > Human Cognition and Interaction, 1
+        - CS 3790, Introduction to Cognitive Science
+        - CS 4793, Perspectives Cognitive Science
+        - PSYC 2210, Social Psychology
+        - PSYC 2760, Psychology of Human Language
+        - PSYC 3012, Cognitive Psychology
+        - PSYC 3040, Sensation and Perception
+        - PSYC 4090, Cognitive Neuropsychology
+        - PSYC 4260, Aging

@@ -7,6 +7,20 @@ def home():
    return render_template('index.html')
    
 
+@app.route('/data')
+def data():
+   data = open('static/info&ai.json').read()
+
+   return data
+
+
+# @app.route('/load')
+# def loadThread():
+#    thread = request.get('thread', 'info/ai')
+
+#    return thread
+
+
 
 
 

@@ -1,0 +1,291 @@
+var treeData = [
+   {var treeData = [
+   {
+     "name": "Graduation",
+     "parent": "null",
+     "radius": 10,
+     "outline": "grey",
+     "fill": "grey",
+     "numChildrenNeeded": 2,
+     "children": [
+       {
+         "name": "HiLvlInfo",
+         "parent": "Graduation",
+         "radius": 6,
+         "outline": "grey",
+         "fill": "grey",
+         "numChildrenNeeded": 2,
+         "children": [
+           {
+             "name": "CS3251",
+             "parent": "HiLvlInfo",
+             "radius": 5,
+             "outline": "grey",
+             "fill": "grey"
+           },
+           {
+             "name": "CS4400",
+             "parent": "HiLvlInfo",
+             "radius": 5,
+             "outline": "grey",
+             "fill": "grey"
+           },
+           {
+             "name": "CS4235",
+             "parent": "HiLvlInfo",
+             "radius": 5,
+             "outline": "grey",
+             "fill": "grey"
+           }
+         ]
+       },
+       {
+         "name": "Intelligence",
+         "parent": "Graduation",
+         "radius": 7,
+         "outline": "grey",
+         "fill": "grey",
+         "numChildrenNeeded": 2,
+         "children": [
+         {
+           "name": "EI",
+           "parent": "Intelligence",
+           "radius": 6,
+           "outline": "grey",
+           "fill": "grey",
+           "numChildrenNeeded": 2,
+           "children": [
+             {
+               "name": "CS3630",
+               "parent": "Intelligence",
+               "radius": 6,
+               "outline": "grey",
+               "fill": "grey",
+               "numChildrenNeeded": 1,
+               "children": [
+                 {
+                   "name": "CS3629",
+                   "parent": "CS3630",
+                   "radius": 5,
+                   "outline": "grey",
+                   "fill": "grey",
+                 }
+               ]
+             },
+             {
+               "name": "CS3790",
+               "parent": "Intelligence",
+               "radius": 6,
+               "outline": "grey",
+               "fill": "grey",
+             },
+             {
+               "name": "PSY3040",
+               "parent": "Intelligence",
+               "radius": 6,
+               "outline": "grey",
+               "fill": "grey",
+             }
+           ]
+         },
+         {
+           "name": "AtoI",
+           "parent": "Intelligence",
+           "radius": 6,
+           "outline": "grey",
+           "fill": "grey",
+           "numChildrenNeeded": 2,
+           "children": [
+             {
+               "name": "CS4650",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             },
+             {
+               "name": "CS4510",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             },
+             {
+               "name": "CS4731",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             },
+             {
+               "name": "CS4476",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             },
+             {
+               "name": "CS4635",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             },
+             {
+               "name": "CS4649",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             }
+           ] end of intelchoicechildren
+         }end of hifillintel
+       ]end of intel children
+     }end of intel node
+   ]
+   }
+ ];
+     "name": "Graduation",
+     "parent": "null",
+     "radius": 10,
+     "outline": "grey",
+     "fill": "grey",
+     "numChildrenNeeded": 2,
+     "children": [
+       {
+         "name": "HiLvlInfo",
+         "parent": "Graduation",
+         "radius": 6,
+         "outline": "grey",
+         "fill": "grey",
+         "numChildrenNeeded": 2,
+         "children": [
+           {
+             "name": "CS3251",
+             "parent": "HiLvlInfo",
+             "radius": 5,
+             "outline": "grey",
+             "fill": "grey"
+           },
+           {
+             "name": "CS4400",
+             "parent": "HiLvlInfo",
+             "radius": 5,
+             "outline": "grey",
+             "fill": "grey"
+           },
+           {
+             "name": "CS4235",
+             "parent": "HiLvlInfo",
+             "radius": 5,
+             "outline": "grey",
+             "fill": "grey"
+           }
+         ]
+       },
+       {
+         "name": "Intelligence",
+         "parent": "Graduation",
+         "radius": 7,
+         "outline": "grey",
+         "fill": "grey",
+         "numChildrenNeeded": 2,
+         "children": [
+         {
+           "name": "EI",
+           "parent": "Intelligence",
+           "radius": 6,
+           "outline": "grey",
+           "fill": "grey",
+           "numChildrenNeeded": 2,
+           "children": [
+             {
+               "name": "CS3630",
+               "parent": "Intelligence",
+               "radius": 6,
+               "outline": "grey",
+               "fill": "grey",
+               "numChildrenNeeded": 1,
+               "children": [
+                 {
+                   "name": "CS3629",
+                   "parent": "CS3630",
+                   "radius": 5,
+                   "outline": "grey",
+                   "fill": "grey",
+                 }
+               ]
+             },
+             {
+               "name": "CS3790",
+               "parent": "Intelligence",
+               "radius": 6,
+               "outline": "grey",
+               "fill": "grey",
+             },
+             {
+               "name": "PSY3040",
+               "parent": "Intelligence",
+               "radius": 6,
+               "outline": "grey",
+               "fill": "grey",
+             }
+           ]
+         },
+         {
+           "name": "AtoI",
+           "parent": "Intelligence",
+           "radius": 6,
+           "outline": "grey",
+           "fill": "grey",
+           "numChildrenNeeded": 2,
+           "children": [
+             {
+               "name": "CS4650",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             },
+             {
+               "name": "CS4510",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             },
+             {
+               "name": "CS4731",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             },
+             {
+               "name": "CS4476",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             },
+             {
+               "name": "CS4635",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             },
+             {
+               "name": "CS4649",
+               "parent": "HiLvlIntel",
+               "radius": 5,
+               "outline": "grey",
+               "fill": "grey"
+             }
+           ] end of intelchoicechildren
+         }end of hifillintel
+       ]end of intel children
+     }end of intel node
+   ]
+   }
+ ];

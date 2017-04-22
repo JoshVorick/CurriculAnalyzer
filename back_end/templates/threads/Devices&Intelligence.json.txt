@@ -1,0 +1,202 @@
+{
+    "children": [
+        "{
+    "children": [
+        {
+            "classID": "CS 1301",
+            "fill": "gray",
+            "name": "Introduction to Computing and Programming",
+            "outline": "grey",
+            "parent": "Devices",
+            "radius": 5
+        },
+        {
+            "classID": "CS 1331",
+            "fill": "gray",
+            "name": "Introduction to Object-Oriented Programming",
+            "outline": "grey",
+            "parent": "Devices",
+            "radius": 5
+        },
+        {
+            "classID": "CS 1332",
+            "fill": "gray",
+            "name": "Data Structures and Algorithms",
+            "outline": "grey",
+            "parent": "Devices",
+            "radius": 5
+        },
+        {
+            "classID": "CS 2110",
+            "fill": "gray",
+            "name": "Computing Organization and Programming",
+            "outline": "grey",
+            "parent": "Devices",
+            "radius": 5
+        },
+        {
+            "classID": "CS 2200",
+            "fill": "gray",
+            "name": "Computer Systems and Networks",
+            "outline": "grey",
+            "parent": "Devices",
+            "radius": 5
+        },
+        {
+            "classID": "CS 2340",
+            "fill": "gray",
+            "name": "Objects and Design",
+            "outline": "grey",
+            "parent": "Devices",
+            "radius": 5
+        },
+        {
+            "classID": "CS 3251",
+            "fill": "gray",
+            "name": "Computer Networking 1",
+            "outline": "grey",
+            "parent": "Devices",
+            "radius": 5
+        },
+        {
+            "classID": "ECE 2031",
+            "fill": "gray",
+            "name": "Digital Design Laboratory",
+            "outline": "grey",
+            "parent": "Devices",
+            "radius": 5
+        },
+        {
+            "children": [
+                {
+                    "classID": "CS 2050",
+                    "fill": "gray",
+                    "name": "Introduction to Discrete Math for CS",
+                    "outline": "grey",
+                    "parent": "Mobile and Ubiquitous Computing",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 2051",
+                    "fill": "gray",
+                    "name": "Honors Introduction to Discrete Math for CS",
+                    "outline": "grey",
+                    "parent": "Mobile and Ubiquitous Computing",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3240",
+                    "fill": "gray",
+                    "name": "Languages and Computation",
+                    "outline": "grey",
+                    "parent": "Mobile and Ubiquitous Computing",
+                    "radius": 5
+                },
+                {
+                    "children": null,
+                    "fill": "gray",
+                    "name": "- CS 3511",
+                    "numChildrenNeeded": -1,
+                    "outline": "grey",
+                    "parent": "Discrete Math",
+                    "radius": 6
+                }
+            ],
+            "fill": "gray",
+            "name": "- CS 4605",
+            "numChildrenNeeded": -1,
+            "outline": "grey",
+            "parent": "Required Courses",
+            "radius": 6
+        }
+    ],
+    "fill": "gray",
+    "name": "Devices",
+    "numChildrenNeeded": -1,
+    "outline": "grey",
+    "parent": "Graduation",
+    "radius": 6
+}",
+        "{
+    "children": [
+        {
+            "classID": "CS 1301",
+            "fill": "gray",
+            "name": "Introduction to Computing and Programming",
+            "outline": "grey",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "CS 1331",
+            "fill": "gray",
+            "name": "Introduction to Object-Oriented Programming",
+            "outline": "grey",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "CS 1332",
+            "fill": "gray",
+            "name": "Data Structures and Algorithms",
+            "outline": "grey",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "PSYC 1101",
+            "fill": "gray",
+            "name": "Introduction to Psychology",
+            "outline": "grey",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "CS 2110",
+            "fill": "gray",
+            "name": "Computing Organization and Programming",
+            "outline": "grey",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "CS 2340",
+            "fill": "gray",
+            "name": "Objects and Design",
+            "outline": "grey",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "classID": "CS 3600",
+            "fill": "gray",
+            "name": "Introduction to Artificial Intelligence",
+            "outline": "grey",
+            "parent": "Intelligence",
+            "radius": 5
+        },
+        {
+            "children": null,
+            "fill": "gray",
+            "name": "- CS 4731",
+            "numChildrenNeeded": -1,
+            "outline": "grey",
+            "parent": "Required Courses",
+            "radius": 6
+        }
+    ],
+    "fill": "gray",
+    "name": "Intelligence",
+    "numChildrenNeeded": -1,
+    "outline": "grey",
+    "parent": "Graduation",
+    "radius": 6
+}"
+    ],
+    "fill": "gray",
+    "name": "Graduation",
+    "numChildrenNeeded": -1,
+    "outline": "grey",
+    "parent": "null",
+    "radius": 6
+}

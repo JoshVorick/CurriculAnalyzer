@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            .button {
+              display: inline-block;
+              padding: 15px 25px;
+              font-size: 24px;
+              cursor: pointer;
+              text-align: center;
+              text-decoration: none;
+              outline: none;
+              color: #fff;
+              background-color: #4CAF50;
+              border: none;
+              border-radius: 15px;
+             
+            }
+
+            .button1 {
+              display: inline-block;
+              padding: 15px 25px;
+              font-size: 24px;
+              cursor: pointer;
+              text-align: center;
+              text-decoration: none;
+              outline: none;
+              color: white;
+              background-color: blue;
+              border: none;
+              font-family:"Georgia Bold Italic";
+              border-radius: 15px;
+             
+            }
+
+            .titleWrapper{
+                text-align: center;
+                color:white;
+                font-size: 50px;
+            }
+            .googleLogin{
+                color:white;
+                padding-left: 30px;
+            }
+            .threadWrapper {
+                text-align: center;
+                color:white;
+
+            }
+            .button:hover {background-color: #3e8e41}
+
+            .button:focus {
+                background-color: #3e8e41;
+                transform: translateY(4px);
+            }
+
+            .button1:focus {
+                background-color: blue;
+                transform: translateY(4px);
+            }
+            .button1:hover {background-color: #0038A8}
+        </style>
+    </head>
+
+    <body>
+
+        <div class= "titleWrapper">
+            <h2>Welcome to onTrack!</h2>
+            <div style="text-align: center;color:white; font-size:15px">
+                    <h2>onTrack is a way for Georgia Tech students to view their path to graduation</h2>    
+            </div>
+        </div>
+
+        <br>
+        </br>
+
+
+
+        <div class="threadWrapper">   
+
+            <h2>Please Select Your Two Threads:</h2>
+            <input class = "button" type="button" id="media" onclick="ChangeColor(this);" value="Media" />
+            <input class = "button" type="button" id="ai" onclick="ChangeColor(this);" value="Intelligence" />
+            <input class = "button" type="button" id="people" onclick="ChangeColor(this);" value="People" />
+            <input class = "button" type="button" id="theory" onclick="ChangeColor(this);" value="Theory" />
+            <br>
+            </br>
+            <input class = "button" type="button" id="sysArch" onclick="ChangeColor(this);" value="System/Architecture" />
+            <input class = "button" type="button" id="modSim" onclick="ChangeColor(this);" value="Modeling/Simulation" />
+            <input class = "button" type="button" id="devices" onclick="ChangeColor(this);" value="Devices" />
+            <input class = "button" type="button" id="info" onclick="ChangeColor(this);" value="InfoInternetworks" />
+
+            
+
+            <script language="javascript" type="text/javascript">
+                var count = 2
+                var thread1 = ""
+                var thread2 = ""
+                var threadCombination = ""
+                function ChangeColor(inputObj) {
+                    
+                    if(count > 0) {
+                        document.getElementById(inputObj.id).style.backgroundColor = "blue";
+                        if(count == 2) {
+                            thread1 = inputObj.id
+                            console.log(thread1)
+                        } 
+                        if (count == 1) {
+                            thread2 = inputObj.id
+                            console.log(thread2)
+                            threadCombination = thread1 + "/"+ thread2
+                            console.log(threadCombination) 
+                        }
+                        count = count - 1 
+
+                    }
+                    localStorage.setItem("storageName",threadCombination);
+                    
+                
+                }
+            </script>
+
+           
+            
+        </div>
+
+        <br>
+        </br>
+        <span>
+        </span>
+
+        <br>
+        </br>
+
+
+       <div class="loginArea">
+                    
+            <div style="width:50%;float:left;text-align: center;color:white">
+                    <h2>Google Login Area</h2>    
+            </div>
+                    
+            <div style="width:50%;float:right;text-align: center;color:white">
+                    <input class = "button1" type="button" id="continue" onclick="location.href='index?thread=.html'" value="Continue without Login" />
+
+            </div>
+        </div>
+
+    
+    </body>
+</html>

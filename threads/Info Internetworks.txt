@@ -27,7 +27,7 @@
         - CS 4675, Internet Computing Systems, Services, and Applications
 
 
-> Elective Courses, 0
+> Elective Courses, 1
     > > Free Electives, 2
         - FREE-INF1, Free Elective-Information Internetworking
         - FREE-INF2, Free Elective-Information Internetworking

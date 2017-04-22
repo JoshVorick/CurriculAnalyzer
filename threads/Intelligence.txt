@@ -28,7 +28,7 @@
         - CS 4731, Game AI
 
 
-> Elective Courses, 0
+> Elective Courses, 1
     > > Free Electives, 2
         - FREE-INT1, Free Elective-Intelligence
         - FREE-INT2, Free Elective-Intelligence
@@ -39,7 +39,7 @@
         - CS 4649, Robot Intelligence: Planning
         - CS 4650, Natural Language Understanding
     > > Data-Driven Intelligence, 1
-        - CS 4464, Computatio- nal Journalism
+        - CS 4464, Computational Journalism
         - CS 4616, Pattern Recognition
         - CS 4641, Machine Learning
         - MATH 4280, Introduction to Information Theory
