@@ -16,7 +16,7 @@
         <div class="container">
             <nav>
                 <div class="searchArea">
-                  
+
           <script src="http://d3js.org/d3.v3.min.js"></script>
           <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
           <script>window.jQuery || document.write('<script src="{{url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
@@ -28,7 +28,7 @@
               $('a#Plan').bind('click', function() {
                 $.getJSON($SCRIPT_ROOT + '/searchCourse', {
                   a: $('input[name="a"]').val(),
-                  
+
                 }, function(data) {
                   if(data.result != false) {
                     $("#planList").prepend(
@@ -53,7 +53,7 @@
               $('a#Completed').bind('click', function() {
                 $.getJSON($SCRIPT_ROOT + '/searchCourse', {
                   a: $('input[name="a"]').val(),
-                  
+
                 }, function(data) {
                   if(data.result != false) {
                     $("#completedList").prepend(
@@ -78,11 +78,11 @@
             });
           </script>
 
-          <p><input type=text size=5 name=a> 
+          <p><input type=text size=5 name=a>
 
-   
+
           <p><a href=# id=Plan>Plan</a>
-          <p><a href=# id=Completed>Completed</a>              
+          <p><a href=# id=Completed>Completed</a>
 
 
 
@@ -91,7 +91,7 @@
 
 
 
-                        
+
 
                 </div>
                 <div class="listsArea">
@@ -121,14 +121,14 @@
 
             </nav>
             <div class="div_RootBody" id = "tree">
-            
+
             </div>
-            <form name="theme" method="post" action=""> 
-            <p> 
-            <input type="radio" name="theme" value="radio" onClick="changeColour('d')">Dark Theme 
-            <br> 
-            <input type="radio" name="theme" value="radio" onClick="changeColour('l')">Light Theme 
-            <br> 
+            <form name="theme" method="post" action="">
+            <p>
+            <input type="radio" name="theme" value="radio" onClick="changeColour('d')">Dark Theme
+            <br>
+            <input type="radio" name="theme" value="radio" onClick="changeColour('l')">Light Theme
+            <br>
             </form>
 
 
@@ -136,7 +136,7 @@
 
 
 
-            
+
         </div>
 
 <script>
@@ -348,7 +348,7 @@ var svg = d3.select("body")
 
 d3.json("/data", function(data){
     console.log(data);
-     root = data[0];
+     root = data;
     root.x0 = width;
      root.y0 = height/2;
      update(root);
@@ -379,7 +379,9 @@ function update(source) {
     .attr("x", function(d) { return d.children || d._children ? d.radius + 5 : -1*d.radius - 5; }) // make this by radius and by length of name
     .attr("dy", ".35em")
     .attr("text-anchor", function(d) { return d.children || d._children ? "start" : "end"; })
-    .text(function(d) { return d.name; })
+    .text(function(d) { if(d.name){
+      return d.name}
+      return d.classID; })
     .style("fill-opacity", 1e-6);
   // Transition nodes to their new position.
   var nodeUpdate = node.transition()

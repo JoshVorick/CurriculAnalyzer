@@ -1,0 +1,52 @@
+> Required Courses, -1
+    - CS 1301, Introduction to Computing and Programming
+    - CS 1331, Introduction to Object-Oriented Programming
+    - CS 1332, Data Structures and Algorithms
+    - CS 2110, Computing Organization and Programming
+    - CS 2200, Computer Systems and Networks
+    - CS 2340, Objects and Design
+    - CS 3251, Computer Networking 1
+    - ECE 2031, Digital Design Laboratory
+    > > Discrete Math, 1
+        - CS 2050, Introduction to Discrete Math for CS
+        - CS 2051, Honors Introduction to Discrete Math for CS
+    > > Algorithm Fundamentals, -1
+        - CS 3240, Languages and Computation
+        > > > Algorithms, 1
+            - CS 3510, Design and Analysis of Algorithms
+            - CS 3511, Honors Design and Analysis of Algorithms
+    > > Building Devices, 1
+        - CS 3651, The Art of Building Intelligent Appliances
+        - ECE 4180, Embedded Systems Design
+    > > Devices in the Real World, 1
+        - CS 3630, Robotics and Perception
+        - CS 4261, Mobile Applications and Services for Converged Networks
+        - CS 4605, Mobile and Ubiquitous Computing
+
+
+> Elective Courses, 1
+    > > Free Electives, 2
+        - FREE-DEV1, Free Elective-Devices
+        - FREE-DEV2, Free Elective-Devices
+    > > Algorithm Fundamentals, 1
+        - CS 3240, Languages and Computation
+        > > > Algorithms, 1
+            - CS 3510, Design and Analysis of Algorithms
+            - CS 3511, Honors Design and Analysis of Algorithms
+    > > Device Platforms, 1
+        - CS 3220, Computer Structures: HW/SW Codesign of a Processor
+        - CS 4210, Advanced Operating Systems
+        - CS 4220, Programming Embedded Systems
+        - CS 4261, Mobile Applications and Services for Converged Networks
+    > > Intelligent Systems, 1
+        - CS 3600, Introduction to Artificial Intelligence
+        - CS 3630, Robotics and Perception
+        - CS 4476, Intro Computer Vision
+        - CS 4616, Pattern Recognition
+        - CS 4632, Advanced Intelligent Robotics
+        - CS 4641, Machine Learning
+        - CS 4649, Robot Intelligence: Planning
+    > > Devices for People, 1
+        - CS 4470, Introduction to User Interface Software
+        - CS 4605, Mobile and Ubiquitous Computing
+        - CS 4685, Pervasive Systems and Networking
