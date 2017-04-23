@@ -29,6 +29,13 @@ print("Connected to", argv[2])
 
 for d in data:
     # Insert this course into the DB
+    
+    # First do some data cleaning so it plays nice with SQL 
+    d['description'] = d['description'].replace("'", "")
+    d['name'] = d['name'].replace("'", "")
+    d['subj'] = d['subj'].replace("'", "")
+    d['sectionsLink'] = d['sectionsLink'].replace("'", "")
+    d['restrictions'] = d['restrictions'].replace("'", "")
 
     # columns = "(dept, subNumber, name, description, gradeBasis, maxCreditHours, minCreditHours, maxLectureHours, minLectureHours, maxLabHours, minLabHours, departmentName, sectionsLink, restrictions, prerequisites)"
     columns = "(dept, subNumber, name, description, sectionsLink, resctrictions, maxCreditHours)"

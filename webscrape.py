@@ -94,10 +94,6 @@ for section in Coursetitles:
         course = Course(courseSubj, courseNumber, courseName, courseDescription, courseGradeBasis, courseCreditHours, courseLectureHours, courseLabHours, courseDept, courseSectionsLink, courseRestrictions, coursePrerequisites)
         courses.append(course)  # This is slow b/c memory alloc :(
         # print(course.subj, course.number)
-        if len(courses) > 10:
-            break
-    if len(courses) > 10:
-        break
 
 print(json.dumps(courses, default=lambda o: o.__dict__))
 driver.quit()
