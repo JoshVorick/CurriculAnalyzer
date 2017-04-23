@@ -1,0 +1,54 @@
+> Required Courses, -1
+    - CS 1301, Introduction to Computing and Programming
+    - CS 1331, Introduction to Object-Oriented Programming
+    - CS 1332, Data structures and Algorithms
+    - CS 2110, Computing Organization and Programming
+    - CS 2200, Computer Systems and Networks
+    - CS 2340, Objects and Design
+    - CS 3210, Design of Operating Systems
+    - CS 3220, Computer Structures: HW/SW Codesign of a Processor
+    - ECE 2031, Digital Design Laboratory
+    > > Algorithms, 1
+        - CS 3510, Design and Analysis of Algorithms
+        - CS 3511, Honors Design and Analysis of Algorithms
+    > > Discrete Math, 1
+        - CS 2050, Introduction to Discrete Math for CS
+        - CS 2051, Honors Introduction to Discrete Math for CS
+    > > Advanced Systems & Architecture
+        - CS 4210, Advanced Operating Systems
+        - CS 4220, Programming Embedded Systems
+        - CS 4290, Advanced Computer Organization
+    > > Systems Software Tools
+        - CS 3300, Introduction to Software Engineering
+        - CS 4240, Compilers, Interpreters, and Program Analyzers
+
+
+> Elective Courses, 1
+    > > Free Electives, 2
+        - FREE-PLAT1, Free Elective-Platforms
+        - FREE-PLAT2, Free Elective-Platforms
+    > > Parallel Platforms, 1
+        - CS 4210, Advanced Operating Systems
+        - CS 4233, Parallel Computer Architecture
+        - CS 4290, Advanced Computer Organization
+    > > Distributed Platforms, 1
+        - CS 4210, Advanced Operating Systems
+        - CS 4675, Internet Computing Systems
+        - CS 4685, Pervasive Systems and Networking
+    > > Embedded and Ubiquitous Platforms, 1
+        - CS 4220, Programming Embedded Systems
+        - CS 4685, Pervasive Systems and Networking
+    > > Domain Specific Platforms, 1
+        - CS 4220, Programming Embedded Systems
+    > > Platform Technologies, 1
+        - CS 4210, Advanced Operating Systems
+        - CS 4220, Programming Embedded Systems
+        - CS 4235, Introduction to Information Security
+        - CS 4237, Computer and network security
+        - CS 4560, Verification of Systems
+    > > Software Interfaces, Tools and Technologies, 1
+        - CS 4220, Programming Embedded Systems
+        - CS 4240, Compilers, Interpreters, and Program Analyzers
+        - CS 4392, Programming Language Design
+        - CS 6241, Design and Implementation of Compilers
+        - CS 6246, Object-oriented Systems and Languages

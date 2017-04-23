@@ -1,0 +1,650 @@
+{
+    "children": [
+        {
+    "children": [
+        {
+            "children": [
+                {
+                    "classID": "CS 1301",
+                    "fill": "gray",
+                    "name": "Introduction to Computing and Programming",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 1331",
+                    "fill": "gray",
+                    "name": "Introduction to Object-Oriented Programming",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 1332",
+                    "fill": "gray",
+                    "name": "Data Structures and Algorithms",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 2110",
+                    "fill": "gray",
+                    "name": "Computing Organization and Programming",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 2200",
+                    "fill": "gray",
+                    "name": "Computer Systems and Networks",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 2340",
+                    "fill": "gray",
+                    "name": "Objects and Design",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3251",
+                    "fill": "gray",
+                    "name": "Computer Networking 1",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "ECE 2031",
+                    "fill": "gray",
+                    "name": "Digital Design Laboratory",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "classID": "CS 2050",
+                                    "fill": "gray",
+                                    "name": "Introduction to Discrete Math for CS",
+                                    "outline": "gray",
+                                    "parent": "Mobile and Ubiquitous Computing",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 2051",
+                                    "fill": "gray",
+                                    "name": "Honors Introduction to Discrete Math for CS",
+                                    "outline": "gray",
+                                    "parent": "Mobile and Ubiquitous Computing",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 3240",
+                                    "fill": "gray",
+                                    "name": "Languages and Computation",
+                                    "outline": "gray",
+                                    "parent": "Mobile and Ubiquitous Computing",
+                                    "radius": 5
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [
+                                                {
+                                                    "classID": "CS 3510",
+                                                    "fill": "gray",
+                                                    "name": "Design and Analysis of Algorithms",
+                                                    "outline": "gray",
+                                                    "parent": "Honors Design and Analysis of Algorithms",
+                                                    "radius": 5
+                                                }
+                                            ],
+                                            "fill": "gray",
+                                            "name": "Algorithms",
+                                            "numChildrenNeeded": "1",
+                                            "outline": "gray",
+                                            "parent": "Honors Design and Analysis of Algorithms",
+                                            "radius": 6
+                                        }
+                                    ],
+                                    "fill": "gray",
+                                    "name": "- CS 3511",
+                                    "numChildrenNeeded": -1,
+                                    "outline": "gray",
+                                    "parent": "Discrete Math",
+                                    "radius": 6
+                                },
+                                {
+                                    "classID": "CS 3651",
+                                    "fill": "gray",
+                                    "name": "The Art of Building Intelligent Appliances",
+                                    "outline": "gray",
+                                    "parent": "Mobile and Ubiquitous Computing",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "ECE 4180",
+                                    "fill": "gray",
+                                    "name": "Embedded Systems Design",
+                                    "outline": "gray",
+                                    "parent": "Mobile and Ubiquitous Computing",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 3630",
+                                    "fill": "gray",
+                                    "name": "Robotics and Perception",
+                                    "outline": "gray",
+                                    "parent": "Mobile and Ubiquitous Computing",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 4261",
+                                    "fill": "gray",
+                                    "name": "Mobile Applications and Services for Converged Networks",
+                                    "outline": "gray",
+                                    "parent": "Mobile and Ubiquitous Computing",
+                                    "radius": 5
+                                }
+                            ],
+                            "fill": "gray",
+                            "name": "Discrete Math",
+                            "numChildrenNeeded": "1",
+                            "outline": "gray",
+                            "parent": "Mobile and Ubiquitous Computing",
+                            "radius": 6
+                        }
+                    ],
+                    "fill": "gray",
+                    "name": "- CS 4605",
+                    "numChildrenNeeded": -1,
+                    "outline": "gray",
+                    "parent": "Required Courses",
+                    "radius": 6
+                },
+                {
+                    "classID": "FREE-DEV1",
+                    "fill": "gray",
+                    "name": "Free Elective-Devices",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "FREE-DEV2",
+                    "fill": "gray",
+                    "name": "Free Elective-Devices",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3240",
+                    "fill": "gray",
+                    "name": "Languages and Computation",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "classID": "CS 3510",
+                                    "fill": "gray",
+                                    "name": "Design and Analysis of Algorithms",
+                                    "outline": "gray",
+                                    "parent": "Honors Design and Analysis of Algorithms",
+                                    "radius": 5
+                                }
+                            ],
+                            "fill": "gray",
+                            "name": "Algorithms",
+                            "numChildrenNeeded": "1",
+                            "outline": "gray",
+                            "parent": "Honors Design and Analysis of Algorithms",
+                            "radius": 6
+                        }
+                    ],
+                    "fill": "gray",
+                    "name": "- CS 3511",
+                    "numChildrenNeeded": -1,
+                    "outline": "gray",
+                    "parent": "Required Courses",
+                    "radius": 6
+                },
+                {
+                    "classID": "CS 3220",
+                    "fill": "gray",
+                    "name": "Computer Structures: HW/SW Codesign of a Processor",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4210",
+                    "fill": "gray",
+                    "name": "Advanced Operating Systems",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4220",
+                    "fill": "gray",
+                    "name": "Programming Embedded Systems",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4261",
+                    "fill": "gray",
+                    "name": "Mobile Applications and Services for Converged Networks",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3600",
+                    "fill": "gray",
+                    "name": "Introduction to Artificial Intelligence",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3630",
+                    "fill": "gray",
+                    "name": "Robotics and Perception",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4476",
+                    "fill": "gray",
+                    "name": "Intro Computer Vision",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4616",
+                    "fill": "gray",
+                    "name": "Pattern Recognition",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4632",
+                    "fill": "gray",
+                    "name": "Advanced Intelligent Robotics",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4641",
+                    "fill": "gray",
+                    "name": "Machine Learning",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4649",
+                    "fill": "gray",
+                    "name": "Robot Intelligence: Planning",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4470",
+                    "fill": "gray",
+                    "name": "Introduction to User Interface Software",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4605",
+                    "fill": "gray",
+                    "name": "Mobile and Ubiquitous Computing",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4685",
+                    "fill": "gray",
+                    "name": "Pervasive Systems and Networking",
+                    "outline": "gray",
+                    "parent": "Devices",
+                    "radius": 5
+                }
+            ],
+            "fill": "gray",
+            "name": "Required Courses",
+            "numChildrenNeeded": "-1",
+            "outline": "gray",
+            "parent": "Devices",
+            "radius": 6
+        }
+    ],
+    "fill": "gray",
+    "name": "Devices",
+    "numChildrenNeeded": -1,
+    "outline": "gray",
+    "parent": "Graduation",
+    "radius": 6
+},
+        {
+    "children": [
+        {
+            "children": [
+                {
+                    "classID": "CS 1301",
+                    "fill": "gray",
+                    "name": "Introduction to Computing and Programming",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 1331",
+                    "fill": "gray",
+                    "name": "Introduction to Object-Oriented Programming",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 2340",
+                    "fill": "gray",
+                    "name": "Objects and Design",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3750",
+                    "fill": "gray",
+                    "name": "Human-Computer Interface Design and Evaluation",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "PSYC 1101",
+                    "fill": "gray",
+                    "name": "Introduction to Psychology",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "PSYC 2015",
+                    "fill": "gray",
+                    "name": "Research Methods and Practices",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "classID": "PSYC 2210",
+                                    "fill": "gray",
+                                    "name": "Social Psychology",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Educational Technology",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "PSYC 2760",
+                                    "fill": "gray",
+                                    "name": "Psychology of Human Language",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Educational Technology",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "PSYC 3040",
+                                    "fill": "gray",
+                                    "name": "Sensation and Perception",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Educational Technology",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 3790",
+                                    "fill": "gray",
+                                    "name": "Introduction to Cognitive Science",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Educational Technology",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 4460",
+                                    "fill": "gray",
+                                    "name": "Information Visualization",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Educational Technology",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 4470",
+                                    "fill": "gray",
+                                    "name": "Introduction to User Interface Software",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Educational Technology",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 4472",
+                                    "fill": "gray",
+                                    "name": "Design of Online Communities",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Educational Technology",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 4605",
+                                    "fill": "gray",
+                                    "name": "Mobile and Ubiquitous Computing",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Educational Technology",
+                                    "radius": 5
+                                }
+                            ],
+                            "fill": "gray",
+                            "name": "Social/Behavioral Science for Computing",
+                            "numChildrenNeeded": "1",
+                            "outline": "gray",
+                            "parent": "Introduction to Educational Technology",
+                            "radius": 6
+                        }
+                    ],
+                    "fill": "gray",
+                    "name": "- CS 4660",
+                    "numChildrenNeeded": -1,
+                    "outline": "gray",
+                    "parent": "Required Courses",
+                    "radius": 6
+                },
+                {
+                    "classID": "FREE-PEP1",
+                    "fill": "gray",
+                    "name": "Free Elective-People",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "FREE-PEP2",
+                    "fill": "gray",
+                    "name": "Free Elective-People",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4660",
+                    "fill": "gray",
+                    "name": "Introduction to Educational Technology",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4665",
+                    "fill": "gray",
+                    "name": "Educational Technology: Design and Evaluation",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4670",
+                    "fill": "gray",
+                    "name": "Computer-Supported Collaborative Learning",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4472",
+                    "fill": "gray",
+                    "name": "Design of Online Communities",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4690",
+                    "fill": "gray",
+                    "name": "Qualitative Methods",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4770",
+                    "fill": "gray",
+                    "name": "Mixed Reality Experience Design",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "PSYC 2020",
+                    "fill": "gray",
+                    "name": "Psychological Statistics",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3790",
+                    "fill": "gray",
+                    "name": "Introduction to Cognitive Science",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4793",
+                    "fill": "gray",
+                    "name": "Perspectives Cognitive Science",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "PSYC 2210",
+                    "fill": "gray",
+                    "name": "Social Psychology",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "PSYC 2760",
+                    "fill": "gray",
+                    "name": "Psychology of Human Language",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "PSYC 3012",
+                    "fill": "gray",
+                    "name": "Cognitive Psychology",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "PSYC 3040",
+                    "fill": "gray",
+                    "name": "Sensation and Perception",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "PSYC 4090",
+                    "fill": "gray",
+                    "name": "Cognitive Neuropsychology",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                },
+                {
+                    "classID": "PSYC 4260",
+                    "fill": "gray",
+                    "name": "Aging",
+                    "outline": "gray",
+                    "parent": "People",
+                    "radius": 5
+                }
+            ],
+            "fill": "gray",
+            "name": "Required Courses",
+            "numChildrenNeeded": "-1",
+            "outline": "gray",
+            "parent": "People",
+            "radius": 6
+        }
+    ],
+    "fill": "gray",
+    "name": "People",
+    "numChildrenNeeded": -1,
+    "outline": "gray",
+    "parent": "Graduation",
+    "radius": 6
+}
+    ],
+    "fill": "gray",
+    "name": "Graduation",
+    "numChildrenNeeded": -1,
+    "outline": "gray",
+    "parent": "null",
+    "radius": 6
+}

@@ -1,0 +1,71 @@
+> Required Courses, -1
+    - CS 1171, Introductory Computing in MATLAB
+    - CS 1301, Introduction to Computing and Programming
+    - CS 1331, Introduction to Object-Oriented Programming
+    - CS 1332, Data Structures and Algorithms
+    - CS 2110, Computing Organization and Programming
+    - CS 2200, Computer Systems and Networks
+    - CS 2340, Objects and Design
+    > > Algorithms, 1
+        - CS 3510, Design and Analysis of Algorithms
+        - CS 3511, Honors Design and Analysis of Algorithms
+    > > Discrete Math, 1
+        - CS 2050, Introduction to Discrete Math for CS
+        - CS 2051, Honors Introduction to Discrete Math for CS
+    > > Differential Equations, 1
+        - MATH 2552, Differential Equations
+        - MATH 2562, Honors Differential Equations
+    > > Computational Science and Engineering, 2
+        - CX 4140, Computational Modeling Algorithms
+        - CX 4220, Introduction to High Performance Computing
+        - CX 4230, Computer Simulation
+        - CX 4640, Numerical Analysis 1
+        - CS 4641, Machine Learning
+
+> Elective Courses, 1
+    > > Free Electives, 2
+        - FREE-CM1, Free Elective-Modeling and Simulation
+        - FREE-CM2, Free Elective-Modeling and Simulation
+    > > Advanced Computational Methods and Software, 1
+        - CHBE 2120, Numerical Methods
+        - CS 3220, Computer structures: HW/SW codesign of a processor
+        - CS 3451, Computer Graphics
+        - CS 3600, Introduction to Artificial Intelligence
+        - CS 4210, Advanced Operating Systems
+        - CX 4236, Distributed Simulation Systems
+        - CX 4232, Simulation, and Military Gaming
+        - CS 4476, Intro Computer Vision
+        - CS 4496, Computer Animation
+        - CS 4550, Scientific Data Processing and Visualization
+        - CS 4641, Machine Learning
+        - CX 4641, Numerical Analysis II
+        - CX 4777, Vector and Parallel Scientific Computing
+        - ISYE 2028, Basic Statistics Methods
+        - ISYE 4331, Honors Optimization
+        - MATH 4255, Monte Carlo Methods
+        - ME 2016, Computing Techniques
+    > > Aerospace Engineering, 1
+        - AE 4375, Fundamentals of Computer-Aided Engineering and Design
+        - PHYS 3266, Computational Physics
+    > > Digital Signal Processing
+        - ECE 3025, Electromagnetics
+        - ECE 3075, Random Signals
+        - ECE 4270, Fundamentals of Digital Signal Processing
+        - ECE 4271, Applications of Digital Signal Processing
+    > > Modeling and Simulation in Industrial Engineering, 1
+        - ISYE 2030, Modeling in Industrial Engineering
+        - ISYE 3044, Simulation Analysis and Design
+        - ISYE 3133, Engineering Optimization
+        - ISYE 3232, Stochastic manufacturing and service systems
+    > > Biology / Chemistry, 1
+        - BIOL 2400, Mathematical Models in Biology
+        - BIOL 4401, Experimental Design and Statistical Methods in Biology
+        - CHBE 2100, Chemical Process Principles
+    > > Geoscience, 1
+        - EAS 3620, Geochemistry
+        - EAS 4602, Biochemical Cycles
+        - EAS 4610, Earth System Modeling
+        - EAS 4630, Physics of the Earth
+        - EAS 4655, Atmospheric Dynamics
+        - EAS 4803, Water Chemistry Modeling
+        - PHYS 3266, Computational Physics

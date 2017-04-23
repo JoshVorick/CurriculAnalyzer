@@ -1,0 +1,54 @@
+> Required Courses, -1
+    - CS 1301, Introduction to Computing and Programming
+    - CS 1331, Introduction to Object-Oriented Programming
+    - CS 1332, Data Structures and Algorithms
+    - CS 2110, Computing Organization and Programming
+    - CS 2340, Objects and Design
+    - CS 4510, Automata and Complexity Theory
+    - CS 4540, Advanced Algorithms
+    - MATH 3406, Second Course on Linear Algebra
+    > > Discrete Math, 1
+        - CS 2050, Introduction to Discrete Math for CS
+        - CS 2051, Honors Introduction to Discrete Math for CS
+    > > Algorithms, 1
+        - CS 3510, Design and Analysis of Algorithms
+        - CS 3511, Honors Design and Analysis of Algorithms
+    > > Advanced Mathematics, 1
+        - MATH 4022, Introduction to Graph Theory
+        - MATH 4032, Combinatorial Analysis
+        - MATH 4150, Introduction to Number Theory
+
+
+> Elective Courses, 1
+    > > Free Electives, 3
+        - FREE-THRY1, Free Elective-Foundations
+        - FREE-THRY2, Free Elective-Foundations
+        - FREE-THRY3, Free Elective-Foundations
+    > > Advanced Algorithms and Complexity, 1
+        - CS 3240, Languages and Computation
+        - CS 4520, Approximation Algorithms
+        - CS 4530, Randomized Algorithms
+        - CS 6520, Computational Complexity
+    > > Mathematics with Computer Science Applications, 1
+        - MATH 3770, Statistics and Applications
+        - MATH 4012, Algebraic Structures for Coding Theory
+        - MATH 4022, Introduction to Graph Theory
+        - MATH 4150, Introduction to Number Theory and Cryptography
+        - MATH 4107, Abstract Algebra I
+        - MATH 4255, Monte Carlo Methods
+        - MATH 4280, Introduction to Information Theory
+        - MATH 4305, Topics in Linear Algebra
+        - MATH 4580, Linear Programming
+        - MATH 4640, Numerical Analysis I
+        - MATH 4782, Quantum Information and Quantum Computation
+    > > Computer Science Applications involving Algorithms and Complexity, 1
+        - CS 3251, Computer Networking I
+        - CS 3451, Computer Graphics
+        - CS 4400, Introduction to Database Systems
+        - CS 4235, Introduction to Information Security
+        - CS 3210, Design of Operating Systems
+        - CS 4496, Computer Animation
+        - CS 3600, Introduction to Artificial Intelligence
+        - CS 4641, Machine Learning
+        - CX 4140, Computational Modeling Algorithms
+        - CX 4230, Modeling and Simulation: Fundamentals and Implementation

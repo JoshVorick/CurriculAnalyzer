@@ -1,0 +1,40 @@
+> Required Courses, -1
+    - CS 1331, Introduction to Object-Oriented Programming
+    - CS 1332, Data Structures and Algorithms
+    - CS 2261, Media Device Architectures
+    - CS 2340, Objects and Design
+    - CS 3451, Computer Graphics
+    > > Computation, 1
+        - CS 1301, Introduction to Computing
+        - CS 1315, Introduction to Media Computation
+    > > Discrete Math, 1
+        - CS 2050, Introduction to Discrete Math for CS
+        - CS 2051, Honors Introduction to Discrete Math for CS
+    > > Media Technologies, 2
+        - CS 4455, Video Game Design and Programming
+        - CS 4460, Information Visualization
+        - CS 4464, Computational Journalism
+        - CS 4475, Computational Photography
+        - CS 4480, Digital Video Special Effects
+        - CS 4496, Computer Animation
+        - CS 4590, Computer Audio
+
+> Elective Courses, 1
+    > > Free Electives, 3
+        - FREE-ME1, Free CS Elective-Media
+        - FREE-ME2, Free CS Elective-Media
+        - FREE-ME3, Free CS Elective-Media
+    > > Computing Fundamentals, 1
+        - CS 3240, Languages and Computation
+        > > > Algorithms, 1
+            - CS 3510, Design and Analysis of Algorithms
+            - CS 3511, Honors Design and Analysis of Algorithms
+    > > Multimedia Applications and Design, 1
+        - CS 4464, Computational Journalism
+        - CS 4475, Computational Photography
+        - CS 4770, Mixed Reality Experience Design
+    > > Multimedia Connections, 1
+        - CS 4460, Information Visualization
+        - CS 4470, Introduction to User Interface Software
+        - CS 4550, Scientific Data Processing and Visualization
+        - CX 4236, Distributed Simulation Systems

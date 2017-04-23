@@ -6,16 +6,13 @@
          <thead>
             <td>departmentName</td>
             <td>subNumber</td>
-            <td>name</td>
-            <td>description</td>
+
          </thead>
          
          {% for row in rows %}
             <tr>
-               <td>{{row["departmentName"]}}</td>
+               <td>{{row["dept"]}}</td>
                <td>{{row["subNumber"]}}</td>
-               <td> {{ row["name"]}}</td>
-               <td>{{row['description']}}</td> 
             </tr>
          {% endfor %}
       </table>

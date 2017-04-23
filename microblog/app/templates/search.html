@@ -1,0 +1,15 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+{% block content %}
+  <form action="" method="post" name="login">
+      {{ form.hidden_tag() }}
+      <p>
+          Please enter department Name:<br>
+          {{ form.dept(size=80) }}<br>
+          Please enter subject Number:<br>
+          {{ form.subNumber(size=80) }}<br>
+      </p>
+      <p><input type="submit" value="Sign In"></p>
+  </form>
+  {% block test %}{% endblock %}
+{% endblock %}
