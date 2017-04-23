@@ -1,26 +1,26 @@
 from flask import Flask, render_template, request, redirect, url_for, json, jsonify
 import sqlite3 as sql
-app = Flask(__name__)
+application = Flask(__name__)
 
 
-@app.route('/')
+@application.route('/')
 def introPage():
    return render_template('introPage.html')
    
 
-@app.route('/treeView')
+@application.route('/treeView')
 def treeView():
    return render_template('treeView.html')
    
 
 
-@app.route('/data')
+@application.route('/data')
 def data():
    data = open('threads/out/this.json').read()
    return data
 
 
-@app.route('/ListAllCourses', methods=['GET'])
+@application.route('/ListAllCourses', methods=['GET'])
 def ListAllCourses():
    con = sql.connect("database.db")
    con.row_factory = sql.Row
@@ -32,7 +32,7 @@ def ListAllCourses():
    return render_template("threadSelect.html",rows = rows)
 
 
-@app.route('/ListAllUsers', methods=['GET'])
+@application.route('/ListAllUsers', methods=['GET'])
 def ListAllCourse():
 
    con = sql.connect("database.db")
@@ -44,7 +44,7 @@ def ListAllCourse():
    rows = cur.fetchall();
    return render_template("users.html",rows = rows)
 
-@app.route('/searchCourse')
+@application.route('/searchCourse')
 def searchCourse():
    fullName = request.args.get('a')
    a = 'CS'
@@ -62,4 +62,4 @@ def searchCourse():
    return jsonify(result=False)
 
 if __name__ == '__main__':
-   app.run(debug = True)
+   application.run(debug = True)
