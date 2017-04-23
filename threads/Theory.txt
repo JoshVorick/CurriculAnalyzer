@@ -42,13 +42,13 @@
         - MATH 4640, Numerical Analysis I
         - MATH 4782, Quantum Information and Quantum Computation
     > > Computer Science Applications involving Algorithms and Complexity, 1
-        - CS 3251 Computer Networking I
-        - CS 3451 Computer Graphics
-        - CS 4400 Introduction to Database Systems
-        - CS 4235 Introduction to Information Security
-        - CS 3210 Design of Operating Systems
-        - CS 4496 Computer Animation
-        - CS 3600 Introduction to Artificial Intelligence
-        - CS 4641 Machine Learning
-        - CX 4140 Computational Modeling Algorithms
-        - CX 4230 Modeling and Simulation: Fundamentals and Implementation
+        - CS 3251, Computer Networking I
+        - CS 3451, Computer Graphics
+        - CS 4400, Introduction to Database Systems
+        - CS 4235, Introduction to Information Security
+        - CS 3210, Design of Operating Systems
+        - CS 4496, Computer Animation
+        - CS 3600, Introduction to Artificial Intelligence
+        - CS 4641, Machine Learning
+        - CX 4140, Computational Modeling Algorithms
+        - CX 4230, Modeling and Simulation: Fundamentals and Implementation

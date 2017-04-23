@@ -20,7 +20,7 @@ class Group(object):
         self.name = name
         self.parent = parent
         self.radius = 6
-        self.outline = "grey"
+        self.outline = "gray"
         self.fill = "gray"
         self.children = children
         self.numChildrenNeeded = numChildrenNeeded
@@ -31,11 +31,12 @@ def generateJson(lines, parent):
 
     groupLevel = lines[0].count(">")
     groupName = lines[0].replace(">", "").rsplit(",", 1)[0].strip()
-    # numChildrenNeeded = lines[0].rsplit(",", 1)[1].strip()
+    numChildrenNeeded = lines[0].rsplit(",", 1)[1].strip()
     children = []
     activeGroup = False
     activeGroupStart = 0
     lines = lines[1:]
+    print("")
     lines = list(filter(None, lines))
     for i in range(len(lines)):
 
@@ -46,12 +47,12 @@ def generateJson(lines, parent):
                     print("Group Search Second Line: %s" % lines[i + 1])
                     children += [Group(lines[i].replace(">", "").rsplit(",", 1)[0], groupName, generateJson(lines[activeGroupStart:i], lines[i].rsplit(",", 1)[1].strip()))]
                     activeGroup = False
-                    return children
+                    # return children
             else:
                 print("second to last line: %s:" % lines[i])
                 children += [Group(lines[i].replace(">", "").rsplit(",", 1)[0], groupName, generateJson(lines[activeGroupStart:i + 1], lines[i].rsplit(",", 1)[1].strip()))]
                 activeGroup = False
-                return children
+                # return children
 
         # if not activeGroup:
         else:
@@ -70,6 +71,8 @@ def generateJson(lines, parent):
                     classID = line[0].strip()
                     name = line[1].strip()
                     children += [Class(classID, name, parent)]
+
+    return [Group(groupName, parent, list(children), numChildrenNeeded)]
 
 
 def jdefault(o):

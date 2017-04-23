@@ -3,142 +3,652 @@
         {
     "children": [
         {
-            "classID": "CS 1331",
+            "children": [
+                {
+                    "classID": "CS 1331",
+                    "fill": "gray",
+                    "name": "Introduction to Object-Oriented Programming",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 1332",
+                    "fill": "gray",
+                    "name": "Data Structures and Algorithms",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 2261",
+                    "fill": "gray",
+                    "name": "Media Device Architectures",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 2340",
+                    "fill": "gray",
+                    "name": "Objects and Design",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3451",
+                    "fill": "gray",
+                    "name": "Computer Graphics",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "classID": "CS 1301",
+                                    "fill": "gray",
+                                    "name": "Introduction to Computing",
+                                    "outline": "gray",
+                                    "parent": "Computer Audio",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 1315",
+                                    "fill": "gray",
+                                    "name": "Introduction to Media Computation",
+                                    "outline": "gray",
+                                    "parent": "Computer Audio",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 2050",
+                                    "fill": "gray",
+                                    "name": "Introduction to Discrete Math for CS",
+                                    "outline": "gray",
+                                    "parent": "Computer Audio",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 2051",
+                                    "fill": "gray",
+                                    "name": "Honors Introduction to Discrete Math for CS",
+                                    "outline": "gray",
+                                    "parent": "Computer Audio",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 4455",
+                                    "fill": "gray",
+                                    "name": "Video Game Design and Programming",
+                                    "outline": "gray",
+                                    "parent": "Computer Audio",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 4460",
+                                    "fill": "gray",
+                                    "name": "Information Visualization",
+                                    "outline": "gray",
+                                    "parent": "Computer Audio",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 4464",
+                                    "fill": "gray",
+                                    "name": "Computational Journalism",
+                                    "outline": "gray",
+                                    "parent": "Computer Audio",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 4475",
+                                    "fill": "gray",
+                                    "name": "Computational Photography",
+                                    "outline": "gray",
+                                    "parent": "Computer Audio",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 4480",
+                                    "fill": "gray",
+                                    "name": "Digital Video Special Effects",
+                                    "outline": "gray",
+                                    "parent": "Computer Audio",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 4496",
+                                    "fill": "gray",
+                                    "name": "Computer Animation",
+                                    "outline": "gray",
+                                    "parent": "Computer Audio",
+                                    "radius": 5
+                                }
+                            ],
+                            "fill": "gray",
+                            "name": "Computation",
+                            "numChildrenNeeded": "1",
+                            "outline": "gray",
+                            "parent": "Computer Audio",
+                            "radius": 6
+                        }
+                    ],
+                    "fill": "gray",
+                    "name": "- CS 4590",
+                    "numChildrenNeeded": -1,
+                    "outline": "gray",
+                    "parent": "Required Courses",
+                    "radius": 6
+                },
+                {
+                    "classID": "FREE-ME1",
+                    "fill": "gray",
+                    "name": "Free CS Elective-Media",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "FREE-ME2",
+                    "fill": "gray",
+                    "name": "Free CS Elective-Media",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "FREE-ME3",
+                    "fill": "gray",
+                    "name": "Free CS Elective-Media",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3240",
+                    "fill": "gray",
+                    "name": "Languages and Computation",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "classID": "CS 3510",
+                                    "fill": "gray",
+                                    "name": "Design and Analysis of Algorithms",
+                                    "outline": "gray",
+                                    "parent": "Honors Design and Analysis of Algorithms",
+                                    "radius": 5
+                                }
+                            ],
+                            "fill": "gray",
+                            "name": "Algorithms",
+                            "numChildrenNeeded": "1",
+                            "outline": "gray",
+                            "parent": "Honors Design and Analysis of Algorithms",
+                            "radius": 6
+                        }
+                    ],
+                    "fill": "gray",
+                    "name": "- CS 3511",
+                    "numChildrenNeeded": -1,
+                    "outline": "gray",
+                    "parent": "Required Courses",
+                    "radius": 6
+                },
+                {
+                    "classID": "CS 4464",
+                    "fill": "gray",
+                    "name": "Computational Journalism",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4475",
+                    "fill": "gray",
+                    "name": "Computational Photography",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4770",
+                    "fill": "gray",
+                    "name": "Mixed Reality Experience Design",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4460",
+                    "fill": "gray",
+                    "name": "Information Visualization",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4470",
+                    "fill": "gray",
+                    "name": "Introduction to User Interface Software",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4550",
+                    "fill": "gray",
+                    "name": "Scientific Data Processing and Visualization",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                },
+                {
+                    "classID": "CX 4236",
+                    "fill": "gray",
+                    "name": "Distributed Simulation Systems",
+                    "outline": "gray",
+                    "parent": "Media",
+                    "radius": 5
+                }
+            ],
             "fill": "gray",
-            "name": "Introduction to Object-Oriented Programming",
+            "name": "Required Courses",
+            "numChildrenNeeded": "-1",
             "outline": "gray",
             "parent": "Media",
-            "radius": 5
-        },
-        {
-            "classID": "CS 1332",
-            "fill": "gray",
-            "name": "Data Structures and Algorithms",
-            "outline": "gray",
-            "parent": "Media",
-            "radius": 5
-        },
-        {
-            "classID": "CS 2261",
-            "fill": "gray",
-            "name": "Media Device Architectures",
-            "outline": "gray",
-            "parent": "Media",
-            "radius": 5
-        },
-        {
-            "classID": "CS 2340",
-            "fill": "gray",
-            "name": "Objects and Design",
-            "outline": "gray",
-            "parent": "Media",
-            "radius": 5
-        },
-        {
-            "classID": "CS 3451",
-            "fill": "gray",
-            "name": "Computer Graphics",
-            "outline": "gray",
-            "parent": "Media",
-            "radius": 5
-        },
-        {
-            "children": null,
-            "fill": "gray",
-            "name": "- CS 4590",
-            "numChildrenNeeded": -1,
-            "outline": "grey",
-            "parent": "Required Courses",
             "radius": 6
         }
     ],
     "fill": "gray",
     "name": "Media",
     "numChildrenNeeded": -1,
-    "outline": "grey",
+    "outline": "gray",
     "parent": "Graduation",
     "radius": 6
 },
         {
     "children": [
         {
-            "classID": "CS 1301",
+            "children": [
+                {
+                    "classID": "CS 1301",
+                    "fill": "gray",
+                    "name": "Introduction to Computing and Programming",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 1331",
+                    "fill": "gray",
+                    "name": "Introduction to Object-Oriented Programming",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 1332",
+                    "fill": "gray",
+                    "name": "Data Structures and Algorithms",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 2110",
+                    "fill": "gray",
+                    "name": "Computing Organization and Programming",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 2340",
+                    "fill": "gray",
+                    "name": "Objects and Design",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4510",
+                    "fill": "gray",
+                    "name": "Automata and Complexity Theory",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4540",
+                    "fill": "gray",
+                    "name": "Advanced Algorithms",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 3406",
+                    "fill": "gray",
+                    "name": "Second Course on Linear Algebra",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "classID": "CS 2050",
+                                    "fill": "gray",
+                                    "name": "Introduction to Discrete Math for CS",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Number Theory",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 2051",
+                                    "fill": "gray",
+                                    "name": "Honors Introduction to Discrete Math for CS",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Number Theory",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 3510",
+                                    "fill": "gray",
+                                    "name": "Design and Analysis of Algorithms",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Number Theory",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "CS 3511",
+                                    "fill": "gray",
+                                    "name": "Honors Design and Analysis of Algorithms",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Number Theory",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "MATH 4022",
+                                    "fill": "gray",
+                                    "name": "Introduction to Graph Theory",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Number Theory",
+                                    "radius": 5
+                                },
+                                {
+                                    "classID": "MATH 4032",
+                                    "fill": "gray",
+                                    "name": "Combinatorial Analysis",
+                                    "outline": "gray",
+                                    "parent": "Introduction to Number Theory",
+                                    "radius": 5
+                                }
+                            ],
+                            "fill": "gray",
+                            "name": "Discrete Math",
+                            "numChildrenNeeded": "1",
+                            "outline": "gray",
+                            "parent": "Introduction to Number Theory",
+                            "radius": 6
+                        }
+                    ],
+                    "fill": "gray",
+                    "name": "- MATH 4150",
+                    "numChildrenNeeded": -1,
+                    "outline": "gray",
+                    "parent": "Required Courses",
+                    "radius": 6
+                },
+                {
+                    "classID": "FREE-THRY1",
+                    "fill": "gray",
+                    "name": "Free Elective-Foundations",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "FREE-THRY2",
+                    "fill": "gray",
+                    "name": "Free Elective-Foundations",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "FREE-THRY3",
+                    "fill": "gray",
+                    "name": "Free Elective-Foundations",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3240",
+                    "fill": "gray",
+                    "name": "Languages and Computation",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4520",
+                    "fill": "gray",
+                    "name": "Approximation Algorithms",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4530",
+                    "fill": "gray",
+                    "name": "Randomized Algorithms",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 6520",
+                    "fill": "gray",
+                    "name": "Computational Complexity",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 3770",
+                    "fill": "gray",
+                    "name": "Statistics and Applications",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 4012",
+                    "fill": "gray",
+                    "name": "Algebraic Structures for Coding Theory",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 4022",
+                    "fill": "gray",
+                    "name": "Introduction to Graph Theory",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 4150",
+                    "fill": "gray",
+                    "name": "Introduction to Number Theory and Cryptography",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 4107",
+                    "fill": "gray",
+                    "name": "Abstract Algebra I",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 4255",
+                    "fill": "gray",
+                    "name": "Monte Carlo Methods",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 4280",
+                    "fill": "gray",
+                    "name": "Introduction to Information Theory",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 4305",
+                    "fill": "gray",
+                    "name": "Topics in Linear Algebra",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 4580",
+                    "fill": "gray",
+                    "name": "Linear Programming",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 4640",
+                    "fill": "gray",
+                    "name": "Numerical Analysis I",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "MATH 4782",
+                    "fill": "gray",
+                    "name": "Quantum Information and Quantum Computation",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3251",
+                    "fill": "gray",
+                    "name": "Computer Networking I",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3451",
+                    "fill": "gray",
+                    "name": "Computer Graphics",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4400",
+                    "fill": "gray",
+                    "name": "Introduction to Database Systems",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4235",
+                    "fill": "gray",
+                    "name": "Introduction to Information Security",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3210",
+                    "fill": "gray",
+                    "name": "Design of Operating Systems",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4496",
+                    "fill": "gray",
+                    "name": "Computer Animation",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 3600",
+                    "fill": "gray",
+                    "name": "Introduction to Artificial Intelligence",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CS 4641",
+                    "fill": "gray",
+                    "name": "Machine Learning",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CX 4140",
+                    "fill": "gray",
+                    "name": "Computational Modeling Algorithms",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                },
+                {
+                    "classID": "CX 4230",
+                    "fill": "gray",
+                    "name": "Modeling and Simulation: Fundamentals and Implementation",
+                    "outline": "gray",
+                    "parent": "Theory",
+                    "radius": 5
+                }
+            ],
             "fill": "gray",
-            "name": "Introduction to Computing and Programming",
+            "name": "Required Courses",
+            "numChildrenNeeded": "-1",
             "outline": "gray",
             "parent": "Theory",
-            "radius": 5
-        },
-        {
-            "classID": "CS 1331",
-            "fill": "gray",
-            "name": "Introduction to Object-Oriented Programming",
-            "outline": "gray",
-            "parent": "Theory",
-            "radius": 5
-        },
-        {
-            "classID": "CS 1332",
-            "fill": "gray",
-            "name": "Data Structures and Algorithms",
-            "outline": "gray",
-            "parent": "Theory",
-            "radius": 5
-        },
-        {
-            "classID": "CS 2110",
-            "fill": "gray",
-            "name": "Computing Organization and Programming",
-            "outline": "gray",
-            "parent": "Theory",
-            "radius": 5
-        },
-        {
-            "classID": "CS 2340",
-            "fill": "gray",
-            "name": "Objects and Design",
-            "outline": "gray",
-            "parent": "Theory",
-            "radius": 5
-        },
-        {
-            "classID": "CS 4510",
-            "fill": "gray",
-            "name": "Automata and Complexity Theory",
-            "outline": "gray",
-            "parent": "Theory",
-            "radius": 5
-        },
-        {
-            "classID": "CS 4540",
-            "fill": "gray",
-            "name": "Advanced Algorithms",
-            "outline": "gray",
-            "parent": "Theory",
-            "radius": 5
-        },
-        {
-            "classID": "MATH 3406",
-            "fill": "gray",
-            "name": "Second Course on Linear Algebra",
-            "outline": "gray",
-            "parent": "Theory",
-            "radius": 5
-        },
-        {
-            "children": null,
-            "fill": "gray",
-            "name": "- MATH 4150",
-            "numChildrenNeeded": -1,
-            "outline": "grey",
-            "parent": "Required Courses",
             "radius": 6
         }
     ],
     "fill": "gray",
     "name": "Theory",
     "numChildrenNeeded": -1,
-    "outline": "grey",
+    "outline": "gray",
     "parent": "Graduation",
     "radius": 6
 }
@@ -146,7 +656,7 @@
     "fill": "gray",
     "name": "Graduation",
     "numChildrenNeeded": -1,
-    "outline": "grey",
+    "outline": "gray",
     "parent": "null",
     "radius": 6
 }
