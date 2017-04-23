@@ -1,0 +1,16 @@
+/**
+ * @file
+ * CSS print styles
+ *
+ * Includes styling overrides for when pages are printed
+ *
+ */
+
+#masthead,
+#support,
+#sidebar-right,
+#superfooter,
+#footer #footer-utility-links
+{
+    display: none;
+} 
