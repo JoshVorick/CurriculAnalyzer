@@ -2,19 +2,22 @@ from flask import Flask, render_template, request, redirect, url_for, json, json
 import sqlite3 as sql
 app = Flask(__name__)
 
+
 @app.route('/')
-def home():
-   return render_template('index.html')
+def introPage():
+   return render_template('introPage.html')
+   
 
-
-
+@app.route('/treeView')
+def treeView():
+   return render_template('treeView.html')
+   
 
 
 @app.route('/data')
 def data():
    data = open('threads/out/this.json').read()
    return data
-
 
 
 @app.route('/ListAllCourses', methods=['GET'])

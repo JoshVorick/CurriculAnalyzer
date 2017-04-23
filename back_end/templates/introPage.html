@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}">
 
         <style>
             .button {
@@ -110,9 +110,16 @@
                         }
                         count = count - 1 
                     }
-                    localStorage.setItem("storageName",threadCombination);
-                    
-                
+                    localStorage.setItem("threadOne", thread1);
+                    localStorage.setItem("threadTwo", thread2);
+                    localStorage.setItem("threadCombo", threadCombination);
+                }
+
+                function goToTreeView() {
+                    localStorage.setItem("threadOne", thread1);
+                    localStorage.setItem("threadTwo", thread2);
+                    localStorage.setItem("threadCombo", threadCombination);
+                    window.location.href = "treeView";
                 }
             </script>
 
@@ -136,7 +143,7 @@
             </div>
                     
             <div style="width:50%;float:right;text-align: center;color:white">
-                    <input class = "button1" type="button" id="continue" onclick="location.href='http://127.0.0.1:5000'" value="Continue without Login" />
+                    <input class = "button1" type="button" id="continue" onclick="goToTreeView();" value="Continue without Login" />
 
             </div>
         </div>

@@ -140,6 +140,39 @@
         </div>
 
 <script>
+// ********** Load thread choices from local storage ***************
+var threadOne = localStorage.getItem("threadOne");
+var threadTwo = localStorage.getItem("threadTwo");
+var threadCombo = localStorage.getItem("threadCombo");
+console.log("Threads:", threadOne, threadTwo, threadCombo);
+var string = "";
+if (threadOne == "ai" || threadTwo == "ai") {
+    // Do stuff
+}
+if (threadOne == "info" || threadTwo == "info") {
+    // Do stuff
+}
+if (threadOne == "media" || threadTwo == "media") {
+    // Do stuff
+}
+if (threadOne == "people" || threadTwo == "people") {
+    // Do stuff
+}
+if (threadOne == "theory" || threadTwo == "theory") {
+    // Do stuff
+}
+if (threadOne == "sysArch" || threadTwo == "sysArch") {
+    // Do stuff
+}
+if (threadOne == "modSim" || threadTwo == "modSim") {
+    // Do stuff
+}
+if (threadOne == "devices" || threadTwo == "devices") {
+    // Do stuff
+}
+
+
+
 function removePlan(data) {
   nodes = tree.nodes(root).reverse();
   for(node in nodes) {
