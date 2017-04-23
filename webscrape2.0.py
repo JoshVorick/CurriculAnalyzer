@@ -28,7 +28,7 @@ print(time() - timer)
 threads = ("devices", "information-internetworks", "intelligence", "media", "modeling-simulation", "people-0", "systems-architecture", "theorythread")
 threadReqs = []
 for thread in threads:
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome("/Users/xiangtiangu/Downloads/chromedriver")
     driver.get("http://www.cc.gatech.edu/" + thread)
     soup = BeautifulSoup(driver.page_source, "html.parser")
     [s.extract() for s in soup(['style', 'script', '[document]', 'head', 'title'])]

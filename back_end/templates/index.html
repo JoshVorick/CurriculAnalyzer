@@ -28,10 +28,24 @@
               $('a#Plan').bind('click', function() {
                 $.getJSON($SCRIPT_ROOT + '/searchCourse', {
                   a: $('input[name="a"]').val(),
-                  b: $('input[name="b"]').val()
+                  
                 }, function(data) {
                   if(data.result != false) {
-                    $("#planList").prepend(data.result + '<br>');
+                    $("#planList").prepend(
+                      '<button type="button" onclick="removePlan($(this).context.innerHTML);$(this).remove();">' + data.result + '</button><br>'
+                      );
+                    nodes = tree.nodes(root).reverse();
+                    for(node in nodes) {
+                      console.log(nodes[node].classID)
+                      if(nodes[node].classID == data.result){
+                        nodes[node].planned = 1;
+                        console.log(data.result + " is now planned");
+                        update(root);
+                      }
+
+                    }
+
+
                   }
                 });
                 return false;
@@ -39,10 +53,24 @@
               $('a#Completed').bind('click', function() {
                 $.getJSON($SCRIPT_ROOT + '/searchCourse', {
                   a: $('input[name="a"]').val(),
-                  b: $('input[name="b"]').val()
+                  
                 }, function(data) {
                   if(data.result != false) {
-                    $("#completedList").prepend(data.result + '<br>');
+                    $("#completedList").prepend(
+                      '<button type="button" onclick="removeTaken($(this).context.innerHTML);$(this).remove();">' + data.result + '</button><br>'
+                      );
+                    nodes = tree.nodes(root).reverse();
+                    for(node in nodes) {
+                      console.log(nodes[node].classID)
+                      if(nodes[node].classID == data.result){
+                        nodes[node].taken = 1;
+                        console.log(data.result + " is now taken");
+                        update(root);
+                      }
+
+                    }
+
+
                   }
                 });
                 return false;
@@ -51,7 +79,7 @@
           </script>
 
           <p><input type=text size=5 name=a> 
-          <input type=text size=5 name=b> 
+
    
           <p><a href=# id=Plan>Plan</a>
           <p><a href=# id=Completed>Completed</a>              
@@ -112,155 +140,183 @@
         </div>
 
 <script>
-
-window.onload = alert(localStorage.getItem("storageName"));
-
-var treeData = [
-  {
-    "name": "Graduation",
-    "parent": "null",
-    "radius": 10,
-    "outline": "grey",
-    "fill": "grey",
-    "numChildrenNeeded": 2,
-    "children": [
-      {
-        "name": "HiLvlInfo",
-        "parent": "Graduation",
-        "radius": 6,
-        "outline": "grey",
-        "fill": "grey",
-        "numChildrenNeeded": 2,
-        "children": [
-          {
-            "name": "CS3251",
-            "parent": "HiLvlInfo",
-            "radius": 5,
-            "outline": "grey",
-            "fill": "grey"
-          },
-          {
-            "name": "CS4400",
-            "parent": "HiLvlInfo",
-            "radius": 5,
-            "outline": "grey",
-            "fill": "grey"
-          },
-          {
-            "name": "CS4235",
-            "parent": "HiLvlInfo",
-            "radius": 5,
-            "outline": "grey",
-            "fill": "grey"
-          }
-        ]
-      },
-      {
-        "name": "Intelligence",
-        "parent": "Graduation",
-        "radius": 7,
-        "outline": "grey",
-        "fill": "grey",
-        "numChildrenNeeded": 2,
-        "children": [
-        {
-          "name": "EI",
-          "parent": "Intelligence",
-          "radius": 6,
-          "outline": "grey",
-          "fill": "grey",
-          "numChildrenNeeded": 2,
-          "children": [
-            {
-              "name": "CS3630",
-              "parent": "Intelligence",
-              "radius": 6,
-              "outline": "grey",
-              "fill": "grey",
-              "numChildrenNeeded": 1,
-              "children": [
-                {
-                  "name": "CS3629",
-                  "parent": "CS3630",
-                  "radius": 5,
-                  "outline": "grey",
-                  "fill": "grey",
-                }
-              ]
-            },
-            {
-              "name": "CS3790",
-              "parent": "Intelligence",
-              "radius": 6,
-              "outline": "grey",
-              "fill": "grey",
-            },
-            {
-              "name": "PSY3040",
-              "parent": "Intelligence",
-              "radius": 6,
-              "outline": "grey",
-              "fill": "grey",
-            }
-          ]
-        },
-        {
-          "name": "AtoI",
-          "parent": "Intelligence",
-          "radius": 6,
-          "outline": "grey",
-          "fill": "grey",
-          "numChildrenNeeded": 2,
-          "children": [
-            {
-              "name": "CS4650",
-              "parent": "HiLvlIntel",
-              "radius": 5,
-              "outline": "grey",
-              "fill": "grey"
-            },
-            {
-              "name": "CS4510",
-              "parent": "HiLvlIntel",
-              "radius": 5,
-              "outline": "grey",
-              "fill": "grey"
-            },
-            {
-              "name": "CS4731",
-              "parent": "HiLvlIntel",
-              "radius": 5,
-              "outline": "grey",
-              "fill": "grey"
-            },
-            {
-              "name": "CS4476",
-              "parent": "HiLvlIntel",
-              "radius": 5,
-              "outline": "grey",
-              "fill": "grey"
-            },
-            {
-              "name": "CS4635",
-              "parent": "HiLvlIntel",
-              "radius": 5,
-              "outline": "grey",
-              "fill": "grey"
-            },
-            {
-              "name": "CS4649",
-              "parent": "HiLvlIntel",
-              "radius": 5,
-              "outline": "grey",
-              "fill": "grey"
-            }
-          ] //end of intelchoicechildren
-        }//end of hifillintel
-      ]//end of intel children
-    }//end of intel node
-  ]
+function removePlan(data) {
+  nodes = tree.nodes(root).reverse();
+  for(node in nodes) {
+    var CS = data.substring(0, 2);
+    var number = data.substring(2, data.length);
+    console.log(CS+number)
+    if(nodes[node].classID == (CS + number)){
+      nodes[node].planned = 0;
+      console.log(nodes[node].planned);
+      console.log(data + " is now not planned");
+      update(root);
+    }
   }
-];
+}
+
+function removeTaken(data) {
+  nodes = tree.nodes(root).reverse();
+  for(node in nodes) {
+    var CS = data.substring(0, 2);
+    var number = data.substring(2, data.length);
+    console.log(CS+number)
+    if(nodes[node].classID == (CS + number)){
+      nodes[node].taken = 0;
+      console.log(nodes[node].taken);
+      console.log(data + " is now not taken");
+      update(root);
+    }
+  }
+}
+//window.onload = alert(localStorage.getItem("storageName"));
+
+// var treeData = [
+//   {
+//     "name": "Graduation",
+//     "parent": "null",
+//     "radius": 10,
+//     "outline": "grey",
+//     "fill": "grey",
+//     "numChildrenNeeded": 2,
+//     "children": [
+//       {
+//         "name": "HiLvlInfo",
+//         "parent": "Graduation",
+//         "radius": 6,
+//         "outline": "grey",
+//         "fill": "grey",
+//         "numChildrenNeeded": 2,
+//         "children": [
+//           {
+//             "name": "CS3251",
+//             "parent": "HiLvlInfo",
+//             "radius": 5,
+//             "outline": "grey",
+//             "fill": "grey"
+//           },
+//           {
+//             "name": "CS4400",
+//             "parent": "HiLvlInfo",
+//             "radius": 5,
+//             "outline": "grey",
+//             "fill": "grey"
+//           },
+//           {
+//             "name": "CS4235",
+//             "parent": "HiLvlInfo",
+//             "radius": 5,
+//             "outline": "grey",
+//             "fill": "grey"
+//           }
+//         ]
+//       },
+//       {
+//         "name": "Intelligence",
+//         "parent": "Graduation",
+//         "radius": 7,
+//         "outline": "grey",
+//         "fill": "grey",
+//         "numChildrenNeeded": 2,
+//         "children": [
+//         {
+//           "name": "EI",
+//           "parent": "Intelligence",
+//           "radius": 6,
+//           "outline": "grey",
+//           "fill": "grey",
+//           "numChildrenNeeded": 2,
+//           "children": [
+//             {
+//               "name": "CS3630",
+//               "parent": "Intelligence",
+//               "radius": 6,
+//               "outline": "grey",
+//               "fill": "grey",
+//               "numChildrenNeeded": 1,
+//               "children": [
+//                 {
+//                   "name": "CS3629",
+//                   "parent": "CS3630",
+//                   "radius": 5,
+//                   "outline": "grey",
+//                   "fill": "grey",
+//                 }
+//               ]
+//             },
+//             {
+//               "name": "CS3790",
+//               "parent": "Intelligence",
+//               "radius": 6,
+//               "outline": "grey",
+//               "fill": "grey",
+//             },
+//             {
+//               "name": "PSY3040",
+//               "parent": "Intelligence",
+//               "radius": 6,
+//               "outline": "grey",
+//               "fill": "grey",
+//             }
+//           ]
+//         },
+//         {
+//           "name": "AtoI",
+//           "parent": "Intelligence",
+//           "radius": 6,
+//           "outline": "grey",
+//           "fill": "grey",
+//           "numChildrenNeeded": 2,
+//           "children": [
+//             {
+//               "name": "CS4650",
+//               "parent": "HiLvlIntel",
+//               "radius": 5,
+//               "outline": "grey",
+//               "fill": "grey"
+//             },
+//             {
+//               "name": "CS4510",
+//               "parent": "HiLvlIntel",
+//               "radius": 5,
+//               "outline": "grey",
+//               "fill": "grey"
+//             },
+//             {
+//               "name": "CS4731",
+//               "parent": "HiLvlIntel",
+//               "radius": 5,
+//               "outline": "grey",
+//               "fill": "grey"
+//             },
+//             {
+//               "name": "CS4476",
+//               "parent": "HiLvlIntel",
+//               "radius": 5,
+//               "outline": "grey",
+//               "fill": "grey"
+//             },
+//             {
+//               "name": "CS4635",
+//               "parent": "HiLvlIntel",
+//               "radius": 5,
+//               "outline": "grey",
+//               "fill": "grey"
+//             },
+//             {
+//               "name": "CS4649",
+//               "parent": "HiLvlIntel",
+//               "radius": 5,
+//               "outline": "grey",
+//               "fill": "grey"
+//             }
+//           ] //end of intelchoicechildren
+//         }//end of hifillintel
+//       ]//end of intel children
+//     }//end of intel node
+//   ]
+//   }
+// ];
 // ************** Generate the tree diagram  *****************
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
   width = 960 - margin.right - margin.left,
@@ -285,10 +341,19 @@ var svg = d3.select("body")
     svg.attr("transform", "translate(" + d3.event.translate + ")" + " scale(" + d3.event.scale + ")")
   }))
   .append("g")
-root = treeData[0];
-root.x0 = width;
-root.y0 = height/2;
-update(root);
+
+
+
+
+
+d3.json("/data", function(data){
+    console.log(data);
+     root = data[0];
+    root.x0 = width;
+     root.y0 = height/2;
+     update(root);
+ });
+
 d3.select(self.frameElement).style("height", "500px");
 function update(source) {
   // Compute the new tree layout.
@@ -349,11 +414,14 @@ function update(source) {
         d.fill = "green"
       }
       var reg = /\d/g;
-      if(!reg.test(d.name)) {
+      if(!reg.test(d.classID)) {
         if(d.fill == "white") {
           d.fill = "green"
           d.taken = 1
         }
+      }
+      if(d.planned == 1) {
+        d.fill = "blue"
       }
       return d.fill;});
     // .attr("r", 10)
@@ -405,18 +473,19 @@ function update(source) {
 // Toggle children on click.
 // Take the user to course crituqe page
  function click(d) {
-  //  d.taken = !d.taken
-  //  while(d) {
-  //    update(d)
-  //    d = d.parent
-  //  }
-  if (d.children) {
-    d._children = d.children;
-    d.children = null;
-  } else {
-    d.children = d._children;
-    d._children = null;
-  }
+   d.taken = !d.taken
+   while(d) {
+     update(d)
+     d = d.parent
+   }
+   console.log("hwy")
+  // if (d.children) {
+  //   d._children = d.children;
+  //   d.children = null;
+  // } else {
+  //   d.children = d._children;
+  //   d._children = null;
+  // }
   update(d);
  }
 </script>

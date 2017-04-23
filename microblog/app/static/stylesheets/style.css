@@ -1,0 +1,120 @@
+body {
+    background-color: #3D3D3D;
+}
+nav {
+    float: left;
+    width: 25%;
+    margin: 0;
+}
+
+/*.title {
+    border-bottom: 3px solid #000000;
+    margin-bottom: 20px;
+}*/
+
+.tree {
+/*    background-color: #000000;
+*/    float: right;
+    width: 75%;
+    height: 900px;
+    margin: 0;
+}
+
+
+.ui-autocomplete-loading {
+    background: white url("images/ui-anim_basic_16x16.gif") right center no-repeat;
+  }
+
+.button {
+
+}
+
+.blueButton {
+    background-color: #D4E1F5;
+}
+
+.greenButton {
+    background-color: #97D077;
+}
+
+.listsArea {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.planList {
+    background-color: #D4E1F5;
+    overflow: auto;
+    min-height: 300px;
+}
+
+
+.completedList {
+    background-color: #97D077;
+    min-height: 300px;
+    overflow: auto;
+}
+
+.right{
+    position: absolute;
+    right: 0px;
+}
+
+.node {
+        cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+
+.node text {
+      font: 12px sans-serif;
+}
+
+.link {
+     fill: none;
+     stroke: #ccc;
+     stroke-width: 2px;
+}
+
+
+
+.button rect {
+  stroke: #999faa; /* navy 40% */
+  stroke-width: 2px;
+}
+
+.button rect.pressed {
+  fill: #000f2b; /* navy 100% */
+}
+
+.button #gradient-start {
+  stop-color: #999faa; /* navy 40% */
+  stop-opacity: 1;
+}
+
+.button #gradient-stop {
+  stop-color: #4d576b; /* navy 70% */
+  stop-opacity: 1;
+}
+
+.button #gradient-start.active, .button #gradient-start.pressed {
+  stop-color: #4d576b; /* navy 70% */
+}
+
+.button #gradient-stop.active, .button #gradient-stop.pressed {
+  stop-color: #000f2b; /* navy 100% */
+}
+
+.button text {
+  font-size: 30px;
+  fill: #eee;
+  pointer-events: none;
+  text-anchor: middle;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

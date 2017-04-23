@@ -10,7 +10,10 @@ def home():
 
 
 
-
+@app.route('/data')
+def data():
+   data = open('static/info&ai.json').read()
+   return data
 
 
 
@@ -40,8 +43,10 @@ def ListAllCourse():
 
 @app.route('/searchCourse')
 def searchCourse():
-   a = request.args.get('a')
-   b = request.args.get('b')
+   fullName = request.args.get('a')
+   a = 'CS'
+   b = fullName[2:]
+
    con = sql.connect("database.db")
    con.row_factory = sql.Row
    cur = con.cursor()
@@ -49,7 +54,7 @@ def searchCourse():
    rows = cur.fetchall()    
 
    if len(rows) != 0:
-      return jsonify(result=a + b)
+      return jsonify(result=a + " " + b)
    
    return jsonify(result=False)
 
