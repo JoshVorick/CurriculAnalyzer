@@ -5,49 +5,49 @@
         {
             "children": [
                 {
-                    "classID": "CS 1301",
+                    "classID": "Introduction to Computing and Programming",
                     "fill": "gray",
-                    "name": "Introduction to Computing and Programming",
+                    "name": "CS 1301",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1331",
+                    "classID": "Introduction to Object-Oriented Programming",
                     "fill": "gray",
-                    "name": "Introduction to Object-Oriented Programming",
+                    "name": "CS 1331",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1332",
+                    "classID": "Data Structures and Algorithms",
                     "fill": "gray",
-                    "name": "Data Structures and Algorithms",
+                    "name": "CS 1332",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2110",
+                    "classID": "Computing Organization and Programming",
                     "fill": "gray",
-                    "name": "Computing Organization and Programming",
+                    "name": "CS 2110",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2200",
+                    "classID": "Computer Systems and Networks",
                     "fill": "gray",
-                    "name": "Computer Systems and Networks",
+                    "name": "CS 2200",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2340",
+                    "classID": "Objects and Design",
                     "fill": "gray",
-                    "name": "Objects and Design",
+                    "name": "CS 2340",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
@@ -57,121 +57,121 @@
                         {
                             "children": [
                                 {
-                                    "classID": "CS 3510",
+                                    "classID": "Design and Analysis of Algorithms",
                                     "fill": "gray",
-                                    "name": "Design and Analysis of Algorithms",
+                                    "name": "CS 3510",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3511",
+                                    "classID": "Honors Design and Analysis of Algorithms",
                                     "fill": "gray",
-                                    "name": "Honors Design and Analysis of Algorithms",
+                                    "name": "CS 3511",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 2050",
+                                    "classID": "Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Introduction to Discrete Math for CS",
+                                    "name": "CS 2050",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 2051",
+                                    "classID": "Honors Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Honors Introduction to Discrete Math for CS",
+                                    "name": "CS 2051",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3251",
+                                    "classID": "Computer Networking 1",
                                     "fill": "gray",
-                                    "name": "Computer Networking 1",
+                                    "name": "CS 3251",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4235",
+                                    "classID": "Introduction to Information Security",
                                     "fill": "gray",
-                                    "name": "Introduction to Information Security",
+                                    "name": "CS 4235",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4400",
+                                    "classID": "Introduction to Database Systems",
                                     "fill": "gray",
-                                    "name": "Introduction to Database Systems",
+                                    "name": "CS 4400",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4237",
+                                    "classID": "Computer and Network Security",
                                     "fill": "gray",
-                                    "name": "Computer and Network Security",
+                                    "name": "CS 4237",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4251",
+                                    "classID": "Computer Networking 2",
                                     "fill": "gray",
-                                    "name": "Computer Networking 2",
+                                    "name": "CS 4251",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4255",
+                                    "classID": "Introduction to Network Management",
                                     "fill": "gray",
-                                    "name": "Introduction to Network Management",
+                                    "name": "CS 4255",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4261",
+                                    "classID": "Mobile Applications and Services for Converged Networks",
                                     "fill": "gray",
-                                    "name": "Mobile Applications and Services for Converged Networks",
+                                    "name": "CS 4261",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4270",
+                                    "classID": "Data Communications Laboratory",
                                     "fill": "gray",
-                                    "name": "Data Communications Laboratory",
+                                    "name": "CS 4270",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4365",
+                                    "classID": "Introduction to Enterprise Computing",
                                     "fill": "gray",
-                                    "name": "Introduction to Enterprise Computing",
+                                    "name": "CS 4365",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4420",
+                                    "classID": "Database System Implementation",
                                     "fill": "gray",
-                                    "name": "Database System Implementation",
+                                    "name": "CS 4420",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4440",
+                                    "classID": "Emerging Database Technologies and Applications",
                                     "fill": "gray",
-                                    "name": "Emerging Database Technologies and Applications",
+                                    "name": "CS 4440",
                                     "outline": "gray",
                                     "parent": "and Applications",
                                     "radius": 5
@@ -193,105 +193,105 @@
                     "radius": 6
                 },
                 {
-                    "classID": "FREE-INF1",
+                    "classID": "Free Elective-Information Internetworking",
                     "fill": "gray",
-                    "name": "Free Elective-Information Internetworking",
+                    "name": "FREE-INF1",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "FREE-INF2",
+                    "classID": "Free Elective-Information Internetworking",
                     "fill": "gray",
-                    "name": "Free Elective-Information Internetworking",
+                    "name": "FREE-INF2",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3251",
+                    "classID": "Computer Networking 1",
                     "fill": "gray",
-                    "name": "Computer Networking 1",
+                    "name": "CS 3251",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4235",
+                    "classID": "Introduction to Information Security",
                     "fill": "gray",
-                    "name": "Introduction to Information Security",
+                    "name": "CS 4235",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4400",
+                    "classID": "Introduction to Database Systems",
                     "fill": "gray",
-                    "name": "Introduction to Database Systems",
+                    "name": "CS 4400",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4237",
+                    "classID": "Computer and Network Security",
                     "fill": "gray",
-                    "name": "Computer and Network Security",
+                    "name": "CS 4237",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4251",
+                    "classID": "Computer Networking 2",
                     "fill": "gray",
-                    "name": "Computer Networking 2",
+                    "name": "CS 4251",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4255",
+                    "classID": "Introduction to Network Management",
                     "fill": "gray",
-                    "name": "Introduction to Network Management",
+                    "name": "CS 4255",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4261",
+                    "classID": "Mobile Applications and Services for Converged Networks",
                     "fill": "gray",
-                    "name": "Mobile Applications and Services for Converged Networks",
+                    "name": "CS 4261",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4270",
+                    "classID": "Data Communications Laboratory",
                     "fill": "gray",
-                    "name": "Data Communications Laboratory",
+                    "name": "CS 4270",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4365",
+                    "classID": "Introduction to Enterprise Computing",
                     "fill": "gray",
-                    "name": "Introduction to Enterprise Computing",
+                    "name": "CS 4365",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4420",
+                    "classID": "Database System Implementation",
                     "fill": "gray",
-                    "name": "Database System Implementation",
+                    "name": "CS 4420",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4440",
+                    "classID": "Emerging Database Technologies and Applications",
                     "fill": "gray",
-                    "name": "Emerging Database Technologies and Applications",
+                    "name": "CS 4440",
                     "outline": "gray",
                     "parent": "Info Internetworks",
                     "radius": 5
@@ -317,57 +317,57 @@
         {
             "children": [
                 {
-                    "classID": "CS 1301",
+                    "classID": "Introduction to Computing and Programming",
                     "fill": "gray",
-                    "name": "Introduction to Computing and Programming",
+                    "name": "CS 1301",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1331",
+                    "classID": "Introduction to Object-Oriented Programming",
                     "fill": "gray",
-                    "name": "Introduction to Object-Oriented Programming",
+                    "name": "CS 1331",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1332",
+                    "classID": "Data Structures and Algorithms",
                     "fill": "gray",
-                    "name": "Data Structures and Algorithms",
+                    "name": "CS 1332",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 1101",
+                    "classID": "Introduction to Psychology",
                     "fill": "gray",
-                    "name": "Introduction to Psychology",
+                    "name": "PSYC 1101",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2110",
+                    "classID": "Computing Organization and Programming",
                     "fill": "gray",
-                    "name": "Computing Organization and Programming",
+                    "name": "CS 2110",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2340",
+                    "classID": "Objects and Design",
                     "fill": "gray",
-                    "name": "Objects and Design",
+                    "name": "CS 2340",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3600",
+                    "classID": "Introduction to Artificial Intelligence",
                     "fill": "gray",
-                    "name": "Introduction to Artificial Intelligence",
+                    "name": "CS 3600",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
@@ -377,113 +377,113 @@
                         {
                             "children": [
                                 {
-                                    "classID": "CS 3510",
+                                    "classID": "Design and Analysis of Algorithms",
                                     "fill": "gray",
-                                    "name": "Design and Analysis of Algorithms",
+                                    "name": "CS 3510",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3511",
+                                    "classID": "Honors Design and Analysis of Algorithms",
                                     "fill": "gray",
-                                    "name": "Honors Design and Analysis of Algorithms",
+                                    "name": "CS 3511",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 2050",
+                                    "classID": "Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Introduction to Discrete Math for CS",
+                                    "name": "CS 2050",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 2051",
+                                    "classID": "Honors Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Honors Introduction to Discrete Math for CS",
+                                    "name": "CS 2051",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3240",
+                                    "classID": "Languages and Computation",
                                     "fill": "gray",
-                                    "name": "Languages and Computation",
+                                    "name": "CS 3240",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4510",
+                                    "classID": "Automata and Complexity Theory",
                                     "fill": "gray",
-                                    "name": "Automata and Complexity Theory",
+                                    "name": "CS 4510",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3630",
+                                    "classID": "Robotics and Perception",
                                     "fill": "gray",
-                                    "name": "Robotics and Perception",
+                                    "name": "CS 3630",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3790",
+                                    "classID": "Introduction to Cognitive Science",
                                     "fill": "gray",
-                                    "name": "Introduction to Cognitive Science",
+                                    "name": "CS 3790",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "PSYC 3040",
+                                    "classID": "Sensation and Perception",
                                     "fill": "gray",
-                                    "name": "Sensation and Perception",
+                                    "name": "PSYC 3040",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4476",
+                                    "classID": "Intro Computer Vision",
                                     "fill": "gray",
-                                    "name": "Intro Computer Vision",
+                                    "name": "CS 4476",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4635",
+                                    "classID": "Knowledge-based AI",
                                     "fill": "gray",
-                                    "name": "Knowledge-based AI",
+                                    "name": "CS 4635",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4641",
+                                    "classID": "Machine Learning",
                                     "fill": "gray",
-                                    "name": "Machine Learning",
+                                    "name": "CS 4641",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4649",
+                                    "classID": "Robot Intelligence",
                                     "fill": "gray",
-                                    "name": "Robot Intelligence",
+                                    "name": "CS 4649",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4650",
+                                    "classID": "Natural Language and Processing",
                                     "fill": "gray",
-                                    "name": "Natural Language and Processing",
+                                    "name": "CS 4650",
                                     "outline": "gray",
                                     "parent": "Game AI",
                                     "radius": 5
@@ -505,113 +505,113 @@
                     "radius": 6
                 },
                 {
-                    "classID": "FREE-INT1",
+                    "classID": "Free Elective-Intelligence",
                     "fill": "gray",
-                    "name": "Free Elective-Intelligence",
+                    "name": "FREE-INT1",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "FREE-INT2",
+                    "classID": "Free Elective-Intelligence",
                     "fill": "gray",
-                    "name": "Free Elective-Intelligence",
+                    "name": "FREE-INT2",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3790",
+                    "classID": "Introduction to Cognitive Science",
                     "fill": "gray",
-                    "name": "Introduction to Cognitive Science",
+                    "name": "CS 3790",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4615",
+                    "classID": "Modeling and Design",
                     "fill": "gray",
-                    "name": "Modeling and Design",
+                    "name": "CS 4615",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4635",
+                    "classID": "Knowledge-based AI",
                     "fill": "gray",
-                    "name": "Knowledge-based AI",
+                    "name": "CS 4635",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4649",
+                    "classID": "Robot Intelligence: Planning",
                     "fill": "gray",
-                    "name": "Robot Intelligence: Planning",
+                    "name": "CS 4649",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4650",
+                    "classID": "Natural Language Understanding",
                     "fill": "gray",
-                    "name": "Natural Language Understanding",
+                    "name": "CS 4650",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4464",
+                    "classID": "Computational Journalism",
                     "fill": "gray",
-                    "name": "Computational Journalism",
+                    "name": "CS 4464",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4616",
+                    "classID": "Pattern Recognition",
                     "fill": "gray",
-                    "name": "Pattern Recognition",
+                    "name": "CS 4616",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4641",
+                    "classID": "Machine Learning",
                     "fill": "gray",
-                    "name": "Machine Learning",
+                    "name": "CS 4641",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4280",
+                    "classID": "Introduction to Information Theory",
                     "fill": "gray",
-                    "name": "Introduction to Information Theory",
+                    "name": "MATH 4280",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3651",
+                    "classID": "The Art of Building Intelligent Appliances",
                     "fill": "gray",
-                    "name": "The Art of Building Intelligent Appliances",
+                    "name": "CS 3651",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4476",
+                    "classID": "Intro Computer Vision",
                     "fill": "gray",
-                    "name": "Intro Computer Vision",
+                    "name": "CS 4476",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4731",
+                    "classID": "Game AI",
                     "fill": "gray",
-                    "name": "Game AI",
+                    "name": "CS 4731",
                     "outline": "gray",
                     "parent": "Intelligence",
                     "radius": 5

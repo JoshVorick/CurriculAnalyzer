@@ -68,8 +68,9 @@ def generateJson(lines, parent):
                 elif lines[i][0] == "-":
                     print("Class Added: %s:" % lines[i])
                     line = lines[i][2:].split(",")
-                    classID = line[0].strip()
-                    name = line[1].strip()
+                    # THESE ARE SWAPPED FOR NOW
+                    name = line[0].strip()
+                    classID = line[1].strip()
                     children += [Class(classID, name, parent)]
 
     return [Group(groupName, parent, list(children), numChildrenNeeded)]

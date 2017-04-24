@@ -5,49 +5,49 @@
         {
             "children": [
                 {
-                    "classID": "CS 1301",
+                    "classID": "Introduction to Computing and Programming",
                     "fill": "gray",
-                    "name": "Introduction to Computing and Programming",
+                    "name": "CS 1301",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1331",
+                    "classID": "Introduction to Object-Oriented Programming",
                     "fill": "gray",
-                    "name": "Introduction to Object-Oriented Programming",
+                    "name": "CS 1331",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2340",
+                    "classID": "Objects and Design",
                     "fill": "gray",
-                    "name": "Objects and Design",
+                    "name": "CS 2340",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3750",
+                    "classID": "Human-Computer Interface Design and Evaluation",
                     "fill": "gray",
-                    "name": "Human-Computer Interface Design and Evaluation",
+                    "name": "CS 3750",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 1101",
+                    "classID": "Introduction to Psychology",
                     "fill": "gray",
-                    "name": "Introduction to Psychology",
+                    "name": "PSYC 1101",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 2015",
+                    "classID": "Research Methods and Practices",
                     "fill": "gray",
-                    "name": "Research Methods and Practices",
+                    "name": "PSYC 2015",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
@@ -57,65 +57,65 @@
                         {
                             "children": [
                                 {
-                                    "classID": "PSYC 2210",
+                                    "classID": "Social Psychology",
                                     "fill": "gray",
-                                    "name": "Social Psychology",
+                                    "name": "PSYC 2210",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "PSYC 2760",
+                                    "classID": "Psychology of Human Language",
                                     "fill": "gray",
-                                    "name": "Psychology of Human Language",
+                                    "name": "PSYC 2760",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "PSYC 3040",
+                                    "classID": "Sensation and Perception",
                                     "fill": "gray",
-                                    "name": "Sensation and Perception",
+                                    "name": "PSYC 3040",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3790",
+                                    "classID": "Introduction to Cognitive Science",
                                     "fill": "gray",
-                                    "name": "Introduction to Cognitive Science",
+                                    "name": "CS 3790",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4460",
+                                    "classID": "Information Visualization",
                                     "fill": "gray",
-                                    "name": "Information Visualization",
+                                    "name": "CS 4460",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4470",
+                                    "classID": "Introduction to User Interface Software",
                                     "fill": "gray",
-                                    "name": "Introduction to User Interface Software",
+                                    "name": "CS 4470",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4472",
+                                    "classID": "Design of Online Communities",
                                     "fill": "gray",
-                                    "name": "Design of Online Communities",
+                                    "name": "CS 4472",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4605",
+                                    "classID": "Mobile and Ubiquitous Computing",
                                     "fill": "gray",
-                                    "name": "Mobile and Ubiquitous Computing",
+                                    "name": "CS 4605",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
@@ -137,137 +137,137 @@
                     "radius": 6
                 },
                 {
-                    "classID": "FREE-PEP1",
+                    "classID": "Free Elective-People",
                     "fill": "gray",
-                    "name": "Free Elective-People",
+                    "name": "FREE-PEP1",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "FREE-PEP2",
+                    "classID": "Free Elective-People",
                     "fill": "gray",
-                    "name": "Free Elective-People",
+                    "name": "FREE-PEP2",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4660",
+                    "classID": "Introduction to Educational Technology",
                     "fill": "gray",
-                    "name": "Introduction to Educational Technology",
+                    "name": "CS 4660",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4665",
+                    "classID": "Educational Technology: Design and Evaluation",
                     "fill": "gray",
-                    "name": "Educational Technology: Design and Evaluation",
+                    "name": "CS 4665",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4670",
+                    "classID": "Computer-Supported Collaborative Learning",
                     "fill": "gray",
-                    "name": "Computer-Supported Collaborative Learning",
+                    "name": "CS 4670",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4472",
+                    "classID": "Design of Online Communities",
                     "fill": "gray",
-                    "name": "Design of Online Communities",
+                    "name": "CS 4472",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4690",
+                    "classID": "Qualitative Methods",
                     "fill": "gray",
-                    "name": "Qualitative Methods",
+                    "name": "CS 4690",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4770",
+                    "classID": "Mixed Reality Experience Design",
                     "fill": "gray",
-                    "name": "Mixed Reality Experience Design",
+                    "name": "CS 4770",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 2020",
+                    "classID": "Psychological Statistics",
                     "fill": "gray",
-                    "name": "Psychological Statistics",
+                    "name": "PSYC 2020",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3790",
+                    "classID": "Introduction to Cognitive Science",
                     "fill": "gray",
-                    "name": "Introduction to Cognitive Science",
+                    "name": "CS 3790",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4793",
+                    "classID": "Perspectives Cognitive Science",
                     "fill": "gray",
-                    "name": "Perspectives Cognitive Science",
+                    "name": "CS 4793",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 2210",
+                    "classID": "Social Psychology",
                     "fill": "gray",
-                    "name": "Social Psychology",
+                    "name": "PSYC 2210",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 2760",
+                    "classID": "Psychology of Human Language",
                     "fill": "gray",
-                    "name": "Psychology of Human Language",
+                    "name": "PSYC 2760",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 3012",
+                    "classID": "Cognitive Psychology",
                     "fill": "gray",
-                    "name": "Cognitive Psychology",
+                    "name": "PSYC 3012",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 3040",
+                    "classID": "Sensation and Perception",
                     "fill": "gray",
-                    "name": "Sensation and Perception",
+                    "name": "PSYC 3040",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 4090",
+                    "classID": "Cognitive Neuropsychology",
                     "fill": "gray",
-                    "name": "Cognitive Neuropsychology",
+                    "name": "PSYC 4090",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 4260",
+                    "classID": "Aging",
                     "fill": "gray",
-                    "name": "Aging",
+                    "name": "PSYC 4260",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
@@ -293,73 +293,73 @@
         {
             "children": [
                 {
-                    "classID": "CS 1301",
+                    "classID": "Introduction to Computing and Programming",
                     "fill": "gray",
-                    "name": "Introduction to Computing and Programming",
+                    "name": "CS 1301",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1331",
+                    "classID": "Introduction to Object-Oriented Programming",
                     "fill": "gray",
-                    "name": "Introduction to Object-Oriented Programming",
+                    "name": "CS 1331",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1332",
+                    "classID": "Data structures and Algorithms",
                     "fill": "gray",
-                    "name": "Data structures and Algorithms",
+                    "name": "CS 1332",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2110",
+                    "classID": "Computing Organization and Programming",
                     "fill": "gray",
-                    "name": "Computing Organization and Programming",
+                    "name": "CS 2110",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2200",
+                    "classID": "Computer Systems and Networks",
                     "fill": "gray",
-                    "name": "Computer Systems and Networks",
+                    "name": "CS 2200",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2340",
+                    "classID": "Objects and Design",
                     "fill": "gray",
-                    "name": "Objects and Design",
+                    "name": "CS 2340",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3210",
+                    "classID": "Design of Operating Systems",
                     "fill": "gray",
-                    "name": "Design of Operating Systems",
+                    "name": "CS 3210",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3220",
+                    "classID": "Computer Structures: HW/SW Codesign of a Processor",
                     "fill": "gray",
-                    "name": "Computer Structures: HW/SW Codesign of a Processor",
+                    "name": "CS 3220",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "ECE 2031",
+                    "classID": "Digital Design Laboratory",
                     "fill": "gray",
-                    "name": "Digital Design Laboratory",
+                    "name": "ECE 2031",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
@@ -369,65 +369,65 @@
                         {
                             "children": [
                                 {
-                                    "classID": "CS 3510",
+                                    "classID": "Design and Analysis of Algorithms",
                                     "fill": "gray",
-                                    "name": "Design and Analysis of Algorithms",
+                                    "name": "CS 3510",
                                     "outline": "gray",
                                     "parent": "and Program Analyzers",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3511",
+                                    "classID": "Honors Design and Analysis of Algorithms",
                                     "fill": "gray",
-                                    "name": "Honors Design and Analysis of Algorithms",
+                                    "name": "CS 3511",
                                     "outline": "gray",
                                     "parent": "and Program Analyzers",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 2050",
+                                    "classID": "Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Introduction to Discrete Math for CS",
+                                    "name": "CS 2050",
                                     "outline": "gray",
                                     "parent": "and Program Analyzers",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 2051",
+                                    "classID": "Honors Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Honors Introduction to Discrete Math for CS",
+                                    "name": "CS 2051",
                                     "outline": "gray",
                                     "parent": "and Program Analyzers",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4210",
+                                    "classID": "Advanced Operating Systems",
                                     "fill": "gray",
-                                    "name": "Advanced Operating Systems",
+                                    "name": "CS 4210",
                                     "outline": "gray",
                                     "parent": "and Program Analyzers",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4220",
+                                    "classID": "Programming Embedded Systems",
                                     "fill": "gray",
-                                    "name": "Programming Embedded Systems",
+                                    "name": "CS 4220",
                                     "outline": "gray",
                                     "parent": "and Program Analyzers",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4290",
+                                    "classID": "Advanced Computer Organization",
                                     "fill": "gray",
-                                    "name": "Advanced Computer Organization",
+                                    "name": "CS 4290",
                                     "outline": "gray",
                                     "parent": "and Program Analyzers",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3300",
+                                    "classID": "Introduction to Software Engineering",
                                     "fill": "gray",
-                                    "name": "Introduction to Software Engineering",
+                                    "name": "CS 3300",
                                     "outline": "gray",
                                     "parent": "and Program Analyzers",
                                     "radius": 5
@@ -449,169 +449,169 @@
                     "radius": 6
                 },
                 {
-                    "classID": "FREE-PLAT1",
+                    "classID": "Free Elective-Platforms",
                     "fill": "gray",
-                    "name": "Free Elective-Platforms",
+                    "name": "FREE-PLAT1",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "FREE-PLAT2",
+                    "classID": "Free Elective-Platforms",
                     "fill": "gray",
-                    "name": "Free Elective-Platforms",
+                    "name": "FREE-PLAT2",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4210",
+                    "classID": "Advanced Operating Systems",
                     "fill": "gray",
-                    "name": "Advanced Operating Systems",
+                    "name": "CS 4210",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4233",
+                    "classID": "Parallel Computer Architecture",
                     "fill": "gray",
-                    "name": "Parallel Computer Architecture",
+                    "name": "CS 4233",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4290",
+                    "classID": "Advanced Computer Organization",
                     "fill": "gray",
-                    "name": "Advanced Computer Organization",
+                    "name": "CS 4290",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4210",
+                    "classID": "Advanced Operating Systems",
                     "fill": "gray",
-                    "name": "Advanced Operating Systems",
+                    "name": "CS 4210",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4675",
+                    "classID": "Internet Computing Systems",
                     "fill": "gray",
-                    "name": "Internet Computing Systems",
+                    "name": "CS 4675",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4685",
+                    "classID": "Pervasive Systems and Networking",
                     "fill": "gray",
-                    "name": "Pervasive Systems and Networking",
+                    "name": "CS 4685",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4220",
+                    "classID": "Programming Embedded Systems",
                     "fill": "gray",
-                    "name": "Programming Embedded Systems",
+                    "name": "CS 4220",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4685",
+                    "classID": "Pervasive Systems and Networking",
                     "fill": "gray",
-                    "name": "Pervasive Systems and Networking",
+                    "name": "CS 4685",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4220",
+                    "classID": "Programming Embedded Systems",
                     "fill": "gray",
-                    "name": "Programming Embedded Systems",
+                    "name": "CS 4220",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4210",
+                    "classID": "Advanced Operating Systems",
                     "fill": "gray",
-                    "name": "Advanced Operating Systems",
+                    "name": "CS 4210",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4220",
+                    "classID": "Programming Embedded Systems",
                     "fill": "gray",
-                    "name": "Programming Embedded Systems",
+                    "name": "CS 4220",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4235",
+                    "classID": "Introduction to Information Security",
                     "fill": "gray",
-                    "name": "Introduction to Information Security",
+                    "name": "CS 4235",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4237",
+                    "classID": "Computer and network security",
                     "fill": "gray",
-                    "name": "Computer and network security",
+                    "name": "CS 4237",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4560",
+                    "classID": "Verification of Systems",
                     "fill": "gray",
-                    "name": "Verification of Systems",
+                    "name": "CS 4560",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4220",
+                    "classID": "Programming Embedded Systems",
                     "fill": "gray",
-                    "name": "Programming Embedded Systems",
+                    "name": "CS 4220",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4240",
+                    "classID": "Compilers",
                     "fill": "gray",
-                    "name": "Compilers",
+                    "name": "CS 4240",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4392",
+                    "classID": "Programming Language Design",
                     "fill": "gray",
-                    "name": "Programming Language Design",
+                    "name": "CS 4392",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 6241",
+                    "classID": "Design and Implementation of Compilers",
                     "fill": "gray",
-                    "name": "Design and Implementation of Compilers",
+                    "name": "CS 6241",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 6246",
+                    "classID": "Object-oriented Systems and Languages",
                     "fill": "gray",
-                    "name": "Object-oriented Systems and Languages",
+                    "name": "CS 6246",
                     "outline": "gray",
                     "parent": "Systems and Architecture",
                     "radius": 5

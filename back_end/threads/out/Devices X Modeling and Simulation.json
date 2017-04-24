@@ -5,65 +5,65 @@
         {
             "children": [
                 {
-                    "classID": "CS 1301",
+                    "classID": "Introduction to Computing and Programming",
                     "fill": "gray",
-                    "name": "Introduction to Computing and Programming",
+                    "name": "CS 1301",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1331",
+                    "classID": "Introduction to Object-Oriented Programming",
                     "fill": "gray",
-                    "name": "Introduction to Object-Oriented Programming",
+                    "name": "CS 1331",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1332",
+                    "classID": "Data Structures and Algorithms",
                     "fill": "gray",
-                    "name": "Data Structures and Algorithms",
+                    "name": "CS 1332",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2110",
+                    "classID": "Computing Organization and Programming",
                     "fill": "gray",
-                    "name": "Computing Organization and Programming",
+                    "name": "CS 2110",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2200",
+                    "classID": "Computer Systems and Networks",
                     "fill": "gray",
-                    "name": "Computer Systems and Networks",
+                    "name": "CS 2200",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2340",
+                    "classID": "Objects and Design",
                     "fill": "gray",
-                    "name": "Objects and Design",
+                    "name": "CS 2340",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3251",
+                    "classID": "Computer Networking 1",
                     "fill": "gray",
-                    "name": "Computer Networking 1",
+                    "name": "CS 3251",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "ECE 2031",
+                    "classID": "Digital Design Laboratory",
                     "fill": "gray",
-                    "name": "Digital Design Laboratory",
+                    "name": "ECE 2031",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
@@ -73,25 +73,25 @@
                         {
                             "children": [
                                 {
-                                    "classID": "CS 2050",
+                                    "classID": "Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Introduction to Discrete Math for CS",
+                                    "name": "CS 2050",
                                     "outline": "gray",
                                     "parent": "Mobile and Ubiquitous Computing",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 2051",
+                                    "classID": "Honors Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Honors Introduction to Discrete Math for CS",
+                                    "name": "CS 2051",
                                     "outline": "gray",
                                     "parent": "Mobile and Ubiquitous Computing",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3240",
+                                    "classID": "Languages and Computation",
                                     "fill": "gray",
-                                    "name": "Languages and Computation",
+                                    "name": "CS 3240",
                                     "outline": "gray",
                                     "parent": "Mobile and Ubiquitous Computing",
                                     "radius": 5
@@ -101,9 +101,9 @@
                                         {
                                             "children": [
                                                 {
-                                                    "classID": "CS 3510",
+                                                    "classID": "Design and Analysis of Algorithms",
                                                     "fill": "gray",
-                                                    "name": "Design and Analysis of Algorithms",
+                                                    "name": "CS 3510",
                                                     "outline": "gray",
                                                     "parent": "Honors Design and Analysis of Algorithms",
                                                     "radius": 5
@@ -125,33 +125,33 @@
                                     "radius": 6
                                 },
                                 {
-                                    "classID": "CS 3651",
+                                    "classID": "The Art of Building Intelligent Appliances",
                                     "fill": "gray",
-                                    "name": "The Art of Building Intelligent Appliances",
+                                    "name": "CS 3651",
                                     "outline": "gray",
                                     "parent": "Mobile and Ubiquitous Computing",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "ECE 4180",
+                                    "classID": "Embedded Systems Design",
                                     "fill": "gray",
-                                    "name": "Embedded Systems Design",
+                                    "name": "ECE 4180",
                                     "outline": "gray",
                                     "parent": "Mobile and Ubiquitous Computing",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3630",
+                                    "classID": "Robotics and Perception",
                                     "fill": "gray",
-                                    "name": "Robotics and Perception",
+                                    "name": "CS 3630",
                                     "outline": "gray",
                                     "parent": "Mobile and Ubiquitous Computing",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4261",
+                                    "classID": "Mobile Applications and Services for Converged Networks",
                                     "fill": "gray",
-                                    "name": "Mobile Applications and Services for Converged Networks",
+                                    "name": "CS 4261",
                                     "outline": "gray",
                                     "parent": "Mobile and Ubiquitous Computing",
                                     "radius": 5
@@ -173,25 +173,25 @@
                     "radius": 6
                 },
                 {
-                    "classID": "FREE-DEV1",
+                    "classID": "Free Elective-Devices",
                     "fill": "gray",
-                    "name": "Free Elective-Devices",
+                    "name": "FREE-DEV1",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "FREE-DEV2",
+                    "classID": "Free Elective-Devices",
                     "fill": "gray",
-                    "name": "Free Elective-Devices",
+                    "name": "FREE-DEV2",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3240",
+                    "classID": "Languages and Computation",
                     "fill": "gray",
-                    "name": "Languages and Computation",
+                    "name": "CS 3240",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
@@ -201,9 +201,9 @@
                         {
                             "children": [
                                 {
-                                    "classID": "CS 3510",
+                                    "classID": "Design and Analysis of Algorithms",
                                     "fill": "gray",
-                                    "name": "Design and Analysis of Algorithms",
+                                    "name": "CS 3510",
                                     "outline": "gray",
                                     "parent": "Honors Design and Analysis of Algorithms",
                                     "radius": 5
@@ -225,113 +225,113 @@
                     "radius": 6
                 },
                 {
-                    "classID": "CS 3220",
+                    "classID": "Computer Structures: HW/SW Codesign of a Processor",
                     "fill": "gray",
-                    "name": "Computer Structures: HW/SW Codesign of a Processor",
+                    "name": "CS 3220",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4210",
+                    "classID": "Advanced Operating Systems",
                     "fill": "gray",
-                    "name": "Advanced Operating Systems",
+                    "name": "CS 4210",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4220",
+                    "classID": "Programming Embedded Systems",
                     "fill": "gray",
-                    "name": "Programming Embedded Systems",
+                    "name": "CS 4220",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4261",
+                    "classID": "Mobile Applications and Services for Converged Networks",
                     "fill": "gray",
-                    "name": "Mobile Applications and Services for Converged Networks",
+                    "name": "CS 4261",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3600",
+                    "classID": "Introduction to Artificial Intelligence",
                     "fill": "gray",
-                    "name": "Introduction to Artificial Intelligence",
+                    "name": "CS 3600",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3630",
+                    "classID": "Robotics and Perception",
                     "fill": "gray",
-                    "name": "Robotics and Perception",
+                    "name": "CS 3630",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4476",
+                    "classID": "Intro Computer Vision",
                     "fill": "gray",
-                    "name": "Intro Computer Vision",
+                    "name": "CS 4476",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4616",
+                    "classID": "Pattern Recognition",
                     "fill": "gray",
-                    "name": "Pattern Recognition",
+                    "name": "CS 4616",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4632",
+                    "classID": "Advanced Intelligent Robotics",
                     "fill": "gray",
-                    "name": "Advanced Intelligent Robotics",
+                    "name": "CS 4632",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4641",
+                    "classID": "Machine Learning",
                     "fill": "gray",
-                    "name": "Machine Learning",
+                    "name": "CS 4641",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4649",
+                    "classID": "Robot Intelligence: Planning",
                     "fill": "gray",
-                    "name": "Robot Intelligence: Planning",
+                    "name": "CS 4649",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4470",
+                    "classID": "Introduction to User Interface Software",
                     "fill": "gray",
-                    "name": "Introduction to User Interface Software",
+                    "name": "CS 4470",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4605",
+                    "classID": "Mobile and Ubiquitous Computing",
                     "fill": "gray",
-                    "name": "Mobile and Ubiquitous Computing",
+                    "name": "CS 4605",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4685",
+                    "classID": "Pervasive Systems and Networking",
                     "fill": "gray",
-                    "name": "Pervasive Systems and Networking",
+                    "name": "CS 4685",
                     "outline": "gray",
                     "parent": "Devices",
                     "radius": 5
@@ -357,57 +357,57 @@
         {
             "children": [
                 {
-                    "classID": "CS 1171",
+                    "classID": "Introductory Computing in MATLAB",
                     "fill": "gray",
-                    "name": "Introductory Computing in MATLAB",
+                    "name": "CS 1171",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1301",
+                    "classID": "Introduction to Computing and Programming",
                     "fill": "gray",
-                    "name": "Introduction to Computing and Programming",
+                    "name": "CS 1301",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1331",
+                    "classID": "Introduction to Object-Oriented Programming",
                     "fill": "gray",
-                    "name": "Introduction to Object-Oriented Programming",
+                    "name": "CS 1331",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1332",
+                    "classID": "Data Structures and Algorithms",
                     "fill": "gray",
-                    "name": "Data Structures and Algorithms",
+                    "name": "CS 1332",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2110",
+                    "classID": "Computing Organization and Programming",
                     "fill": "gray",
-                    "name": "Computing Organization and Programming",
+                    "name": "CS 2110",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2200",
+                    "classID": "Computer Systems and Networks",
                     "fill": "gray",
-                    "name": "Computer Systems and Networks",
+                    "name": "CS 2200",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2340",
+                    "classID": "Objects and Design",
                     "fill": "gray",
-                    "name": "Objects and Design",
+                    "name": "CS 2340",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
@@ -417,81 +417,81 @@
                         {
                             "children": [
                                 {
-                                    "classID": "CS 3510",
+                                    "classID": "Design and Analysis of Algorithms",
                                     "fill": "gray",
-                                    "name": "Design and Analysis of Algorithms",
+                                    "name": "CS 3510",
                                     "outline": "gray",
                                     "parent": "Machine Learning",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3511",
+                                    "classID": "Honors Design and Analysis of Algorithms",
                                     "fill": "gray",
-                                    "name": "Honors Design and Analysis of Algorithms",
+                                    "name": "CS 3511",
                                     "outline": "gray",
                                     "parent": "Machine Learning",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 2050",
+                                    "classID": "Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Introduction to Discrete Math for CS",
+                                    "name": "CS 2050",
                                     "outline": "gray",
                                     "parent": "Machine Learning",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 2051",
+                                    "classID": "Honors Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Honors Introduction to Discrete Math for CS",
+                                    "name": "CS 2051",
                                     "outline": "gray",
                                     "parent": "Machine Learning",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "MATH 2552",
+                                    "classID": "Differential Equations",
                                     "fill": "gray",
-                                    "name": "Differential Equations",
+                                    "name": "MATH 2552",
                                     "outline": "gray",
                                     "parent": "Machine Learning",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "MATH 2562",
+                                    "classID": "Honors Differential Equations",
                                     "fill": "gray",
-                                    "name": "Honors Differential Equations",
+                                    "name": "MATH 2562",
                                     "outline": "gray",
                                     "parent": "Machine Learning",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CX 4140",
+                                    "classID": "Computational Modeling Algorithms",
                                     "fill": "gray",
-                                    "name": "Computational Modeling Algorithms",
+                                    "name": "CX 4140",
                                     "outline": "gray",
                                     "parent": "Machine Learning",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CX 4220",
+                                    "classID": "Introduction to High Performance Computing",
                                     "fill": "gray",
-                                    "name": "Introduction to High Performance Computing",
+                                    "name": "CX 4220",
                                     "outline": "gray",
                                     "parent": "Machine Learning",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CX 4230",
+                                    "classID": "Computer Simulation",
                                     "fill": "gray",
-                                    "name": "Computer Simulation",
+                                    "name": "CX 4230",
                                     "outline": "gray",
                                     "parent": "Machine Learning",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CX 4640",
+                                    "classID": "Numerical Analysis 1",
                                     "fill": "gray",
-                                    "name": "Numerical Analysis 1",
+                                    "name": "CX 4640",
                                     "outline": "gray",
                                     "parent": "Machine Learning",
                                     "radius": 5
@@ -513,313 +513,313 @@
                     "radius": 6
                 },
                 {
-                    "classID": "FREE-CM1",
+                    "classID": "Free Elective-Modeling and Simulation",
                     "fill": "gray",
-                    "name": "Free Elective-Modeling and Simulation",
+                    "name": "FREE-CM1",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "FREE-CM2",
+                    "classID": "Free Elective-Modeling and Simulation",
                     "fill": "gray",
-                    "name": "Free Elective-Modeling and Simulation",
+                    "name": "FREE-CM2",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CHBE 2120",
+                    "classID": "Numerical Methods",
                     "fill": "gray",
-                    "name": "Numerical Methods",
+                    "name": "CHBE 2120",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3220",
+                    "classID": "Computer structures: HW/SW codesign of a processor",
                     "fill": "gray",
-                    "name": "Computer structures: HW/SW codesign of a processor",
+                    "name": "CS 3220",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3451",
+                    "classID": "Computer Graphics",
                     "fill": "gray",
-                    "name": "Computer Graphics",
+                    "name": "CS 3451",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3600",
+                    "classID": "Introduction to Artificial Intelligence",
                     "fill": "gray",
-                    "name": "Introduction to Artificial Intelligence",
+                    "name": "CS 3600",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4210",
+                    "classID": "Advanced Operating Systems",
                     "fill": "gray",
-                    "name": "Advanced Operating Systems",
+                    "name": "CS 4210",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CX 4236",
+                    "classID": "Distributed Simulation Systems",
                     "fill": "gray",
-                    "name": "Distributed Simulation Systems",
+                    "name": "CX 4236",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CX 4232",
+                    "classID": "Simulation",
                     "fill": "gray",
-                    "name": "Simulation",
+                    "name": "CX 4232",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4476",
+                    "classID": "Intro Computer Vision",
                     "fill": "gray",
-                    "name": "Intro Computer Vision",
+                    "name": "CS 4476",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4496",
+                    "classID": "Computer Animation",
                     "fill": "gray",
-                    "name": "Computer Animation",
+                    "name": "CS 4496",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4550",
+                    "classID": "Scientific Data Processing and Visualization",
                     "fill": "gray",
-                    "name": "Scientific Data Processing and Visualization",
+                    "name": "CS 4550",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4641",
+                    "classID": "Machine Learning",
                     "fill": "gray",
-                    "name": "Machine Learning",
+                    "name": "CS 4641",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CX 4641",
+                    "classID": "Numerical Analysis II",
                     "fill": "gray",
-                    "name": "Numerical Analysis II",
+                    "name": "CX 4641",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CX 4777",
+                    "classID": "Vector and Parallel Scientific Computing",
                     "fill": "gray",
-                    "name": "Vector and Parallel Scientific Computing",
+                    "name": "CX 4777",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "ISYE 2028",
+                    "classID": "Basic Statistics Methods",
                     "fill": "gray",
-                    "name": "Basic Statistics Methods",
+                    "name": "ISYE 2028",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "ISYE 4331",
+                    "classID": "Honors Optimization",
                     "fill": "gray",
-                    "name": "Honors Optimization",
+                    "name": "ISYE 4331",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4255",
+                    "classID": "Monte Carlo Methods",
                     "fill": "gray",
-                    "name": "Monte Carlo Methods",
+                    "name": "MATH 4255",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "ME 2016",
+                    "classID": "Computing Techniques",
                     "fill": "gray",
-                    "name": "Computing Techniques",
+                    "name": "ME 2016",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "AE 4375",
+                    "classID": "Fundamentals of Computer-Aided Engineering and Design",
                     "fill": "gray",
-                    "name": "Fundamentals of Computer-Aided Engineering and Design",
+                    "name": "AE 4375",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "PHYS 3266",
+                    "classID": "Computational Physics",
                     "fill": "gray",
-                    "name": "Computational Physics",
+                    "name": "PHYS 3266",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "ECE 3025",
+                    "classID": "Electromagnetics",
                     "fill": "gray",
-                    "name": "Electromagnetics",
+                    "name": "ECE 3025",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "ECE 3075",
+                    "classID": "Random Signals",
                     "fill": "gray",
-                    "name": "Random Signals",
+                    "name": "ECE 3075",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "ECE 4270",
+                    "classID": "Fundamentals of Digital Signal Processing",
                     "fill": "gray",
-                    "name": "Fundamentals of Digital Signal Processing",
+                    "name": "ECE 4270",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "ECE 4271",
+                    "classID": "Applications of Digital Signal Processing",
                     "fill": "gray",
-                    "name": "Applications of Digital Signal Processing",
+                    "name": "ECE 4271",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "ISYE 2030",
+                    "classID": "Modeling in Industrial Engineering",
                     "fill": "gray",
-                    "name": "Modeling in Industrial Engineering",
+                    "name": "ISYE 2030",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "ISYE 3044",
+                    "classID": "Simulation Analysis and Design",
                     "fill": "gray",
-                    "name": "Simulation Analysis and Design",
+                    "name": "ISYE 3044",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "ISYE 3133",
+                    "classID": "Engineering Optimization",
                     "fill": "gray",
-                    "name": "Engineering Optimization",
+                    "name": "ISYE 3133",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "ISYE 3232",
+                    "classID": "Stochastic manufacturing and service systems",
                     "fill": "gray",
-                    "name": "Stochastic manufacturing and service systems",
+                    "name": "ISYE 3232",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "BIOL 2400",
+                    "classID": "Mathematical Models in Biology",
                     "fill": "gray",
-                    "name": "Mathematical Models in Biology",
+                    "name": "BIOL 2400",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "BIOL 4401",
+                    "classID": "Experimental Design and Statistical Methods in Biology",
                     "fill": "gray",
-                    "name": "Experimental Design and Statistical Methods in Biology",
+                    "name": "BIOL 4401",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "CHBE 2100",
+                    "classID": "Chemical Process Principles",
                     "fill": "gray",
-                    "name": "Chemical Process Principles",
+                    "name": "CHBE 2100",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "EAS 3620",
+                    "classID": "Geochemistry",
                     "fill": "gray",
-                    "name": "Geochemistry",
+                    "name": "EAS 3620",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "EAS 4602",
+                    "classID": "Biochemical Cycles",
                     "fill": "gray",
-                    "name": "Biochemical Cycles",
+                    "name": "EAS 4602",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "EAS 4610",
+                    "classID": "Earth System Modeling",
                     "fill": "gray",
-                    "name": "Earth System Modeling",
+                    "name": "EAS 4610",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "EAS 4630",
+                    "classID": "Physics of the Earth",
                     "fill": "gray",
-                    "name": "Physics of the Earth",
+                    "name": "EAS 4630",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "EAS 4655",
+                    "classID": "Atmospheric Dynamics",
                     "fill": "gray",
-                    "name": "Atmospheric Dynamics",
+                    "name": "EAS 4655",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "EAS 4803",
+                    "classID": "Water Chemistry Modeling",
                     "fill": "gray",
-                    "name": "Water Chemistry Modeling",
+                    "name": "EAS 4803",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5
                 },
                 {
-                    "classID": "PHYS 3266",
+                    "classID": "Computational Physics",
                     "fill": "gray",
-                    "name": "Computational Physics",
+                    "name": "PHYS 3266",
                     "outline": "gray",
                     "parent": "Modeling and Simulation",
                     "radius": 5

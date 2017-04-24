@@ -5,49 +5,49 @@
         {
             "children": [
                 {
-                    "classID": "CS 1301",
+                    "classID": "Introduction to Computing and Programming",
                     "fill": "gray",
-                    "name": "Introduction to Computing and Programming",
+                    "name": "CS 1301",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1331",
+                    "classID": "Introduction to Object-Oriented Programming",
                     "fill": "gray",
-                    "name": "Introduction to Object-Oriented Programming",
+                    "name": "CS 1331",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2340",
+                    "classID": "Objects and Design",
                     "fill": "gray",
-                    "name": "Objects and Design",
+                    "name": "CS 2340",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3750",
+                    "classID": "Human-Computer Interface Design and Evaluation",
                     "fill": "gray",
-                    "name": "Human-Computer Interface Design and Evaluation",
+                    "name": "CS 3750",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 1101",
+                    "classID": "Introduction to Psychology",
                     "fill": "gray",
-                    "name": "Introduction to Psychology",
+                    "name": "PSYC 1101",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 2015",
+                    "classID": "Research Methods and Practices",
                     "fill": "gray",
-                    "name": "Research Methods and Practices",
+                    "name": "PSYC 2015",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
@@ -57,65 +57,65 @@
                         {
                             "children": [
                                 {
-                                    "classID": "PSYC 2210",
+                                    "classID": "Social Psychology",
                                     "fill": "gray",
-                                    "name": "Social Psychology",
+                                    "name": "PSYC 2210",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "PSYC 2760",
+                                    "classID": "Psychology of Human Language",
                                     "fill": "gray",
-                                    "name": "Psychology of Human Language",
+                                    "name": "PSYC 2760",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "PSYC 3040",
+                                    "classID": "Sensation and Perception",
                                     "fill": "gray",
-                                    "name": "Sensation and Perception",
+                                    "name": "PSYC 3040",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3790",
+                                    "classID": "Introduction to Cognitive Science",
                                     "fill": "gray",
-                                    "name": "Introduction to Cognitive Science",
+                                    "name": "CS 3790",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4460",
+                                    "classID": "Information Visualization",
                                     "fill": "gray",
-                                    "name": "Information Visualization",
+                                    "name": "CS 4460",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4470",
+                                    "classID": "Introduction to User Interface Software",
                                     "fill": "gray",
-                                    "name": "Introduction to User Interface Software",
+                                    "name": "CS 4470",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4472",
+                                    "classID": "Design of Online Communities",
                                     "fill": "gray",
-                                    "name": "Design of Online Communities",
+                                    "name": "CS 4472",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 4605",
+                                    "classID": "Mobile and Ubiquitous Computing",
                                     "fill": "gray",
-                                    "name": "Mobile and Ubiquitous Computing",
+                                    "name": "CS 4605",
                                     "outline": "gray",
                                     "parent": "Introduction to Educational Technology",
                                     "radius": 5
@@ -137,137 +137,137 @@
                     "radius": 6
                 },
                 {
-                    "classID": "FREE-PEP1",
+                    "classID": "Free Elective-People",
                     "fill": "gray",
-                    "name": "Free Elective-People",
+                    "name": "FREE-PEP1",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "FREE-PEP2",
+                    "classID": "Free Elective-People",
                     "fill": "gray",
-                    "name": "Free Elective-People",
+                    "name": "FREE-PEP2",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4660",
+                    "classID": "Introduction to Educational Technology",
                     "fill": "gray",
-                    "name": "Introduction to Educational Technology",
+                    "name": "CS 4660",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4665",
+                    "classID": "Educational Technology: Design and Evaluation",
                     "fill": "gray",
-                    "name": "Educational Technology: Design and Evaluation",
+                    "name": "CS 4665",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4670",
+                    "classID": "Computer-Supported Collaborative Learning",
                     "fill": "gray",
-                    "name": "Computer-Supported Collaborative Learning",
+                    "name": "CS 4670",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4472",
+                    "classID": "Design of Online Communities",
                     "fill": "gray",
-                    "name": "Design of Online Communities",
+                    "name": "CS 4472",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4690",
+                    "classID": "Qualitative Methods",
                     "fill": "gray",
-                    "name": "Qualitative Methods",
+                    "name": "CS 4690",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4770",
+                    "classID": "Mixed Reality Experience Design",
                     "fill": "gray",
-                    "name": "Mixed Reality Experience Design",
+                    "name": "CS 4770",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 2020",
+                    "classID": "Psychological Statistics",
                     "fill": "gray",
-                    "name": "Psychological Statistics",
+                    "name": "PSYC 2020",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3790",
+                    "classID": "Introduction to Cognitive Science",
                     "fill": "gray",
-                    "name": "Introduction to Cognitive Science",
+                    "name": "CS 3790",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4793",
+                    "classID": "Perspectives Cognitive Science",
                     "fill": "gray",
-                    "name": "Perspectives Cognitive Science",
+                    "name": "CS 4793",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 2210",
+                    "classID": "Social Psychology",
                     "fill": "gray",
-                    "name": "Social Psychology",
+                    "name": "PSYC 2210",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 2760",
+                    "classID": "Psychology of Human Language",
                     "fill": "gray",
-                    "name": "Psychology of Human Language",
+                    "name": "PSYC 2760",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 3012",
+                    "classID": "Cognitive Psychology",
                     "fill": "gray",
-                    "name": "Cognitive Psychology",
+                    "name": "PSYC 3012",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 3040",
+                    "classID": "Sensation and Perception",
                     "fill": "gray",
-                    "name": "Sensation and Perception",
+                    "name": "PSYC 3040",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 4090",
+                    "classID": "Cognitive Neuropsychology",
                     "fill": "gray",
-                    "name": "Cognitive Neuropsychology",
+                    "name": "PSYC 4090",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
                 },
                 {
-                    "classID": "PSYC 4260",
+                    "classID": "Aging",
                     "fill": "gray",
-                    "name": "Aging",
+                    "name": "PSYC 4260",
                     "outline": "gray",
                     "parent": "People",
                     "radius": 5
@@ -293,65 +293,65 @@
         {
             "children": [
                 {
-                    "classID": "CS 1301",
+                    "classID": "Introduction to Computing and Programming",
                     "fill": "gray",
-                    "name": "Introduction to Computing and Programming",
+                    "name": "CS 1301",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1331",
+                    "classID": "Introduction to Object-Oriented Programming",
                     "fill": "gray",
-                    "name": "Introduction to Object-Oriented Programming",
+                    "name": "CS 1331",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 1332",
+                    "classID": "Data Structures and Algorithms",
                     "fill": "gray",
-                    "name": "Data Structures and Algorithms",
+                    "name": "CS 1332",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2110",
+                    "classID": "Computing Organization and Programming",
                     "fill": "gray",
-                    "name": "Computing Organization and Programming",
+                    "name": "CS 2110",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 2340",
+                    "classID": "Objects and Design",
                     "fill": "gray",
-                    "name": "Objects and Design",
+                    "name": "CS 2340",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4510",
+                    "classID": "Automata and Complexity Theory",
                     "fill": "gray",
-                    "name": "Automata and Complexity Theory",
+                    "name": "CS 4510",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4540",
+                    "classID": "Advanced Algorithms",
                     "fill": "gray",
-                    "name": "Advanced Algorithms",
+                    "name": "CS 4540",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 3406",
+                    "classID": "Second Course on Linear Algebra",
                     "fill": "gray",
-                    "name": "Second Course on Linear Algebra",
+                    "name": "MATH 3406",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
@@ -361,49 +361,49 @@
                         {
                             "children": [
                                 {
-                                    "classID": "CS 2050",
+                                    "classID": "Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Introduction to Discrete Math for CS",
+                                    "name": "CS 2050",
                                     "outline": "gray",
                                     "parent": "Introduction to Number Theory",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 2051",
+                                    "classID": "Honors Introduction to Discrete Math for CS",
                                     "fill": "gray",
-                                    "name": "Honors Introduction to Discrete Math for CS",
+                                    "name": "CS 2051",
                                     "outline": "gray",
                                     "parent": "Introduction to Number Theory",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3510",
+                                    "classID": "Design and Analysis of Algorithms",
                                     "fill": "gray",
-                                    "name": "Design and Analysis of Algorithms",
+                                    "name": "CS 3510",
                                     "outline": "gray",
                                     "parent": "Introduction to Number Theory",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "CS 3511",
+                                    "classID": "Honors Design and Analysis of Algorithms",
                                     "fill": "gray",
-                                    "name": "Honors Design and Analysis of Algorithms",
+                                    "name": "CS 3511",
                                     "outline": "gray",
                                     "parent": "Introduction to Number Theory",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "MATH 4022",
+                                    "classID": "Introduction to Graph Theory",
                                     "fill": "gray",
-                                    "name": "Introduction to Graph Theory",
+                                    "name": "MATH 4022",
                                     "outline": "gray",
                                     "parent": "Introduction to Number Theory",
                                     "radius": 5
                                 },
                                 {
-                                    "classID": "MATH 4032",
+                                    "classID": "Combinatorial Analysis",
                                     "fill": "gray",
-                                    "name": "Combinatorial Analysis",
+                                    "name": "MATH 4032",
                                     "outline": "gray",
                                     "parent": "Introduction to Number Theory",
                                     "radius": 5
@@ -425,225 +425,225 @@
                     "radius": 6
                 },
                 {
-                    "classID": "FREE-THRY1",
+                    "classID": "Free Elective-Foundations",
                     "fill": "gray",
-                    "name": "Free Elective-Foundations",
+                    "name": "FREE-THRY1",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "FREE-THRY2",
+                    "classID": "Free Elective-Foundations",
                     "fill": "gray",
-                    "name": "Free Elective-Foundations",
+                    "name": "FREE-THRY2",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "FREE-THRY3",
+                    "classID": "Free Elective-Foundations",
                     "fill": "gray",
-                    "name": "Free Elective-Foundations",
+                    "name": "FREE-THRY3",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3240",
+                    "classID": "Languages and Computation",
                     "fill": "gray",
-                    "name": "Languages and Computation",
+                    "name": "CS 3240",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4520",
+                    "classID": "Approximation Algorithms",
                     "fill": "gray",
-                    "name": "Approximation Algorithms",
+                    "name": "CS 4520",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4530",
+                    "classID": "Randomized Algorithms",
                     "fill": "gray",
-                    "name": "Randomized Algorithms",
+                    "name": "CS 4530",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 6520",
+                    "classID": "Computational Complexity",
                     "fill": "gray",
-                    "name": "Computational Complexity",
+                    "name": "CS 6520",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 3770",
+                    "classID": "Statistics and Applications",
                     "fill": "gray",
-                    "name": "Statistics and Applications",
+                    "name": "MATH 3770",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4012",
+                    "classID": "Algebraic Structures for Coding Theory",
                     "fill": "gray",
-                    "name": "Algebraic Structures for Coding Theory",
+                    "name": "MATH 4012",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4022",
+                    "classID": "Introduction to Graph Theory",
                     "fill": "gray",
-                    "name": "Introduction to Graph Theory",
+                    "name": "MATH 4022",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4150",
+                    "classID": "Introduction to Number Theory and Cryptography",
                     "fill": "gray",
-                    "name": "Introduction to Number Theory and Cryptography",
+                    "name": "MATH 4150",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4107",
+                    "classID": "Abstract Algebra I",
                     "fill": "gray",
-                    "name": "Abstract Algebra I",
+                    "name": "MATH 4107",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4255",
+                    "classID": "Monte Carlo Methods",
                     "fill": "gray",
-                    "name": "Monte Carlo Methods",
+                    "name": "MATH 4255",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4280",
+                    "classID": "Introduction to Information Theory",
                     "fill": "gray",
-                    "name": "Introduction to Information Theory",
+                    "name": "MATH 4280",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4305",
+                    "classID": "Topics in Linear Algebra",
                     "fill": "gray",
-                    "name": "Topics in Linear Algebra",
+                    "name": "MATH 4305",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4580",
+                    "classID": "Linear Programming",
                     "fill": "gray",
-                    "name": "Linear Programming",
+                    "name": "MATH 4580",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4640",
+                    "classID": "Numerical Analysis I",
                     "fill": "gray",
-                    "name": "Numerical Analysis I",
+                    "name": "MATH 4640",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "MATH 4782",
+                    "classID": "Quantum Information and Quantum Computation",
                     "fill": "gray",
-                    "name": "Quantum Information and Quantum Computation",
+                    "name": "MATH 4782",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3251",
+                    "classID": "Computer Networking I",
                     "fill": "gray",
-                    "name": "Computer Networking I",
+                    "name": "CS 3251",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3451",
+                    "classID": "Computer Graphics",
                     "fill": "gray",
-                    "name": "Computer Graphics",
+                    "name": "CS 3451",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4400",
+                    "classID": "Introduction to Database Systems",
                     "fill": "gray",
-                    "name": "Introduction to Database Systems",
+                    "name": "CS 4400",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4235",
+                    "classID": "Introduction to Information Security",
                     "fill": "gray",
-                    "name": "Introduction to Information Security",
+                    "name": "CS 4235",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3210",
+                    "classID": "Design of Operating Systems",
                     "fill": "gray",
-                    "name": "Design of Operating Systems",
+                    "name": "CS 3210",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4496",
+                    "classID": "Computer Animation",
                     "fill": "gray",
-                    "name": "Computer Animation",
+                    "name": "CS 4496",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 3600",
+                    "classID": "Introduction to Artificial Intelligence",
                     "fill": "gray",
-                    "name": "Introduction to Artificial Intelligence",
+                    "name": "CS 3600",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CS 4641",
+                    "classID": "Machine Learning",
                     "fill": "gray",
-                    "name": "Machine Learning",
+                    "name": "CS 4641",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CX 4140",
+                    "classID": "Computational Modeling Algorithms",
                     "fill": "gray",
-                    "name": "Computational Modeling Algorithms",
+                    "name": "CX 4140",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
                 },
                 {
-                    "classID": "CX 4230",
+                    "classID": "Modeling and Simulation: Fundamentals and Implementation",
                     "fill": "gray",
-                    "name": "Modeling and Simulation: Fundamentals and Implementation",
+                    "name": "CX 4230",
                     "outline": "gray",
                     "parent": "Theory",
                     "radius": 5
