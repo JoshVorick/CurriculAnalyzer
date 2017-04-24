@@ -2,7 +2,6 @@
 <html>
     <head>
     <head>
-
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/scripts.js') }}"></script>
@@ -11,11 +10,6 @@
 
         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}">
-    </head>
-    <body>
-        <div class="container">
-            <nav>
-                <div class="searchArea">
 
           <script src="http://d3js.org/d3.v3.min.js"></script>
           <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -44,8 +38,6 @@
                       }
 
                     }
-
-
                   }
                 });
                 return false;
@@ -75,54 +67,38 @@
                 });
                 return false;
               });
+              $('#btn-search').on('click', function(e) {
+
+    e.preventDefault();
+    $('#search').animate({width: 'toggle'}).focus();
+
+  });
             });
           </script>
 
-          <p><input type=text size=5 name=a>
-
+          </head>
+    <body>
+        <div style = "width: 300px; float: left; height: 900px; margin: 10px">
+                <div class="searchArea">
+          <p>
+        <ul class="toolbar clearfix">
+          <li><input type="search" id="search" placeholder="What are you looking for?" name=a></li>
+          <li><button type="submit" id="btn-search"><span class="fontawesome-search"></span></button></li>
+        </ul>          
 
           <p><a href=# id=Plan>Plan</a>
           <p><a href=# id=Completed>Completed</a>
-
-
-
-
-
-
-
-
-
-
                 </div>
-                <div class="listsArea">
-
-
-
-
                     <div class="planList">
                         <h1 class="title"><center>Plan on Taking</center></h1>
                         <span id="planList">
-
                         </span>
                     </div>
-                    </br>
                     <div class="completedList">
                         <h1 class="title"><center>Completed Courses</center></h1>
                         <span id="completedList">
-
                         </span>
                     </div>
-
-                </div>
-                <!-- <div class="ui-widget" style="margin-top:2em; font-family:Arial">
-                    Result:
-                    <div id="log" style="height: 200px; width: 300px; overflow: auto;" class="ui-widget-content"></div>
-                </div> -->
-
-            </nav>
-            <div class="div_RootBody" id = "tree">
-
-            </div>
             <form name="theme" method="post" action="">
             <p>
             <input type="radio" name="theme" value="radio" onClick="changeColour('d')">Dark Theme
@@ -131,15 +107,47 @@
             <br>
             </form>
 
-
-
-
-
-
-
+        </div>
+        <div style = "width : 800px; float: left; height: 900px; margin-left: 20px; margin-top:100px">
+          <div class = "treeGraph", style = "float: left", id = "tree">
+          </div>
         </div>
 
+
 <script>
+// ********** Load thread choices from local storage ***************
+var threadOne = localStorage.getItem("threadOne");
+var threadTwo = localStorage.getItem("threadTwo");
+var threadCombo = localStorage.getItem("threadCombo");
+console.log("Threads:", threadOne, threadTwo, threadCombo);
+var string = "";
+if (threadOne == "ai" || threadTwo == "ai") {
+    // Do stuff
+}
+if (threadOne == "info" || threadTwo == "info") {
+    // Do stuff
+}
+if (threadOne == "media" || threadTwo == "media") {
+    // Do stuff
+}
+if (threadOne == "people" || threadTwo == "people") {
+    // Do stuff
+}
+if (threadOne == "theory" || threadTwo == "theory") {
+    // Do stuff
+}
+if (threadOne == "sysArch" || threadTwo == "sysArch") {
+    // Do stuff
+}
+if (threadOne == "modSim" || threadTwo == "modSim") {
+    // Do stuff
+}
+if (threadOne == "devices" || threadTwo == "devices") {
+    // Do stuff
+}
+
+
+
 function removePlan(data) {
   nodes = tree.nodes(root).reverse();
   for(node in nodes) {
@@ -169,154 +177,7 @@ function removeTaken(data) {
     }
   }
 }
-//window.onload = alert(localStorage.getItem("storageName"));
 
-// var treeData = [
-//   {
-//     "name": "Graduation",
-//     "parent": "null",
-//     "radius": 10,
-//     "outline": "grey",
-//     "fill": "grey",
-//     "numChildrenNeeded": 2,
-//     "children": [
-//       {
-//         "name": "HiLvlInfo",
-//         "parent": "Graduation",
-//         "radius": 6,
-//         "outline": "grey",
-//         "fill": "grey",
-//         "numChildrenNeeded": 2,
-//         "children": [
-//           {
-//             "name": "CS3251",
-//             "parent": "HiLvlInfo",
-//             "radius": 5,
-//             "outline": "grey",
-//             "fill": "grey"
-//           },
-//           {
-//             "name": "CS4400",
-//             "parent": "HiLvlInfo",
-//             "radius": 5,
-//             "outline": "grey",
-//             "fill": "grey"
-//           },
-//           {
-//             "name": "CS4235",
-//             "parent": "HiLvlInfo",
-//             "radius": 5,
-//             "outline": "grey",
-//             "fill": "grey"
-//           }
-//         ]
-//       },
-//       {
-//         "name": "Intelligence",
-//         "parent": "Graduation",
-//         "radius": 7,
-//         "outline": "grey",
-//         "fill": "grey",
-//         "numChildrenNeeded": 2,
-//         "children": [
-//         {
-//           "name": "EI",
-//           "parent": "Intelligence",
-//           "radius": 6,
-//           "outline": "grey",
-//           "fill": "grey",
-//           "numChildrenNeeded": 2,
-//           "children": [
-//             {
-//               "name": "CS3630",
-//               "parent": "Intelligence",
-//               "radius": 6,
-//               "outline": "grey",
-//               "fill": "grey",
-//               "numChildrenNeeded": 1,
-//               "children": [
-//                 {
-//                   "name": "CS3629",
-//                   "parent": "CS3630",
-//                   "radius": 5,
-//                   "outline": "grey",
-//                   "fill": "grey",
-//                 }
-//               ]
-//             },
-//             {
-//               "name": "CS3790",
-//               "parent": "Intelligence",
-//               "radius": 6,
-//               "outline": "grey",
-//               "fill": "grey",
-//             },
-//             {
-//               "name": "PSY3040",
-//               "parent": "Intelligence",
-//               "radius": 6,
-//               "outline": "grey",
-//               "fill": "grey",
-//             }
-//           ]
-//         },
-//         {
-//           "name": "AtoI",
-//           "parent": "Intelligence",
-//           "radius": 6,
-//           "outline": "grey",
-//           "fill": "grey",
-//           "numChildrenNeeded": 2,
-//           "children": [
-//             {
-//               "name": "CS4650",
-//               "parent": "HiLvlIntel",
-//               "radius": 5,
-//               "outline": "grey",
-//               "fill": "grey"
-//             },
-//             {
-//               "name": "CS4510",
-//               "parent": "HiLvlIntel",
-//               "radius": 5,
-//               "outline": "grey",
-//               "fill": "grey"
-//             },
-//             {
-//               "name": "CS4731",
-//               "parent": "HiLvlIntel",
-//               "radius": 5,
-//               "outline": "grey",
-//               "fill": "grey"
-//             },
-//             {
-//               "name": "CS4476",
-//               "parent": "HiLvlIntel",
-//               "radius": 5,
-//               "outline": "grey",
-//               "fill": "grey"
-//             },
-//             {
-//               "name": "CS4635",
-//               "parent": "HiLvlIntel",
-//               "radius": 5,
-//               "outline": "grey",
-//               "fill": "grey"
-//             },
-//             {
-//               "name": "CS4649",
-//               "parent": "HiLvlIntel",
-//               "radius": 5,
-//               "outline": "grey",
-//               "fill": "grey"
-//             }
-//           ] //end of intelchoicechildren
-//         }//end of hifillintel
-//       ]//end of intel children
-//     }//end of intel node
-//   ]
-//   }
-// ];
 // ************** Generate the tree diagram  *****************
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
   width = 960 - margin.right - margin.left,
@@ -333,7 +194,7 @@ var diagonal = d3.svg.diagonal()
 //  .attr("height", height + margin.top + margin.bottom)
 //   .append("g")
 //  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-var svg = d3.select("body")
+var svg = d3.select("#tree")
   .append("svg")
   .attr("width", width + margin.right + margin.left)
   .attr("height", height + margin.top + margin.bottom)
