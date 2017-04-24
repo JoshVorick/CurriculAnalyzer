@@ -84,7 +84,7 @@
         <ul class="toolbar clearfix">
           <li><input type="search" id="search" placeholder="What are you looking for?" name=a></li>
           <li><button type="submit" id="btn-search"><span class="fontawesome-search"></span></button></li>
-        </ul>          
+        </ul>
 
           <p><a href=# id=Plan>Plan</a>
           <p><a href=# id=Completed>Completed</a>
@@ -242,7 +242,7 @@ function update(source) {
     .attr("dy", ".35em")
     .attr("text-anchor", function(d) { return d.children || d._children ? "start" : "end"; })
     .text(function(d) { if(d.name){
-      return d.name}
+      return d.classID}
       return d.classID; })
     .style("fill-opacity", 1e-6);
   // Transition nodes to their new position.
