@@ -181,7 +181,7 @@ function removeTaken(data) {
 // ************** Generate the tree diagram  *****************
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
   width = 960 - margin.right - margin.left,
-  height = 500 - margin.top - margin.bottom;
+  height = 750 - margin.top - margin.bottom;
 var i = 0,
   duration = 750,
   root;
@@ -215,7 +215,7 @@ d3.json("/data", function(data){
      update(root);
  });
 
-d3.select(self.frameElement).style("height", "500px");
+d3.select(self.frameElement).style("height", "750px");
 function update(source) {
   // Compute the new tree layout.
   var nodes = tree.nodes(root).reverse(),
@@ -233,6 +233,7 @@ function update(source) {
   nodeEnter.append("circle")
     .attr("r", function(d) {return d.radius;})
     .style("stroke", function(d) {return d.outline;})
+    .style("stroke-width", 2)
     .style("fill", function(d) {return d.fill;});
     // .attr("r", 1e-6)
     // .style("fill", function(d) { return d._children ? "lightgrey" : "#fff"; });
